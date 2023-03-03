@@ -21,3 +21,6 @@ class Berita(models.Model):
 
     def __str__(self):
         return f"{self.id} - {self.judul_berita}"
+
+    class Meta:
+        ordering = ["-waktu_post"]
