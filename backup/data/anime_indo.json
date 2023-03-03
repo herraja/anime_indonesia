@@ -1,388 +1,669 @@
 [
-    {
-        "model": "admin.logentry",
-        "pk": 1,
-        "fields": {
-            "action_time": "2023-02-27T19:29:03.934Z",
-            "user": 1,
-            "content_type": 7,
-            "object_id": "1",
-            "object_repr": "1 - Inisialisasi Konten Pertama",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
-        "model": "admin.logentry",
-        "pk": 2,
-        "fields": {
-            "action_time": "2023-02-27T19:29:55.936Z",
-            "user": 1,
-            "content_type": 7,
-            "object_id": "2",
-            "object_repr": "2 - Inisialisasi Konten Kedua",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 1,
-        "fields": {
-            "name": "Can add log entry",
-            "content_type": 1,
-            "codename": "add_logentry"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 2,
-        "fields": {
-            "name": "Can change log entry",
-            "content_type": 1,
-            "codename": "change_logentry"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 3,
-        "fields": {
-            "name": "Can delete log entry",
-            "content_type": 1,
-            "codename": "delete_logentry"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 4,
-        "fields": {
-            "name": "Can view log entry",
-            "content_type": 1,
-            "codename": "view_logentry"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 5,
-        "fields": {
-            "name": "Can add permission",
-            "content_type": 2,
-            "codename": "add_permission"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 6,
-        "fields": {
-            "name": "Can change permission",
-            "content_type": 2,
-            "codename": "change_permission"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 7,
-        "fields": {
-            "name": "Can delete permission",
-            "content_type": 2,
-            "codename": "delete_permission"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 8,
-        "fields": {
-            "name": "Can view permission",
-            "content_type": 2,
-            "codename": "view_permission"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 9,
-        "fields": {
-            "name": "Can add group",
-            "content_type": 3,
-            "codename": "add_group"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 10,
-        "fields": {
-            "name": "Can change group",
-            "content_type": 3,
-            "codename": "change_group"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 11,
-        "fields": {
-            "name": "Can delete group",
-            "content_type": 3,
-            "codename": "delete_group"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 12,
-        "fields": {
-            "name": "Can view group",
-            "content_type": 3,
-            "codename": "view_group"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 13,
-        "fields": {
-            "name": "Can add user",
-            "content_type": 4,
-            "codename": "add_user"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 14,
-        "fields": {
-            "name": "Can change user",
-            "content_type": 4,
-            "codename": "change_user"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 15,
-        "fields": {
-            "name": "Can delete user",
-            "content_type": 4,
-            "codename": "delete_user"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 16,
-        "fields": {
-            "name": "Can view user",
-            "content_type": 4,
-            "codename": "view_user"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 17,
-        "fields": {
-            "name": "Can add content type",
-            "content_type": 5,
-            "codename": "add_contenttype"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 18,
-        "fields": {
-            "name": "Can change content type",
-            "content_type": 5,
-            "codename": "change_contenttype"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 19,
-        "fields": {
-            "name": "Can delete content type",
-            "content_type": 5,
-            "codename": "delete_contenttype"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 20,
-        "fields": {
-            "name": "Can view content type",
-            "content_type": 5,
-            "codename": "view_contenttype"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 21,
-        "fields": {
-            "name": "Can add session",
-            "content_type": 6,
-            "codename": "add_session"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 22,
-        "fields": {
-            "name": "Can change session",
-            "content_type": 6,
-            "codename": "change_session"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 23,
-        "fields": {
-            "name": "Can delete session",
-            "content_type": 6,
-            "codename": "delete_session"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 24,
-        "fields": {
-            "name": "Can view session",
-            "content_type": 6,
-            "codename": "view_session"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 25,
-        "fields": {
-            "name": "Can add berita",
-            "content_type": 7,
-            "codename": "add_berita"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 26,
-        "fields": {
-            "name": "Can change berita",
-            "content_type": 7,
-            "codename": "change_berita"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 27,
-        "fields": {
-            "name": "Can delete berita",
-            "content_type": 7,
-            "codename": "delete_berita"
-        }
-    },
-    {
-        "model": "auth.permission",
-        "pk": 28,
-        "fields": {
-            "name": "Can view berita",
-            "content_type": 7,
-            "codename": "view_berita"
-        }
-    },
-    {
-        "model": "auth.user",
-        "pk": 1,
-        "fields": {
-            "password": "pbkdf2_sha256$260000$5TXeNoCB6pq2jD2s0Oo1W6$A3659E7BSu5zpi9DkYXMxOioBcEYu+t2Q/KcZItWW7k=",
-            "last_login": "2023-02-27T17:56:46.016Z",
-            "is_superuser": true,
-            "username": "maulana",
-            "first_name": "",
-            "last_name": "",
-            "email": "maulanawesome5@gmail.com",
-            "is_staff": true,
-            "is_active": true,
-            "date_joined": "2023-02-27T17:54:02.722Z",
-            "groups": [],
-            "user_permissions": []
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 1,
-        "fields": {
-            "app_label": "admin",
-            "model": "logentry"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 2,
-        "fields": {
-            "app_label": "auth",
-            "model": "permission"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 3,
-        "fields": {
-            "app_label": "auth",
-            "model": "group"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 4,
-        "fields": {
-            "app_label": "auth",
-            "model": "user"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 5,
-        "fields": {
-            "app_label": "contenttypes",
-            "model": "contenttype"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 6,
-        "fields": {
-            "app_label": "sessions",
-            "model": "session"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 7,
-        "fields": {
-            "app_label": "artikel",
-            "model": "berita"
-        }
-    },
-    {
-        "model": "sessions.session",
-        "pk": "gxmyreyobfpljs5fudmjt9wq832n1bye",
-        "fields": {
-            "session_data": ".eJxVjDsOwjAQRO_iGln-rfmU9JwhWnt3cQDZUpxUiLuTSCmgmWLem3mrAZe5DEvnaRhJXZRVh98uYX5y3QA9sN6bzq3O05j0puiddn1rxK_r7v4dFOxlXWOMzOA9Mp6iZCGHDCIYmKLxicBDsMHYFN3ZGUkGjwEySEhriEH1-QIPpDjb:1pWhjy:Pxea7SdmU4otoPbGVFoo_Lb3l5gzL5ghmTAvFDljLic",
-            "expire_date": "2023-03-13T17:56:46.089Z"
-        }
-    },
-    {
-        "model": "artikel.berita",
-        "pk": 1,
-        "fields": {
-            "judul_berita": "Inisialisasi Konten Pertama",
-            "isi_berita": "Konten ini hanya untuk menginisialisasi database di dalam aplikasi",
-            "penulis": "authors",
-            "kategori": "pengumuman",
-            "waktu_post": "2023-02-27T19:29:03.845Z",
-            "waktu_edit": "2023-02-27T19:29:03.845Z",
-            "slug": "inisialisasi-konten-pertama"
-        }
-    },
-    {
-        "model": "artikel.berita",
-        "pk": 2,
-        "fields": {
-            "judul_berita": "Inisialisasi Konten Kedua",
-            "isi_berita": "Ini adalah postingan kedua untuk menginisialisasi database",
-            "penulis": "authors",
-            "kategori": "pengumuman",
-            "waktu_post": "2023-02-27T19:29:55.765Z",
-            "waktu_edit": "2023-02-27T19:29:55.765Z",
-            "slug": "inisialisasi-konten-kedua"
-        }
-    }
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-02-27T19:29:03.934Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - Inisialisasi Konten Pertama",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-02-27T19:29:55.936Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2 - Inisialisasi Konten Kedua",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-03T01:20:50.205Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "3 - Manga Attack On Titan chapter 300 Dikonfirmasi Rilis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-03T01:21:36.987Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "4 - Serial BORUTO Dikabarkan Hiatus, Masashi Fokus Remake",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-03T01:22:23.846Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "5 - My Hero Academia Season 5 Siap Ditayangkan NET",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-03T01:23:33.806Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "6 - Comic Frontier 16 Siap Digelar Maret 2023",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-03T01:24:26.138Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "7 - PENGUMUMAN MAINTENANCE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-03T01:25:30.200Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "7 - PENGUMUMAN MAINTENANCE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Kategori\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-03T01:34:26.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "8 - Penyanyi Anisong Maon Kurosaki Meninggal Dunia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-03T01:35:05.783Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "8 - Penyanyi Anisong Maon Kurosaki Meninggal Dunia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Isi berita\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-03T01:40:19.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "8 - Penyanyi Anisong Maon Kurosaki Meninggal Dunia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Isi berita\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-03-03T01:49:08.046Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "8 - Penyanyi Anisong Maon Kurosaki Meninggal Dunia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Isi berita\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-03-03T02:15:58.407Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "9 - Kangen Konosuba? Nantikan Anime Tentang Megumin Awal April 2023!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-03-03T04:05:00.779Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - Inisialisasi Konten Pertama",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Kategori\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-03-03T04:05:11.041Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "1 - Inisialisasi Konten Pertama",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-03-03T04:05:22.391Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "2 - Inisialisasi Konten Kedua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Kategori\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add berita",
+    "content_type": 7,
+    "codename": "add_berita"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change berita",
+    "content_type": 7,
+    "codename": "change_berita"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete berita",
+    "content_type": 7,
+    "codename": "delete_berita"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view berita",
+    "content_type": 7,
+    "codename": "view_berita"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$5TXeNoCB6pq2jD2s0Oo1W6$A3659E7BSu5zpi9DkYXMxOioBcEYu+t2Q/KcZItWW7k=",
+    "last_login": "2023-03-03T00:07:58.783Z",
+    "is_superuser": true,
+    "username": "maulana",
+    "first_name": "",
+    "last_name": "",
+    "email": "maulanawesome5@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-27T17:54:02.722Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "artikel",
+    "model": "berita"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gxmyreyobfpljs5fudmjt9wq832n1bye",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGln-rfmU9JwhWnt3cQDZUpxUiLuTSCmgmWLem3mrAZe5DEvnaRhJXZRVh98uYX5y3QA9sN6bzq3O05j0puiddn1rxK_r7v4dFOxlXWOMzOA9Mp6iZCGHDCIYmKLxicBDsMHYFN3ZGUkGjwEySEhriEH1-QIPpDjb:1pWhjy:Pxea7SdmU4otoPbGVFoo_Lb3l5gzL5ghmTAvFDljLic",
+    "expire_date": "2023-03-13T17:56:46.089Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rhvzz8ffgzyjpumx7tvyxv6v6v3fdll2",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFA2YIevfsNZGEXqRqalPZk_Hdp0oMeZ96beYuA21rC1ngJE4mL0OL020VMT647oAfW-yzTXNdlinJX5EGbvM3Er-vh_h0UbKWvgZVDl60HP1BSwOy0YWN86gEsYwQV0Y9kvB4tZzNg9wHjmbXzmcTnC94tOAQ:1pXsxq:VLWxRRirnatY-3qGRiX7mUrv9wWH_Agco3-OQjtc4jA",
+    "expire_date": "2023-03-17T00:07:58.849Z"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 1,
+  "fields": {
+    "judul_berita": "Inisialisasi Konten Pertama",
+    "isi_berita": "Konten ini hanya untuk menginisialisasi database di dalam aplikasi",
+    "penulis": "authors",
+    "kategori": "dummy",
+    "waktu_post": "2023-02-27T19:29:03.845Z",
+    "waktu_edit": "2023-03-03T04:05:10.930Z",
+    "slug": "inisialisasi-konten-pertama"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 2,
+  "fields": {
+    "judul_berita": "Inisialisasi Konten Kedua",
+    "isi_berita": "Ini adalah postingan kedua untuk menginisialisasi database",
+    "penulis": "authors",
+    "kategori": "dummy",
+    "waktu_post": "2023-02-27T19:29:55.765Z",
+    "waktu_edit": "2023-03-03T04:05:22.331Z",
+    "slug": "inisialisasi-konten-kedua"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 3,
+  "fields": {
+    "judul_berita": "Manga Attack On Titan chapter 300 Dikonfirmasi Rilis",
+    "isi_berita": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus magni molestiae praesentium deserunt perspiciatis, eius consequuntur quibusdam, illo possimus iusto exercitationem voluptates ducimus inventore ab? Beatae cum ea at facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aliquam velit consequuntur sunt maiores repellat ea, ducimus quos maxime voluptas ipsam rem corporis cupiditate, aspernatur eaque facere minima odit aperiam!",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-03T01:20:50.144Z",
+    "waktu_edit": "2023-03-03T01:20:50.145Z",
+    "slug": "manga-attack-on-titan-chapter-300-dikonfirmasi-rilis"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 4,
+  "fields": {
+    "judul_berita": "Serial BORUTO Dikabarkan Hiatus, Masashi Fokus Remake",
+    "isi_berita": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus magni molestiae praesentium deserunt perspiciatis, eius consequuntur quibusdam, illo possimus iusto exercitationem voluptates ducimus inventore ab? Beatae cum ea at facere. Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aliquam velit consequuntur sunt maiores repellat ea, ducimus quos maxime voluptas ipsam rem corporis cupiditate, aspernatur eaque facere minima odit aperiam!",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-03T01:21:36.981Z",
+    "waktu_edit": "2023-03-03T01:21:36.981Z",
+    "slug": "serial-boruto-dikabarkan-hiatus-masashi-fokus-remake"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 5,
+  "fields": {
+    "judul_berita": "My Hero Academia Season 5 Siap Ditayangkan NET",
+    "isi_berita": "My Hero Academia akan segera tayang lagi di NET. Hal ini terungkap melalui data dari Lembaga Sensor Film, di mana setidaknya sudah ada 3 episode season kelima yang telah lulus sensor. NET sendiri sebelumnya sempat dilaporkan telah memiliki anime ini hingga season kelima. Sebelumnya NET telah menayangkan season ketiga dan keempatnya. Di Jepang sendiri season keenamnya ditayangkan pada Oktober 2022. Pada season ketiga sebelumnya, NET mempercayakan Studio Shefai untuk mendubbing My Hero Academia. Adapun beberapa seiyu yang turut bermain di antaranya ada Irfan Setiawan,Tizar Sponsen, Salman Borneo, Uci Bismark, Kamal Nasuti, Ladi Carmelita, Barkah, Mohammad Romli, dll. Hal ini berbeda dengan RTV yang menggunakan Studio Erfas. Dikenal di Jepang dengan judul Boku no Hero Academia, anime My Hero Academia diangkat dari serial komik berjudul sama karya komikus asal Jepang Kohei Horikoshi. Serial komik ini pertama kali terbit di Jepang melalui majalah Weekly Shonen Jump pada Juli 2014 dan serial komiknya masih berjalan hingga kini. Karena kesuksesannya, komik ini akhirnya diadaptasi menjadi serial anime oleh Studio BONES yang telah tayang selama tiga musim. Serial anime yang juga dikenal di Jepang sebagai Boku no Hero Academia ini juga turut ditayangkan di Indonesia oleh RTV, dan saat ini tengah ditayangkan di NET. Adapun komiknya diterbitkan di Indonesia oleh penerbit m&c!. Komiknya sendiri juga akan diadaptasi menjadi proyek film Hollywood.",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-03T01:22:23.843Z",
+    "waktu_edit": "2023-03-03T01:22:23.843Z",
+    "slug": "my-hero-academia-season-5-siap-ditayangkan-net"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 6,
+  "fields": {
+    "judul_berita": "Comic Frontier 16 Siap Digelar Maret 2023",
+    "isi_berita": "Comic Frontier 16 atau Comifuro 16, momen keenam belas dari acara pasar kreatif terkemuka Comic Frontier akhirnya akan kembali digelar pada bulan Maret 2023 mendatang. Dalam perhelatan yang keenam belas kalinya ini, acara Comic Frontier 16 akan digelar pada tanggal 11-12 Maret 2023 mendatang. Pergelaran kali ini akan kembali digelar di Indonesia Convention Expo (ICE) BSD, Tangerang, seperti Comic Frontier 15. Tidak tanggung-tanggung, kali ini Comic Frontier 16 akan digelar di 3 hall sekaligus, yakni hall 8, 9, dan 10 ICE BSD. Comic Frontier, atau yang biasa disingkat menjadi Comifuro, merupakan acara ekshibisi kreatif yang telah rutin diselenggarakan setiap tahun. Acara ini pertama kali diselenggarakan pada tahun 2012.  Seiring berjalannya waktu dan pertumbuhan industri kreatif di Indonesia, Comifuro telah menjadi sebuah gerakan kreatif yang mampu menghimpun ratusan kreator dalam satu event. Tak hanya diisi oleh mereka yang menyukai anime, manga dan berbagai hal jejepangan lainnya, acara ini juga mulai diramaikan oleh para kreator yang menyajikan berbagai pernik pop kultur lainnya, seperti komik barat, fandom K-Pop, komik Indonesia, hingga berbagai karya indie original lainnya yang tak kalah menarik. Selain menjadi acara pasar kreator, acara Comifuro juga turut menghadirkan para kreator konten pop kultur terkemuka di Indonesia untuk membagikan pengalamannya kepada para pengunjung yang datang ke acara ini. Tak hanya itu, acara Comic Frontier juga sempat mengadakan sesi Portofolio Review bersama pihak penerbit dan majalah komik di Indonesia untuk para kreator yang ingin mencoba terjun ke dunia industri kreatif secara profesional. Sebelumnya, selama 2 tahun belakangan ini Comic Frontier tidak bisa diselenggarakan secara reguler sejak acara terakhir mereka, yakni Comic Frontier 14. Akibat pandemi yang melanda seluruh dunia, termasuk di Indonesia sejak bulan Maret 2020 lalu, pergelaran Comic Frontier harus vakum hingga waktu yang tidak ditentukan, dan harus beralih konsep menjadi pergelaran bersifat online, yakni Comic Frontier Virtual atau Comivuro. Namun, pergelaran Comic Frontier akhirnya kembali digelar secara offline sejak Comic Frontier 15 yang akhirnya diselenggarakan pada bulan September tahun 2022. Mari persiapkan dirimu untuk Comifuro 16!",
+    "penulis": "authors",
+    "kategori": "incoming_event",
+    "waktu_post": "2023-03-03T01:23:33.803Z",
+    "waktu_edit": "2023-03-03T01:23:33.803Z",
+    "slug": "comic-frontier-16-siap-digelar-maret-2023"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 7,
+  "fields": {
+    "judul_berita": "PENGUMUMAN MAINTENANCE",
+    "isi_berita": "Karena aplikasi ini masih dalam tahap pengembangan, mohon kepada user untuk berhati-hati dalam memasukkan informasi pribadi. Apabila ada kerusakan atau hal-hal tidak wajar pada kinerja aplikasi ini, segera laporkan pada tim developer.",
+    "penulis": "authors",
+    "kategori": "pengumuman",
+    "waktu_post": "2023-03-03T01:24:26.137Z",
+    "waktu_edit": "2023-03-03T01:25:30.198Z",
+    "slug": "pengumuman-maintenance"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 8,
+  "fields": {
+    "judul_berita": "Penyanyi Anisong Maon Kurosaki Meninggal Dunia",
+    "isi_berita": "Satu lagi kabar duka kembali datang dari dunia anisong. Penyanyi anisong kawakan Maon Kurosaki dikabarkan telah meninggal dunia. Diumumkan pada Selasa (28/2) melalui akun Twitter resminya, sang penyanyi telah berpulang pada 16 Februari 2022 lalu.\r\n\r\nDalam rilisnya, sang penyanyi dikabarkan wafat karena kondisi kesehatannya yang tiba-tiba memburuk karena penyakit yang dideritanya. Kepergian Maon Kurosaki yang mendadak mengejutkan pihak manajemennya, karena pada saat itu mereka tengah merencanakan berbagai kegiatan yang akan dilakukan sang penyanyi pada 2023 ini, seperti perilisan lagu baru dan proyek film yang dibintanginya, serta aktivitas lain pada musim panas mendatang.\r\n\r\nPemakaman Maon Kurosaki sendiri telah dilakukan oleh kerabat terdekatnya, karena pihak keluarganya ingin mengantar kepergiannya dengan tenang. Mereka juga mengucapkan terima kasih kepada para fansnya yang telah mendukung perjalanan sang penyanyi semasa hidupnya.\r\n\r\nMaon Kurosaki merupakan penyanyi anisong kawakan yang lahir pada 13 Januari 1988. Namanya mulai terkenal setelah menyanyikan lagu penutup anime Highschool of the Dead. Ia kemudian terlibat untuk menyanyikan lagu tema di berbagai judul anime, seperti Grisaia no Kajitsu, Gamers!, Gakkou Gurashi!, Tokyo Ravens, hingga anime Tensei Shitara Ken Deshita yang baru saja ditayangkan pada musim gugur 2022 lalu.\r\n\r\nSelain solo, sang penyanyi yang juga dijuluki sebagai Ojou no Otaku-sama ini juga berkolaborasi dengan penyanyi anisong lain, seperti Mami Kawada, Kotoko, dan band TRUSTICK. Ia juga sempat bergabung di grup ALTIMA yang naik daun menyanyikan lagu pembuka kedua anime Accel World pada 2012 silam.\r\n\r\nSebelumnya, Maon Kurosaki sempat dirawat secara intensif pada September 2021 lalu setelah tidak sadarkan diri ketika menggelar konser live-streaming perayaan 11 tahun karirnya. Ia didiagnosa menderita penyakit epidural hematoma (pendarahaan di antara bagian tengkorak dan selaput pelindung otak). Pada Oktober 2021, sang penyanyi mengabarkan kalau kesehatannya mulai membaik setelah menjalani operasi dan harus beristirahat setidaknya selama 2 bulan agar bisa pulih sepenuhnya.",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-03T01:34:26.500Z",
+    "waktu_edit": "2023-03-03T01:49:07.912Z",
+    "slug": "penyanyi-anisong-maon-kurosaki-meninggal-dunia"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 9,
+  "fields": {
+    "judul_berita": "Kangen Konosuba? Nantikan Anime Tentang Megumin Awal April 2023!",
+    "isi_berita": "Sebagaimana telah diberitakan sebelumnya, anime Konosuba akan kembali lagi dalam proyek terbaru. Proyek anime tersebut bukan hanya satu, tetapi dua proyek anime baru! Yang pertama adalah musim ketiganya yang telah resmi diumumkan, dan sebuah anime prekuel yang berkisah mengenai Megumin di masa lalu, yang diangkat dari novel Konosuba: An Explosion on This Wonderful World! karya Natsume Akatsuki dan Masahito Watari, dan dipastikan akan dirilis di Jepang pada bulan April tahun 2023 mendatang. Kini terungkaplah bahwa anime ini akan dirilis pada 5 April 2023. Machico akan menyanyikan lagu pembuka yang berjudul “Stay Free” dan Rie Takahashi bersama Aki Toyosaki akan menyanyikan lagu penutup yang berjudul “Jump In.”\r\n\r\nBerikut adalah para seiyu yang telah dipastikan akan bermain di anime ini:\r\n\r\n1. Rie Takahashi sebagai Megumin\r\n2. Aki Toyosaki sebagai Yunyun.\r\n3. Maria Naganawa sebagai Komekko\r\n4. Kaori Nazuka sebagai Arue\r\n5. Miyu Tomita sebagai Funifura\r\n6. Sayumi Suzushiro sebagai Dodonko\r\n7. Shizuka Ishigami sebagai Nerimaki\r\n8. Hitomi Nabatami sebagai Chomusuke\r\n9. Mitsuhiro Sakamaki sebagai Pucchin\r\n\r\nKonosuba, atau Kono Subarashii Sekai ni Shukufuku o! adalah novel ringan karya Natsume Akatsuki, dengan ilustrasi oleh Kurone Mishima. Dalam novel ini diceritakan mengenai Kazuma yang baru saja tewas, dan dihidupkan kembali di dunia lain oleh seorang Dewi bernama Aqua. Tak lagi bisa kembali ke dunia asalnya, di mana ia telah tewas, Kazuma pun memulai hidup barunya di dunia yang mirip dengan dunia ala game MMORPG, didampingi Aqua sang Dewi, dan juga Megumin si penyihir dan Darkness si ksatria, merekapun berpetualang bersama. Novel Konosuba ini sebelumnya juga telah diadaptasi menjadi serial anime sebanyak 2 musim. Sebuah film layar lebar juga sempat diputar di bioskop Indonesia. Novelnya sendiri juga baru saja berakhir.",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-03T02:15:58.355Z",
+    "waktu_edit": "2023-03-03T02:15:58.355Z",
+    "slug": "kangen-konosuba-nantikan-anime-tentang-megumin-awal-april-2023"
+  }
+}
 ]
