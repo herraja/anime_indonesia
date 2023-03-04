@@ -6,4 +6,5 @@ app_name = 'api'
 
 urlpatterns = [
     path('', views.getRoutes, name='index'),
+    path('anime/', views.getAnime),
 ]

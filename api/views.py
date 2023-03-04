@@ -1,5 +1,7 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from .models import Anime
+from .serializers import AnimeSerializer
 
 
 # Create your views here.
@@ -71,3 +73,9 @@ def getRoutes(request):
         ]
     }
     return Response(routes)
+
+@api_view(["GET"])
+def getAnime(request):
+    anime = Anime.objects.all()
+    serializer = AnimeSerializer(anime, many=True)
+    return Response(serializer.data)
