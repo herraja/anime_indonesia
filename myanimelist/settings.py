@@ -42,6 +42,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Django apps untuk membuat REST Server
+    'api.apps.ApiConfig',
+    'rest_framework',
+
+    # Modul untuk menangani pertukaran resource
+    'corsheaders',
 
     # Django web app
     'artikel',
@@ -55,6 +62,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    # Modul untuk menangani pertukaran resource
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'myanimelist.urls'
@@ -142,3 +152,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Cross Origin Resource Sharing
+CORS_ALLOW_ALL_ORIGINS = True
