@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
     # Django web app
     'artikel',
+    'animelist',
 ]
 
 MIDDLEWARE = [
