@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        "Hero" : "Situs Ranking Anime",
+        "Hero" : "Portal Komunitas Anime",
         "Lead" : "Terupdate se-Indonesia",
         "page" : "Beranda",
         "website" : "Anime Indonesia",
