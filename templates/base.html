@@ -6,24 +6,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="shortcut icon" href="{% static 'icons/myanimelist_icon.png' %}" type="image/x-icon">
+    <!-- Bootstrap CSS and favicon -->
+    {% include "snippets/styles.html" %}
     <title>{{page}} - {{website}}</title>
 </head>
 
 <body>
     {% include "snippets/navbar.html" %}
 
-    <div class="container" id="welcome_screen">
-        {% block welcome_screen %}
-        {% endblock welcome_screen %}
-    </div>
+    <!-- Jumbotron -->
+    {% include "snippets/jumbotron.html" %}
 
     <div class="container bg-light shadow mt-5">
         {% block berita %}
         {% endblock berita %}
     </div>
 
+    <!-- Bootstrap JavaScript -->
+    {% include "snippets/scripts.html" %}
 </body>
 
 </html>
