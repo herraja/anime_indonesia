@@ -10,8 +10,23 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Beranda</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{% url 'artikel:index' %}">Artikel</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Artikel</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{% url 'artikel:index' %}">Semua Artikel</a></li>
+                        <li><a class="dropdown-item" href="#">Berita Terbaru</a></li>
+                        <li><a class="dropdown-item" href="#">Acara Mendatang</a></li>
+                        <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Developer</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">API</a></li>
+                        <li><a class="dropdown-item" href="{% url 'admin:index' %}">Admin Dashboard</a></li>
+                    </ul>
                 </li>
             </ul>
             <form class="d-flex" role="search">
