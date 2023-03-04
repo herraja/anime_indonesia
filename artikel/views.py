@@ -9,9 +9,11 @@ def index(request):
     """
     berita = Berita.objects.all()
     context = {
-        "page": "Artikel",
-        "post_berita": berita,
-        "website": "Anime Indonesia",
+        "Hero" : "Situs Ranking Anime",
+        "Lead" : "Terupdate se-Indonesia",
+        "page" : "Artikel",
+        "post_berita" : berita,
+        "website" : "Anime Indonesia",
     }
     return render(request, "artikel/index.html", context)
 
@@ -25,6 +27,8 @@ def detail(request, category, inputSlug):
     berita = Berita.objects.get(kategori=category, slug=inputSlug)
     context = {
         "detail_berita": berita,
+        "Hero" : "Situs Ranking Anime",
+        "Lead" : "Terupdate se-Indonesia",
         "page": "Artikel",
         "website": "Anime Indonesia",
     }
