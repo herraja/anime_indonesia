@@ -22,6 +22,19 @@
         {% endblock berita %}
     </div>
 
+    <!-- Form pencarian -->
+    <div class="container" style="margin-top: 50px;">
+        {% block form_pencarian %}
+        {% endblock form_pencarian %}
+    </div>
+
+    <!-- Container untuk data anime -->
+    <div class="container bg-light shadow" style="margin-bottom: 20px; margin-top: 50px;">
+        <h1 class="text-center pb-5 pt-2">Daftar Anime di database</h1>
+        {% block query_anime %}
+        {% endblock query_anime %}
+    </div>
+
     <!-- Bootstrap JavaScript -->
     {% include "snippets/scripts.html" %}
 </body>
