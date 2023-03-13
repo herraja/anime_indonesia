@@ -6,4 +6,6 @@ SHOW TABLES;
 
 SELECT * FROM api_anime ORDER BY anime_title ASC;
 
+SELECT * FROM api_anime ORDER BY LENGTH(anime_title) DESC;
+
 DESCRIBE api_anime;
