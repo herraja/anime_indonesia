@@ -4,3 +4,4 @@ db.sqlite3
 backup/sql/anime_indo-query.sql
 myanimelist/.env
 notes.txt
+MariaDB.md
