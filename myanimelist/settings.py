@@ -118,6 +118,8 @@ DATABASES = {
     }
 }
 
+# FIXTURE Directory (tempat untuk menyimpan backup tabel database)
+FIXTURE_DIRS = ["backup/data/"]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
