@@ -208,6 +208,331 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-03-04T17:38:48.576Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "10 - Kamiya Yuu, Ilustrator No Game No Life Diduga Menjiplak Gambar Orang Lain",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-03-04T17:42:10.043Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "11 - Mangaka Yu-Gi-Oh! Kazuki Takahashi Meninggal Dunia pada Usia 60 Tahun",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-03-04T18:00:35.163Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "12 - Jadwal Japan Event Januari 2023 di Jabodetabek, Ada Guest Star Internasional Cosplayer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-03-04T20:28:53.309Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "1. Fullmetal Alchemist: Brotherhood",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-03-04T20:31:42.654Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "2. Bleach: Sennen Kessen-hen",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-03-13T04:35:28.996Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "207",
+    "object_repr": "207. Arifureta Shokugyou de Sekai Saikyou",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-03-13T04:36:53.658Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "208",
+    "object_repr": "208. Chainsaw Man",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-03-13T04:38:49.243Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "209",
+    "object_repr": "209. Fufu Ijou, Koibito Miman.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-03-13T04:40:17.069Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "210",
+    "object_repr": "210. Saikin Yatotta Maid ga Ayashii",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-03-13T04:41:58.587Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "211",
+    "object_repr": "211. Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-03-13T04:43:50.418Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "212",
+    "object_repr": "212. Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-03-13T04:45:13.787Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "213",
+    "object_repr": "213. Tondemo Skill de Isekai Hourou Meshi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-03-13T04:52:26.524Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "214",
+    "object_repr": "214. Tensei shitara Slime Datta Ken",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-03-13T04:53:30.424Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "215",
+    "object_repr": "215. Tensei shitara Slime Datta Ken: Kanwa - Veldora Nikki",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-03-13T04:57:48.459Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "216",
+    "object_repr": "216. Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-03-13T04:58:54.609Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "217",
+    "object_repr": "217. Zoku Owarimonogatari",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-03-13T05:02:05.856Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "218",
+    "object_repr": "218. Genjitsu Shugi Yuusha no Oukoku Saikenki",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-03-13T05:03:07.551Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "219",
+    "object_repr": "219. Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-03-13T05:04:20.190Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "220",
+    "object_repr": "220. Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-03-13T05:06:59.303Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "221",
+    "object_repr": "221. Kono Subarashii Sekai ni Shukufuku wo! 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-03-13T05:09:09.801Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "222",
+    "object_repr": "222. Shingeki no Kyojin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-03-13T05:09:57.179Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "223",
+    "object_repr": "223. Death Note",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-03-13T05:10:56.301Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "224",
+    "object_repr": "224. Fullmetal Alchemist: Brotherhood",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-03-13T05:14:06.649Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "225",
+    "object_repr": "225. Made in Abyss",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-03-13T05:19:45.553Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "226",
+    "object_repr": "226. Spy x Family",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -460,11 +785,47 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add anime",
+    "content_type": 8,
+    "codename": "add_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change anime",
+    "content_type": 8,
+    "codename": "change_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete anime",
+    "content_type": 8,
+    "codename": "delete_anime"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view anime",
+    "content_type": 8,
+    "codename": "view_anime"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$260000$5TXeNoCB6pq2jD2s0Oo1W6$A3659E7BSu5zpi9DkYXMxOioBcEYu+t2Q/KcZItWW7k=",
-    "last_login": "2023-03-03T00:07:58.783Z",
+    "last_login": "2023-03-04T17:31:38.966Z",
     "is_superuser": true,
     "username": "maulana",
     "first_name": "",
@@ -534,6 +895,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "api",
+    "model": "anime"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "gxmyreyobfpljs5fudmjt9wq832n1bye",
   "fields": {
@@ -547,6 +916,3094 @@
   "fields": {
     "session_data": ".eJxVjMEOwiAQRP-FsyFA2YIevfsNZGEXqRqalPZk_Hdp0oMeZ96beYuA21rC1ngJE4mL0OL020VMT647oAfW-yzTXNdlinJX5EGbvM3Er-vh_h0UbKWvgZVDl60HP1BSwOy0YWN86gEsYwQV0Y9kvB4tZzNg9wHjmbXzmcTnC94tOAQ:1pXsxq:VLWxRRirnatY-3qGRiX7mUrv9wWH_Agco3-OQjtc4jA",
     "expire_date": "2023-03-17T00:07:58.849Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ybgus0eowxm6sgw44akl4105vcd76c1f",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFA2YIevfsNZGEXqRqalPZk_Hdp0oMeZ96beYuA21rC1ngJE4mL0OL020VMT647oAfW-yzTXNdlinJX5EGbvM3Er-vh_h0UbKWvgZVDl60HP1BSwOy0YWN86gEsYwQV0Y9kvB4tZzNg9wHjmbXzmcTnC94tOAQ:1pYVjP:SIgdYfdWkGdS7fctKz9twYMx2MfsNpiiR8i2zg_Tu4Y",
+    "expire_date": "2023-03-18T17:31:39.101Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 1,
+  "fields": {
+    "mal_id": 22199,
+    "anime_title": "Akame ga Kill !",
+    "anime_score": "7.47",
+    "airing_time": "Summer 2014",
+    "studio": "White Fox",
+    "slug": "akame-ga-kill",
+    "updated": "2023-02-13T07:27:02.978Z",
+    "created": "2023-02-13T07:27:02.978Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 2,
+  "fields": {
+    "mal_id": 6987,
+    "anime_title": "Aki-Sora",
+    "anime_score": "5.89",
+    "airing_time": "Fall 2009",
+    "studio": "Hoods Entertainment",
+    "slug": "aki-sora",
+    "updated": "2023-02-13T07:28:37.405Z",
+    "created": "2023-02-13T07:28:37.405Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 3,
+  "fields": {
+    "mal_id": 8577,
+    "anime_title": "Aki-Sora - Yume no Naka",
+    "anime_score": "6.00",
+    "airing_time": "Summer 2010",
+    "studio": "Hoods Entertainment",
+    "slug": "aki-sora-yume-no-naka",
+    "updated": "2023-02-13T07:29:42.436Z",
+    "created": "2023-02-13T07:29:42.436Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 4,
+  "fields": {
+    "mal_id": 10490,
+    "anime_title": "Blood C",
+    "anime_score": "6.53",
+    "airing_time": "Summer 2011",
+    "studio": "Production I.G",
+    "slug": "blood-c",
+    "updated": "2023-02-13T07:31:24.511Z",
+    "created": "2023-02-13T07:31:24.511Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 5,
+  "fields": {
+    "mal_id": 10681,
+    "anime_title": "Blood C - The Last Dark",
+    "anime_score": "7.17",
+    "airing_time": "Spring 2012",
+    "studio": "Production I.G",
+    "slug": "blood-c-the-last-dark",
+    "updated": "2023-02-13T07:32:46.494Z",
+    "created": "2023-02-13T07:32:46.494Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 10,
+  "fields": {
+    "mal_id": 38790,
+    "anime_title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
+    "anime_score": "7.56",
+    "airing_time": "Winter 2020",
+    "studio": "SILVER LINK.",
+    "slug": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu",
+    "updated": "2023-02-13T12:46:10.041Z",
+    "created": "2023-02-13T12:46:10.041Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 11,
+  "fields": {
+    "mal_id": 1575,
+    "anime_title": "Code Geass R1 - Hangyaku no Lelouch",
+    "anime_score": "8.70",
+    "airing_time": "Fall 2006",
+    "studio": "Sunrise",
+    "slug": "code-geass-r1-hangyaku-no-lelouch",
+    "updated": "2023-02-13T12:47:24.331Z",
+    "created": "2023-02-13T12:47:24.331Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 12,
+  "fields": {
+    "mal_id": 2904,
+    "anime_title": "Code Geass R2 - Hangyaku no Lelouch",
+    "anime_score": "8.91",
+    "airing_time": "Spring 2008",
+    "studio": "Sunrise",
+    "slug": "code-geass-r2-hangyaku-no-lelouch",
+    "updated": "2023-02-13T12:48:13.805Z",
+    "created": "2023-02-13T12:48:13.805Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 13,
+  "fields": {
+    "mal_id": 8888,
+    "anime_title": "Code Geass Boukoku no Akito 1 (Yokuryuu wa Maiorita)",
+    "anime_score": "7.36",
+    "airing_time": "Summer 2012",
+    "studio": "Sunrise",
+    "slug": "code-geass-boukoku-no-akito-1-yokuryuu-wa-maiorita",
+    "updated": "2023-02-13T12:49:32.283Z",
+    "created": "2023-02-13T12:49:32.283Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 14,
+  "fields": {
+    "mal_id": 15197,
+    "anime_title": "Code Geass Boukoku no Akito 2 (Hikisakareshi Yokuryuu)",
+    "anime_score": "7.48",
+    "airing_time": "Summer 2013",
+    "studio": "Sunrise",
+    "slug": "code-geass-boukoku-no-akito-2-hikisakareshi-yokuryuu",
+    "updated": "2023-02-13T12:50:18.272Z",
+    "created": "2023-02-13T12:50:18.272Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 15,
+  "fields": {
+    "mal_id": 15199,
+    "anime_title": "Code Geass Boukoku no Akito 3 (Kagayaku Mono Ten yori Otsu)",
+    "anime_score": "7.29",
+    "airing_time": "Spring 2015",
+    "studio": "Sunrise",
+    "slug": "code-geass-boukoku-no-akito-3-kagayaku-mono-ten-yori-otsu",
+    "updated": "2023-02-13T12:51:01.692Z",
+    "created": "2023-02-13T12:51:01.692Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 16,
+  "fields": {
+    "mal_id": 15201,
+    "anime_title": "Code Geass Boukoku no Akito 4 (Nikushimi no Kioku kara)",
+    "anime_score": "7.23",
+    "airing_time": "Summer 2015",
+    "studio": "Sunrise",
+    "slug": "code-geass-boukoku-no-akito-4-nikushimi-no-kioku-kara",
+    "updated": "2023-02-13T12:51:58.444Z",
+    "created": "2023-02-13T12:51:58.444Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 17,
+  "fields": {
+    "mal_id": 30711,
+    "anime_title": "Code Geass Boukoku no Akito 5 (Itoshiki Mono-tachi e)",
+    "anime_score": "7.13",
+    "airing_time": "Winter 2016",
+    "studio": "Sunrise",
+    "slug": "code-geass-boukoku-no-akito-5-itoshiki-mono-tachi-e",
+    "updated": "2023-02-13T12:52:39.054Z",
+    "created": "2023-02-13T12:52:39.054Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 18,
+  "fields": {
+    "mal_id": 34437,
+    "anime_title": "Code Geass Fukkatsu no Lelouch",
+    "anime_score": "7.92",
+    "airing_time": "Winter 2019",
+    "studio": "Sunrise",
+    "slug": "code-geass-fukkatsu-no-lelouch",
+    "updated": "2023-02-13T12:53:23.242Z",
+    "created": "2023-02-13T12:53:23.242Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 19,
+  "fields": {
+    "mal_id": 15037,
+    "anime_title": "Corpse Party - Bougyakusareta Tamashii no Jukyou",
+    "anime_score": "6.46",
+    "airing_time": "Summer 2013",
+    "studio": "asread",
+    "slug": "corpse-party-bougyakusareta-tamashii-no-jukyou",
+    "updated": "2023-02-13T12:54:03.219Z",
+    "created": "2023-02-13T12:54:03.219Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 20,
+  "fields": {
+    "mal_id": 13807,
+    "anime_title": "Corpse Party - Missing Footage",
+    "anime_score": "5.99",
+    "airing_time": "Summer 2012",
+    "studio": "asread",
+    "slug": "corpse-party-missing-footage",
+    "updated": "2023-02-13T12:55:12.761Z",
+    "created": "2023-02-13T12:55:12.761Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 21,
+  "fields": {
+    "mal_id": 12549,
+    "anime_title": "Dakara Boku wa, H ga Dekinai",
+    "anime_score": "6.57",
+    "airing_time": "Summer 2012",
+    "studio": "feel.",
+    "slug": "dakara-boku-wa-h-ga-dekinai",
+    "updated": "2023-02-13T12:55:58.478Z",
+    "created": "2023-02-13T12:55:58.478Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 22,
+  "fields": {
+    "mal_id": 35849,
+    "anime_title": "Darling in the FranXX",
+    "anime_score": "7.24",
+    "airing_time": "Winter 2018",
+    "studio": "A-1 Pictures, Trigger, CloverWorks",
+    "slug": "darling-in-the-franxx",
+    "updated": "2023-02-13T12:56:44.425Z",
+    "created": "2023-02-13T12:56:44.425Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 23,
+  "fields": {
+    "mal_id": 15583,
+    "anime_title": "Date A Live 1",
+    "anime_score": "7.17",
+    "airing_time": "Spring 2013",
+    "studio": "AIC PLUS+",
+    "slug": "date-a-live-1",
+    "updated": "2023-02-13T12:57:25.247Z",
+    "created": "2023-02-13T12:57:25.247Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 24,
+  "fields": {
+    "mal_id": 19163,
+    "anime_title": "Date A Live 2",
+    "anime_score": "7.20",
+    "airing_time": "Spring 2014",
+    "studio": "Production IMS",
+    "slug": "date-a-live-2",
+    "updated": "2023-02-13T12:58:01.605Z",
+    "created": "2023-02-13T12:58:01.605Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 25,
+  "fields": {
+    "mal_id": 36633,
+    "anime_title": "Date A Live 3",
+    "anime_score": "7.18",
+    "airing_time": "Winter 2019",
+    "studio": "J.C.Staff",
+    "slug": "date-a-live-3",
+    "updated": "2023-02-13T12:58:38.506Z",
+    "created": "2023-02-13T12:58:38.506Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 26,
+  "fields": {
+    "mal_id": 41461,
+    "anime_title": "Date A Live 4",
+    "anime_score": "7.85",
+    "airing_time": "Spring 2022",
+    "studio": "GEEK TOYS",
+    "slug": "date-a-live-4",
+    "updated": "2023-02-13T13:00:52.309Z",
+    "created": "2023-02-13T13:00:52.309Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 27,
+  "fields": {
+    "mal_id": 24655,
+    "anime_title": "Date A Live Movie: Mayuri Judgement",
+    "anime_score": "7.34",
+    "airing_time": "Summer 2015",
+    "studio": "Production IMS",
+    "slug": "date-a-live-movie-mayuri-judgement",
+    "updated": "2023-02-13T13:01:35.313Z",
+    "created": "2023-02-13T13:01:35.313Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 28,
+  "fields": {
+    "mal_id": 40416,
+    "anime_title": "Date A Bullet 1 - Dead or Bullet's",
+    "anime_score": "7.56",
+    "airing_time": "Summer 2020",
+    "studio": "GEEK TOYS",
+    "slug": "date-a-bullet-1-dead-or-bullets",
+    "updated": "2023-02-13T13:02:36.904Z",
+    "created": "2023-02-13T13:02:36.904Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 29,
+  "fields": {
+    "mal_id": 42423,
+    "anime_title": "Date A Bullet 2 - Queen's or Nightmare",
+    "anime_score": "7.62",
+    "airing_time": "Fall 2020",
+    "studio": "GEEK TOYS",
+    "slug": "date-a-bullet-2-queens-or-nightmare",
+    "updated": "2023-02-13T13:03:25.253Z",
+    "created": "2023-02-13T13:03:25.253Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 30,
+  "fields": {
+    "mal_id": 226,
+    "anime_title": "Elfen Lied",
+    "anime_score": "7.51",
+    "airing_time": "Summer 2004",
+    "studio": "Arms",
+    "slug": "elfen-lied",
+    "updated": "2023-02-13T13:04:33.453Z",
+    "created": "2023-02-13T13:04:33.453Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 31,
+  "fields": {
+    "mal_id": 30,
+    "anime_title": "Neon Genesis Evangelion",
+    "anime_score": "8.34",
+    "airing_time": "Fall 1995",
+    "studio": "GAINAX & Production I.G",
+    "slug": "neon-genesis-evangelion",
+    "updated": "2023-02-13T13:05:19.879Z",
+    "created": "2023-02-13T13:05:19.879Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 32,
+  "fields": {
+    "mal_id": 32,
+    "anime_title": "Neon Genesis Evangelion: The End of Evangelion",
+    "anime_score": "8.55",
+    "airing_time": "Summer 1997",
+    "studio": "GAINAX & Production I.G",
+    "slug": "neon-genesis-evangelion-the-end-of-evangelion",
+    "updated": "2023-02-13T13:05:59.879Z",
+    "created": "2023-02-13T13:05:59.879Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 33,
+  "fields": {
+    "mal_id": 2759,
+    "anime_title": "Evangelion 1.0 You Are (Not) Alone",
+    "anime_score": "8.02",
+    "airing_time": "Summer 2007",
+    "studio": "Khara",
+    "slug": "evangelion-10-you-are-not-alone",
+    "updated": "2023-02-13T13:41:05.644Z",
+    "created": "2023-02-13T13:41:05.644Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 34,
+  "fields": {
+    "mal_id": 3784,
+    "anime_title": "Evangelion 2.0 You Can (Not) Advance",
+    "anime_score": "8.32",
+    "airing_time": "Summer 2009",
+    "studio": "Khara",
+    "slug": "evangelion-20-you-can-not-advance",
+    "updated": "2023-02-13T13:41:54.552Z",
+    "created": "2023-02-13T13:41:54.552Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 35,
+  "fields": {
+    "mal_id": 3785,
+    "anime_title": "Evangelion 3.0 You Can (Not) Redo",
+    "anime_score": "7.62",
+    "airing_time": "Fall 2012",
+    "studio": "Khara",
+    "slug": "evangelion-30-you-can-not-redo",
+    "updated": "2023-02-13T13:42:09.507Z",
+    "created": "2023-02-13T13:42:09.507Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 36,
+  "fields": {
+    "mal_id": 3786,
+    "anime_title": "Evangelion 3.0 + 1.0 Thrice Upon a Time",
+    "anime_score": "8.64",
+    "airing_time": "Winter 2021",
+    "studio": "Khara",
+    "slug": "evangelion-30-10-thrice-upon-a-time",
+    "updated": "2023-02-13T13:42:22.218Z",
+    "created": "2023-02-13T13:42:22.218Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 37,
+  "fields": {
+    "mal_id": 34662,
+    "anime_title": "Fate Apocrypha",
+    "anime_score": "7.18",
+    "airing_time": "Summer 2017",
+    "studio": "A-1 Pictures",
+    "slug": "fate-apocrypha",
+    "updated": "2023-02-13T14:07:25.679Z",
+    "created": "2023-02-13T14:07:25.679Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 38,
+  "fields": {
+    "mal_id": 38085,
+    "anime_title": "Fate Grand Order - Shinsei Entaku Ryouiki Camelot 1 Wandering Agateram",
+    "anime_score": "6.84",
+    "airing_time": "Fall 2020",
+    "studio": "Signal.MD",
+    "slug": "fate-grand-order-shinsei-entaku-ryouiki-camelot-1-wandering-agateram",
+    "updated": "2023-02-13T14:07:44.908Z",
+    "created": "2023-02-13T14:07:44.908Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 39,
+  "fields": {
+    "mal_id": 38086,
+    "anime_title": "Fate Grand Order - Shinsei Entaku Ryouiki Camelot 2 Paladin Agateram",
+    "anime_score": "7.58",
+    "airing_time": "Spring 2021",
+    "studio": "Production I.G",
+    "slug": "fate-grand-order-shinsei-entaku-ryouiki-camelot-2-paladin-agateram",
+    "updated": "2023-02-13T14:07:58.228Z",
+    "created": "2023-02-13T14:07:58.228Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 40,
+  "fields": {
+    "mal_id": 38084,
+    "anime_title": "Fate Grand Order - Zettai Majuu Sensen Babylonia",
+    "anime_score": "7.94",
+    "airing_time": "Fall 2019",
+    "studio": "CloverWorks",
+    "slug": "fate-grand-order-zettai-majuu-sensen-babylonia",
+    "updated": "2023-02-13T14:08:15.206Z",
+    "created": "2023-02-13T14:08:15.206Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 41,
+  "fields": {
+    "mal_id": 41497,
+    "anime_title": "Fate Grand Order - Shuukyoku Tokuiten Kani Jikan Shinden Solomon",
+    "anime_score": "8.09",
+    "airing_time": "Summer 2021",
+    "studio": "CloverWorks",
+    "slug": "fate-grand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon",
+    "updated": "2023-02-13T14:08:32.980Z",
+    "created": "2023-02-13T14:08:32.980Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 42,
+  "fields": {
+    "mal_id": 356,
+    "anime_title": "Fate Stay Night",
+    "anime_score": "7.29",
+    "airing_time": "Winter 2006",
+    "studio": "Studio Deen",
+    "slug": "fate-stay-night",
+    "updated": "2023-02-13T14:08:46.248Z",
+    "created": "2023-02-13T14:08:46.248Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 43,
+  "fields": {
+    "mal_id": 22297,
+    "anime_title": "Fate Stay Night - Unlimited Blade Works 1",
+    "anime_score": "8.19",
+    "airing_time": "Fall 2014",
+    "studio": "ufotable",
+    "slug": "fate-stay-night-unlimited-blade-works-1",
+    "updated": "2023-02-13T14:08:58.840Z",
+    "created": "2023-02-13T14:08:58.840Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 44,
+  "fields": {
+    "mal_id": 28701,
+    "anime_title": "Fate Stay Night - Unlimited Blade Works 2",
+    "anime_score": "8.32",
+    "airing_time": "Spring 2015",
+    "studio": "ufotable",
+    "slug": "fate-stay-night-unlimited-blade-works-2",
+    "updated": "2023-02-13T14:09:11.919Z",
+    "created": "2023-02-13T14:09:11.919Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 45,
+  "fields": {
+    "mal_id": 25537,
+    "anime_title": "Fate Stay Night - Heaven's Feel 1 Pressage Flower",
+    "anime_score": "8.20",
+    "airing_time": "Fall 2017",
+    "studio": "ufotable",
+    "slug": "fate-stay-night-heavens-feel-1-pressage-flower",
+    "updated": "2023-02-13T14:09:27.701Z",
+    "created": "2023-02-13T14:09:27.701Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 46,
+  "fields": {
+    "mal_id": 33049,
+    "anime_title": "Fate Stay Night - Heaven's Feel 2 Lost Butterfly",
+    "anime_score": "8.54",
+    "airing_time": "Winter 2019",
+    "studio": "ufotable",
+    "slug": "fate-stay-night-heavens-feel-2-lost-butterfly",
+    "updated": "2023-02-13T14:09:40.757Z",
+    "created": "2023-02-13T14:09:40.757Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 47,
+  "fields": {
+    "mal_id": 33050,
+    "anime_title": "Fate Stay Night - Heaven's Feel 3 Spring Song",
+    "anime_score": "8.72",
+    "airing_time": "Summer 2020",
+    "studio": "ufotable",
+    "slug": "fate-stay-night-heavens-feel-3-spring-song",
+    "updated": "2023-02-13T14:09:56.241Z",
+    "created": "2023-02-13T14:09:56.241Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 48,
+  "fields": {
+    "mal_id": 10087,
+    "anime_title": "Fate Zero 1",
+    "anime_score": "8.30",
+    "airing_time": "Fall 2011",
+    "studio": "ufotable",
+    "slug": "fate-zero-1",
+    "updated": "2023-02-13T14:10:08.673Z",
+    "created": "2023-02-13T14:10:08.673Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 49,
+  "fields": {
+    "mal_id": 11741,
+    "anime_title": "Fate Zero 2",
+    "anime_score": "8.57",
+    "airing_time": "Spring 2012",
+    "studio": "ufotable",
+    "slug": "fate-zero-2",
+    "updated": "2023-02-13T14:10:21.588Z",
+    "created": "2023-02-13T14:10:21.588Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 50,
+  "fields": {
+    "mal_id": 48760,
+    "anime_title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu",
+    "anime_score": "7.23",
+    "airing_time": "Spring 2022",
+    "studio": "Studio Kai, HORNETS",
+    "slug": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu",
+    "updated": "2023-02-13T14:10:33.780Z",
+    "created": "2023-02-13T14:10:33.780Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 51,
+  "fields": {
+    "mal_id": 2775,
+    "anime_title": "Genocyber",
+    "anime_score": "5.81",
+    "airing_time": "Winter 1994",
+    "studio": "Artmic",
+    "slug": "genocyber",
+    "updated": "2023-02-13T14:10:47.672Z",
+    "created": "2023-02-13T14:10:47.672Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 52,
+  "fields": {
+    "mal_id": 43,
+    "anime_title": "Koukaku Kidoutai",
+    "anime_score": "8.28",
+    "airing_time": "Fall 1995",
+    "studio": "Production I.G",
+    "slug": "koukaku-kidoutai",
+    "updated": "2023-02-13T14:25:48.555Z",
+    "created": "2023-02-13T14:25:48.555Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 53,
+  "fields": {
+    "mal_id": 468,
+    "anime_title": "Koukaku Kidoutai 2 - Innocence",
+    "anime_score": "7.80",
+    "airing_time": "Winter 2004",
+    "studio": "Production I.G",
+    "slug": "koukaku-kidoutai-2-innocence",
+    "updated": "2023-02-13T14:26:06.960Z",
+    "created": "2023-02-13T14:26:06.960Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 54,
+  "fields": {
+    "mal_id": 37349,
+    "anime_title": "Goblin Slayer",
+    "anime_score": "7.42",
+    "airing_time": "Fall 2018",
+    "studio": "White Fox",
+    "slug": "goblin-slayer",
+    "updated": "2023-02-13T14:26:22.486Z",
+    "created": "2023-02-13T14:26:22.486Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 55,
+  "fields": {
+    "mal_id": 39576,
+    "anime_title": "Goblin Slayer - Goblin's Crown",
+    "anime_score": "7.25",
+    "airing_time": "Winter 2020",
+    "studio": "White Fox",
+    "slug": "goblin-slayer-goblins-crown",
+    "updated": "2023-02-13T14:26:40.890Z",
+    "created": "2023-02-13T14:26:40.890Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 56,
+  "fields": {
+    "mal_id": 268,
+    "anime_title": "Golden Boy",
+    "anime_score": "8.02",
+    "airing_time": "Fall 1996",
+    "studio": "APPP",
+    "slug": "golden-boy",
+    "updated": "2023-02-13T14:26:59.502Z",
+    "created": "2023-02-13T14:26:59.502Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 57,
+  "fields": {
+    "mal_id": 38101,
+    "anime_title": "Gotoubun no Hanayome (Season 1)",
+    "anime_score": "7.68",
+    "airing_time": "Winter 2019",
+    "studio": "Tezuka Productions",
+    "slug": "gotoubun-no-hanayome-season-1",
+    "updated": "2023-02-13T14:29:28.853Z",
+    "created": "2023-02-13T14:29:28.853Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 58,
+  "fields": {
+    "mal_id": 39783,
+    "anime_title": "Gotoubun no Hanayome (Season 2)",
+    "anime_score": "8.12",
+    "airing_time": "Winter 2021",
+    "studio": "Bilbury Animation Studios",
+    "slug": "gotoubun-no-hanayome-season-2",
+    "updated": "2023-02-13T14:29:43.044Z",
+    "created": "2023-02-13T14:29:43.044Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 59,
+  "fields": {
+    "mal_id": 10793,
+    "anime_title": "Guilty Crown",
+    "anime_score": "7.44",
+    "airing_time": "Fall 2011",
+    "studio": "Production I.G",
+    "slug": "guilty-crown",
+    "updated": "2023-02-13T14:30:06.880Z",
+    "created": "2023-02-13T14:30:06.880Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 60,
+  "fields": {
+    "mal_id": 41911,
+    "anime_title": "Hanyou no Yashahime - Sengoku Otogizoushi",
+    "anime_score": "6.72",
+    "airing_time": "Fall 2020",
+    "studio": "Sunrise",
+    "slug": "hanyou-no-yashahime-sengoku-otogizoushi",
+    "updated": "2023-02-13T14:31:06.542Z",
+    "created": "2023-02-13T14:31:06.542Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 61,
+  "fields": {
+    "mal_id": 48505,
+    "anime_title": "Hanyou no Yashahime - Sengoku Otogizoushi Ni Shou",
+    "anime_score": "7.09",
+    "airing_time": "Fall 2021",
+    "studio": "Sunrise",
+    "slug": "hanyou-no-yashahime-sengoku-otogizoushi-ni-shou",
+    "updated": "2023-02-13T14:31:17.608Z",
+    "created": "2023-02-13T14:31:17.608Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 62,
+  "fields": {
+    "mal_id": 15809,
+    "anime_title": "Hataraku Maou-sama",
+    "anime_score": "7.78",
+    "airing_time": "Spring 2013",
+    "studio": "White Fox",
+    "slug": "hataraku-maou-sama",
+    "updated": "2023-02-13T14:31:28.443Z",
+    "created": "2023-02-13T14:31:28.443Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 63,
+  "fields": {
+    "mal_id": 48413,
+    "anime_title": "Hataraku Maou-sama 2",
+    "anime_score": "7.78",
+    "airing_time": "Summer 2022",
+    "studio": "3Hz",
+    "slug": "hataraku-maou-sama-2",
+    "updated": "2023-02-13T14:31:39.716Z",
+    "created": "2023-02-13T14:31:39.716Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 64,
+  "fields": {
+    "mal_id": 270,
+    "anime_title": "Hellsing",
+    "anime_score": "7.49",
+    "airing_time": "Fall 2001",
+    "studio": "Gonzo",
+    "slug": "hellsing",
+    "updated": "2023-02-13T14:31:51.212Z",
+    "created": "2023-02-13T14:31:51.212Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 65,
+  "fields": {
+    "mal_id": 11077,
+    "anime_title": "Hellsing The Dawn",
+    "anime_score": "7.15",
+    "airing_time": "Summer 2011",
+    "studio": "Graphinica",
+    "slug": "hellsing-the-dawn",
+    "updated": "2023-02-13T14:32:05.686Z",
+    "created": "2023-02-13T14:32:05.686Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 66,
+  "fields": {
+    "mal_id": 777,
+    "anime_title": "Hellsing Ultimate",
+    "anime_score": "8.36",
+    "airing_time": "Winter 2006",
+    "studio": "Madhouse, Satelight, Graphinica",
+    "slug": "hellsing-ultimate",
+    "updated": "2023-02-13T14:32:17.575Z",
+    "created": "2023-02-13T14:32:17.575Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 67,
+  "fields": {
+    "mal_id": 11617,
+    "anime_title": "High School DxD 1",
+    "anime_score": "7.35",
+    "airing_time": "Winter 2012",
+    "studio": "TNK",
+    "slug": "high-school-dxd-1",
+    "updated": "2023-02-13T14:32:29.807Z",
+    "created": "2023-02-13T14:32:29.807Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 68,
+  "fields": {
+    "mal_id": 15451,
+    "anime_title": "High School DxD 2 New",
+    "anime_score": "7.49",
+    "airing_time": "Summer 2013",
+    "studio": "TNK",
+    "slug": "high-school-dxd-2-new",
+    "updated": "2023-02-13T14:32:41.171Z",
+    "created": "2023-02-13T14:32:41.171Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 69,
+  "fields": {
+    "mal_id": 24703,
+    "anime_title": "High School DxD 3 Born",
+    "anime_score": "7.43",
+    "airing_time": "Spring 2015",
+    "studio": "TNK",
+    "slug": "high-school-dxd-3-born",
+    "updated": "2023-02-13T14:32:54.557Z",
+    "created": "2023-02-13T14:32:54.557Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 70,
+  "fields": {
+    "mal_id": 34281,
+    "anime_title": "High School DxD 4 Hero",
+    "anime_score": "7.26",
+    "airing_time": "Spring 2018",
+    "studio": "PASSIONE",
+    "slug": "high-school-dxd-4-hero",
+    "updated": "2023-02-13T14:33:10.111Z",
+    "created": "2023-02-13T14:33:10.111Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 71,
+  "fields": {
+    "mal_id": 8074,
+    "anime_title": "Highschool Of The Dead",
+    "anime_score": "7.08",
+    "airing_time": "Summer 2010",
+    "studio": "Madhouse",
+    "slug": "highschool-of-the-dead",
+    "updated": "2023-02-14T12:07:07.338Z",
+    "created": "2023-02-14T12:07:07.338Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 72,
+  "fields": {
+    "mal_id": 934,
+    "anime_title": "Higurashi no Naku Koro ni",
+    "anime_score": "7.90",
+    "airing_time": "Spring 2006",
+    "studio": "Studio Deen",
+    "slug": "higurashi-no-naku-koro-ni",
+    "updated": "2023-02-14T12:08:30.083Z",
+    "created": "2023-02-14T12:08:30.083Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 73,
+  "fields": {
+    "mal_id": 1889,
+    "anime_title": "Higurashi no Naku Koro ni Kai",
+    "anime_score": "8.37",
+    "airing_time": "Winter 2007",
+    "studio": "Geneon Universal Entertainment",
+    "slug": "higurashi-no-naku-koro-ni-kai",
+    "updated": "2023-02-14T12:08:45.557Z",
+    "created": "2023-02-14T12:08:45.557Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 74,
+  "fields": {
+    "mal_id": 3652,
+    "anime_title": "Higurashi no Naku Koro ni Rei",
+    "anime_score": "7.41",
+    "airing_time": "Winter 2009",
+    "studio": "Studio Deen",
+    "slug": "higurashi-no-naku-koro-ni-rei",
+    "updated": "2023-02-14T12:08:59.895Z",
+    "created": "2023-02-14T12:08:59.895Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 75,
+  "fields": {
+    "mal_id": 41006,
+    "anime_title": "Higurashi no Naku Koro ni Gou",
+    "anime_score": "7.20",
+    "airing_time": "Fall 2020",
+    "studio": "PASSIONE",
+    "slug": "higurashi-no-naku-koro-ni-gou",
+    "updated": "2023-02-14T12:09:15.211Z",
+    "created": "2023-02-14T12:09:15.211Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 76,
+  "fields": {
+    "mal_id": 48488,
+    "anime_title": "Higurashi no Naku Koro ni Sotsu",
+    "anime_score": "6.77",
+    "airing_time": "Summer 2021",
+    "studio": "PASSIONE",
+    "slug": "higurashi-no-naku-koro-ni-sotsu",
+    "updated": "2023-02-14T12:09:31.320Z",
+    "created": "2023-02-14T12:09:31.320Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 77,
+  "fields": {
+    "mal_id": 8277,
+    "anime_title": "Hyakka Ryouran - Samurai Girls",
+    "anime_score": "6.78",
+    "airing_time": "Fall 2010",
+    "studio": "Arms",
+    "slug": "hyakka-ryouran-samurai-girls",
+    "updated": "2023-02-14T12:09:59.051Z",
+    "created": "2023-02-14T12:09:59.051Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 78,
+  "fields": {
+    "mal_id": 15377,
+    "anime_title": "Hyakka Ryouran - Samurai Bride",
+    "anime_score": "6.73",
+    "airing_time": "Spring 2013",
+    "studio": "Arms",
+    "slug": "hyakka-ryouran-samurai-bride",
+    "updated": "2023-02-14T12:10:30.233Z",
+    "created": "2023-02-14T12:10:30.233Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 79,
+  "fields": {
+    "mal_id": 9041,
+    "anime_title": "Infinite Stratos 1",
+    "anime_score": "6.65",
+    "airing_time": "Winter 2011",
+    "studio": "8bit",
+    "slug": "infinite-stratos-1",
+    "updated": "2023-02-14T12:10:43.235Z",
+    "created": "2023-02-14T12:10:43.235Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 80,
+  "fields": {
+    "mal_id": 10794,
+    "anime_title": "Infinite Stratos 1 Encore - Koi ni Kogareru Rokujuusou",
+    "anime_score": "6.86",
+    "airing_time": "Fall 2011",
+    "studio": "8bit",
+    "slug": "infinite-stratos-1-encore-koi-ni-kogareru-rokujuusou",
+    "updated": "2023-02-14T12:15:44.589Z",
+    "created": "2023-02-14T12:15:44.589Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 81,
+  "fields": {
+    "mal_id": 18247,
+    "anime_title": "Infinite Stratos 2",
+    "anime_score": "6.48",
+    "airing_time": "Fall 2013",
+    "studio": "8bit",
+    "slug": "infinite-stratos-2",
+    "updated": "2023-02-14T12:16:04.550Z",
+    "created": "2023-02-14T12:16:04.550Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 82,
+  "fields": {
+    "mal_id": 20045,
+    "anime_title": "Infinite Stratos 2 - Hitonatsu no Omoide",
+    "anime_score": "6.88",
+    "airing_time": "Fall 2013",
+    "studio": "8bit",
+    "slug": "infinite-stratos-2-hitonatsu-no-omoide",
+    "updated": "2023-02-14T12:16:20.794Z",
+    "created": "2023-02-14T12:16:20.794Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 83,
+  "fields": {
+    "mal_id": 21653,
+    "anime_title": "Infinite Stratos 2 - World Purge-hen",
+    "anime_score": "6.88",
+    "airing_time": "Fall 2014",
+    "studio": "8bit",
+    "slug": "infinite-stratos-2-world-purge-hen",
+    "updated": "2023-02-14T12:16:43.079Z",
+    "created": "2023-02-14T12:16:43.079Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 84,
+  "fields": {
+    "mal_id": 33242,
+    "anime_title": "Infinite Stratos 2 - Infinite Wedding",
+    "anime_score": "6.39",
+    "airing_time": "Spring 2016",
+    "studio": "8bit",
+    "slug": "infinite-stratos-2-infinite-wedding",
+    "updated": "2023-02-14T12:18:18.226Z",
+    "created": "2023-02-14T12:18:18.226Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 85,
+  "fields": {
+    "mal_id": 249,
+    "anime_title": "InuYasha",
+    "anime_score": "7.85",
+    "airing_time": "Fall 2000",
+    "studio": "Sunrise",
+    "slug": "inuyasha",
+    "updated": "2023-02-14T12:18:34.263Z",
+    "created": "2023-02-14T12:18:34.263Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 86,
+  "fields": {
+    "mal_id": 452,
+    "anime_title": "InuYasha Movie 1 - Toki wo Koeru Omoi",
+    "anime_score": "7.56",
+    "airing_time": "Fall 2001",
+    "studio": "Sunrise",
+    "slug": "inuyasha-movie-1-toki-wo-koeru-omoi",
+    "updated": "2023-02-14T12:20:26.350Z",
+    "created": "2023-02-14T12:20:26.350Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 87,
+  "fields": {
+    "mal_id": 450,
+    "anime_title": "InuYasha Movie 2 - Kagami no Naka no Mugenjo",
+    "anime_score": "7.67",
+    "airing_time": "Fall 2002",
+    "studio": "Sunrise",
+    "slug": "inuyasha-movie-2-kagami-no-naka-no-mugenjo",
+    "updated": "2023-02-14T12:20:41.197Z",
+    "created": "2023-02-14T12:20:41.197Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 88,
+  "fields": {
+    "mal_id": 451,
+    "anime_title": "InuYasha Movie 3 - Tenka Hadou no Ken",
+    "anime_score": "7.80",
+    "airing_time": "Fall 2003",
+    "studio": "Sunrise",
+    "slug": "inuyasha-movie-3-tenka-hadou-no-ken",
+    "updated": "2023-02-14T12:20:58.302Z",
+    "created": "2023-02-14T12:20:58.302Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 89,
+  "fields": {
+    "mal_id": 449,
+    "anime_title": "InuYasha Movie 4 - Guren no Houraijima",
+    "anime_score": "7.55",
+    "airing_time": "Fall 2004",
+    "studio": "Sunrise",
+    "slug": "inuyasha-movie-4-guren-no-houraijima",
+    "updated": "2023-02-14T12:21:11.252Z",
+    "created": "2023-02-14T12:21:11.252Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 90,
+  "fields": {
+    "mal_id": 6811,
+    "anime_title": "InuYasha The Final Act",
+    "anime_score": "8.20",
+    "airing_time": "Fall 2009",
+    "studio": "Sunrise",
+    "slug": "inuyasha-the-final-act",
+    "updated": "2023-02-14T12:21:23.585Z",
+    "created": "2023-02-14T12:21:23.585Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 91,
+  "fields": {
+    "mal_id": 44524,
+    "anime_title": "Isekai Meikyuu de Harem wo",
+    "anime_score": "6.61",
+    "airing_time": "Summer 2022",
+    "studio": "Passione",
+    "slug": "isekai-meikyuu-de-harem-wo",
+    "updated": "2023-02-14T12:21:40.082Z",
+    "created": "2023-02-14T12:21:40.082Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 92,
+  "fields": {
+    "mal_id": 635,
+    "anime_title": "Juubee-chan 1: Lovely Gantai no Himitsu",
+    "anime_score": "6.67",
+    "airing_time": "Spring 1999",
+    "studio": "Madhouse",
+    "slug": "juubee-chan-1-lovely-gantai-no-himitsu",
+    "updated": "2023-02-14T12:22:16.172Z",
+    "created": "2023-02-14T12:22:16.172Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 93,
+  "fields": {
+    "mal_id": 636,
+    "anime_title": "Juubee-chan 2: Siberia Yagyuu no Gyakushuu",
+    "anime_score": "6.85",
+    "airing_time": "Winter 2004",
+    "studio": "Madhouse",
+    "slug": "juubee-chan-2-siberia-yagyuu-no-gyakushuu",
+    "updated": "2023-02-14T12:22:31.481Z",
+    "created": "2023-02-14T12:22:31.481Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 94,
+  "fields": {
+    "mal_id": 40750,
+    "anime_title": "Kaifuku Jutsushi no Yarinaoshi",
+    "anime_score": "6.33",
+    "airing_time": "Winter 2021",
+    "studio": "TNK",
+    "slug": "kaifuku-jutsushi-no-yarinaoshi",
+    "updated": "2023-02-14T12:22:47.236Z",
+    "created": "2023-02-14T12:22:47.236Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 95,
+  "fields": {
+    "mal_id": 40839,
+    "anime_title": "Kanojo Okarishimasu",
+    "anime_score": "7.23",
+    "airing_time": "Summer 2020",
+    "studio": "TMS Entertainment",
+    "slug": "kanojo-okarishimasu",
+    "updated": "2023-02-14T12:23:06.297Z",
+    "created": "2023-02-14T12:23:06.297Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 96,
+  "fields": {
+    "mal_id": 42963,
+    "anime_title": "Kanojo Okarishimasu 2",
+    "anime_score": "6.88",
+    "airing_time": "Summer 2022",
+    "studio": "TMS Entertainment",
+    "slug": "kanojo-okarishimasu-2",
+    "updated": "2023-02-14T12:23:24.036Z",
+    "created": "2023-02-14T12:23:24.036Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 97,
+  "fields": {
+    "mal_id": 45613,
+    "anime_title": "Kawaii dake ja Nai Shikimori-san",
+    "anime_score": "6.69",
+    "airing_time": "Spring 2022",
+    "studio": "Doga Kobo",
+    "slug": "kawaii-dake-ja-nai-shikimori-san",
+    "updated": "2023-02-14T12:23:37.290Z",
+    "created": "2023-02-14T12:23:37.290Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 98,
+  "fields": {
+    "mal_id": 1606,
+    "anime_title": "Kekkaishi",
+    "anime_score": "7.60",
+    "airing_time": "Fall 2006",
+    "studio": "Sunrise",
+    "slug": "kekkaishi",
+    "updated": "2023-02-14T12:23:57.859Z",
+    "created": "2023-02-14T12:23:57.859Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 99,
+  "fields": {
+    "mal_id": 40908,
+    "anime_title": "Kemono Jihen",
+    "anime_score": "7.42",
+    "airing_time": "Winter 2021",
+    "studio": "Ajia-Do",
+    "slug": "kemono-jihen",
+    "updated": "2023-02-14T12:24:13.335Z",
+    "created": "2023-02-14T12:24:13.335Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 100,
+  "fields": {
+    "mal_id": 34964,
+    "anime_title": "Killing Bites",
+    "anime_score": "6.58",
+    "airing_time": "Winter 2018",
+    "studio": "LIDENFILMS",
+    "slug": "killing-bites",
+    "updated": "2023-02-14T12:24:29.400Z",
+    "created": "2023-02-14T12:24:29.400Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 101,
+  "fields": {
+    "mal_id": 38000,
+    "anime_title": "Kimetsu no Yaiba 1",
+    "anime_score": "8.55",
+    "airing_time": "Spring 2019",
+    "studio": "Ufotable",
+    "slug": "kimetsu-no-yaiba-1",
+    "updated": "2023-02-14T12:25:23.999Z",
+    "created": "2023-02-14T12:25:23.999Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 102,
+  "fields": {
+    "mal_id": 49926,
+    "anime_title": "Kimetsu no Yaiba 1 - Mugen Ressha hen",
+    "anime_score": "8.39",
+    "airing_time": "Fall 2021",
+    "studio": "Ufotable",
+    "slug": "kimetsu-no-yaiba-1-mugen-ressha-hen",
+    "updated": "2023-02-14T12:25:40.394Z",
+    "created": "2023-02-14T12:25:40.394Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 103,
+  "fields": {
+    "mal_id": 47778,
+    "anime_title": "Kimetsu no Yaiba 2 - Yuukaku hen",
+    "anime_score": "8.87",
+    "airing_time": "Winter 2022",
+    "studio": "Ufotable",
+    "slug": "kimetsu-no-yaiba-2-yuukaku-hen",
+    "updated": "2023-02-14T12:25:55.828Z",
+    "created": "2023-02-14T12:25:55.828Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 104,
+  "fields": {
+    "mal_id": 51213,
+    "anime_title": "Kinsou no Vermeil to Mahou Sekai no Tsukisusumu",
+    "anime_score": "7.33",
+    "airing_time": "Summer 2022",
+    "studio": "Staple Entertainment",
+    "slug": "kinsou-no-vermeil-to-mahou-sekai-no-tsukisusumu",
+    "updated": "2023-02-14T12:26:10.322Z",
+    "created": "2023-02-14T12:26:10.322Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 105,
+  "fields": {
+    "mal_id": 22535,
+    "anime_title": "Kiseijuu Sei no Kakuritsu",
+    "anime_score": "8.35",
+    "airing_time": "Fall 2014",
+    "studio": "Madhouse",
+    "slug": "kiseijuu-sei-no-kakuritsu",
+    "updated": "2023-02-14T12:26:24.798Z",
+    "created": "2023-02-14T12:26:24.798Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 106,
+  "fields": {
+    "mal_id": 30381,
+    "anime_title": "Kono Subarashii Sekai ni Syukufuku Wo 1",
+    "anime_score": "8.12",
+    "airing_time": "Winter 2016",
+    "studio": "Studio Deen",
+    "slug": "kono-subarashii-sekai-ni-syukufuku-wo-1",
+    "updated": "2023-02-14T12:26:41.995Z",
+    "created": "2023-02-14T12:26:41.995Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 107,
+  "fields": {
+    "mal_id": 32937,
+    "anime_title": "Kono Subarashii Sekai ni Syukufuku Wo 2",
+    "anime_score": "8.28",
+    "airing_time": "Winter 2017",
+    "studio": "Studio Deen",
+    "slug": "kono-subarashii-sekai-ni-syukufuku-wo-2",
+    "updated": "2023-02-14T12:26:56.506Z",
+    "created": "2023-02-14T12:26:56.506Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 108,
+  "fields": {
+    "mal_id": 38040,
+    "anime_title": "Konosuba Movie - Kurenai Densetsu",
+    "anime_score": "8.47",
+    "airing_time": "Summer 2019",
+    "studio": "J.C.Staff",
+    "slug": "konosuba-movie-kurenai-densetsu",
+    "updated": "2023-02-14T12:27:10.810Z",
+    "created": "2023-02-14T12:27:10.810Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 109,
+  "fields": {
+    "mal_id": 8841,
+    "anime_title": "Kore wa Zombie Desu ka 1",
+    "anime_score": "7.37",
+    "airing_time": "Winter 2011",
+    "studio": "Studio Deen",
+    "slug": "kore-wa-zombie-desu-ka-1",
+    "updated": "2023-02-14T12:27:31.313Z",
+    "created": "2023-02-14T12:27:31.313Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 110,
+  "fields": {
+    "mal_id": 10790,
+    "anime_title": "Kore wa Zombie Desu ka 2",
+    "anime_score": "7.51",
+    "airing_time": "Spring 2012",
+    "studio": "Studio Deen",
+    "slug": "kore-wa-zombie-desu-ka-2",
+    "updated": "2023-02-14T12:27:45.142Z",
+    "created": "2023-02-14T12:27:45.142Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 111,
+  "fields": {
+    "mal_id": 10620,
+    "anime_title": "Mirai Nikki",
+    "anime_score": "7.45",
+    "airing_time": "Fall 2011",
+    "studio": "asread",
+    "slug": "mirai-nikki",
+    "updated": "2023-02-14T12:28:00.091Z",
+    "created": "2023-02-14T12:28:00.091Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 112,
+  "fields": {
+    "mal_id": 14833,
+    "anime_title": "Maoyuu Maou Yuusha",
+    "anime_score": "7.26",
+    "airing_time": "Winter 2013",
+    "studio": "Arms",
+    "slug": "maoyuu-maou-yuusha",
+    "updated": "2023-02-14T12:28:13.971Z",
+    "created": "2023-02-14T12:28:13.971Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 113,
+  "fields": {
+    "mal_id": 5081,
+    "anime_title": "Bakemonogatari",
+    "anime_score": "8.34",
+    "airing_time": "Summer 2009",
+    "studio": "SHAFT",
+    "slug": "bakemonogatari",
+    "updated": "2023-02-14T12:28:27.733Z",
+    "created": "2023-02-14T12:28:27.733Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 114,
+  "fields": {
+    "mal_id": 9260,
+    "anime_title": "Kizumonogatari 1 - Tekketsu hen",
+    "anime_score": "8.38",
+    "airing_time": "Winter 2016",
+    "studio": "SHAFT",
+    "slug": "kizumonogatari-1-tekketsu-hen",
+    "updated": "2023-02-14T12:28:41.510Z",
+    "created": "2023-02-14T12:28:41.510Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 115,
+  "fields": {
+    "mal_id": 31757,
+    "anime_title": "Kizumonogatari 2 - Nekketsu hen",
+    "anime_score": "8.59",
+    "airing_time": "Summer 2016",
+    "studio": "SHAFT",
+    "slug": "kizumonogatari-2-nekketsu-hen",
+    "updated": "2023-02-14T12:28:55.523Z",
+    "created": "2023-02-14T12:28:55.523Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 116,
+  "fields": {
+    "mal_id": 31758,
+    "anime_title": "Kizumonogatari 3 - Reiketsu hen",
+    "anime_score": "8.80",
+    "airing_time": "Winter 2017",
+    "studio": "SHAFT",
+    "slug": "kizumonogatari-3-reiketsu-hen",
+    "updated": "2023-02-14T12:29:09.067Z",
+    "created": "2023-02-14T12:29:09.067Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 117,
+  "fields": {
+    "mal_id": 32268,
+    "anime_title": "Koyomimonogatari",
+    "anime_score": "7.64",
+    "airing_time": "Winter 2016",
+    "studio": "SHAFT",
+    "slug": "koyomimonogatari",
+    "updated": "2023-02-14T12:29:27.884Z",
+    "created": "2023-02-14T12:29:27.884Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 118,
+  "fields": {
+    "mal_id": 17074,
+    "anime_title": "Monogatari Series 2nd Season",
+    "anime_score": "8.78",
+    "airing_time": "Summer 2013",
+    "studio": "SHAFT",
+    "slug": "monogatari-series-2nd-season",
+    "updated": "2023-02-14T12:29:41.822Z",
+    "created": "2023-02-14T12:29:41.822Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 119,
+  "fields": {
+    "mal_id": 15689,
+    "anime_title": "Nekomonogatari - Kuro",
+    "anime_score": "7.49",
+    "airing_time": "Fall 2012",
+    "studio": "SHAFT",
+    "slug": "nekomonogatari-kuro",
+    "updated": "2023-02-14T12:30:16.431Z",
+    "created": "2023-02-14T12:30:16.431Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 120,
+  "fields": {
+    "mal_id": 11597,
+    "anime_title": "Nisemonogatari",
+    "anime_score": "8.15",
+    "airing_time": "Winter 2012",
+    "studio": "SHAFT",
+    "slug": "nisemonogatari",
+    "updated": "2023-02-14T12:30:31.323Z",
+    "created": "2023-02-14T12:30:31.323Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 121,
+  "fields": {
+    "mal_id": 31181,
+    "anime_title": "Owarimonogatari",
+    "anime_score": "8.46",
+    "airing_time": "Fall 2015",
+    "studio": "SHAFT",
+    "slug": "owarimonogatari",
+    "updated": "2023-02-14T12:30:45.689Z",
+    "created": "2023-02-14T12:30:45.689Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 122,
+  "fields": {
+    "mal_id": 35247,
+    "anime_title": "Owarimonogatari 2",
+    "anime_score": "8.90",
+    "airing_time": "Summer 2017",
+    "studio": "SHAFT",
+    "slug": "owarimonogatari-2",
+    "updated": "2023-02-14T12:30:59.110Z",
+    "created": "2023-02-14T12:30:59.110Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 123,
+  "fields": {
+    "mal_id": 28025,
+    "anime_title": "Tsukimonogatari",
+    "anime_score": "8.11",
+    "airing_time": "Fall 2014",
+    "studio": "SHAFT",
+    "slug": "tsukimonogatari",
+    "updated": "2023-02-14T12:31:13.845Z",
+    "created": "2023-02-14T12:31:13.845Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 124,
+  "fields": {
+    "mal_id": 40708,
+    "anime_title": "Monster Musume no Oisha-san",
+    "anime_score": "6.25",
+    "airing_time": "Summer 2020",
+    "studio": "Arvo Animation",
+    "slug": "monster-musume-no-oisha-san",
+    "updated": "2023-02-14T12:31:34.146Z",
+    "created": "2023-02-14T12:31:34.146Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 125,
+  "fields": {
+    "mal_id": 617,
+    "anime_title": "Juubee Ninpuuchou",
+    "anime_score": "7.61",
+    "airing_time": "Spring 1993",
+    "studio": "Madhouse",
+    "slug": "juubee-ninpuuchou",
+    "updated": "2023-02-14T12:31:52.739Z",
+    "created": "2023-02-14T12:31:52.739Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 126,
+  "fields": {
+    "mal_id": 618,
+    "anime_title": "Juubee Ninpuuchou - Ryuuhougyoku hen",
+    "anime_score": "6.68",
+    "airing_time": "Spring 2003",
+    "studio": "Madhouse",
+    "slug": "juubee-ninpuuchou-ryuuhougyoku-hen",
+    "updated": "2023-02-14T12:32:10.517Z",
+    "created": "2023-02-14T12:32:10.517Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 127,
+  "fields": {
+    "mal_id": 18897,
+    "anime_title": "Nisekoi 1",
+    "anime_score": "7.59",
+    "airing_time": "Winter 2014",
+    "studio": "SHAFT",
+    "slug": "nisekoi-1",
+    "updated": "2023-02-14T12:32:28.395Z",
+    "created": "2023-02-14T12:32:28.395Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 128,
+  "fields": {
+    "mal_id": 27787,
+    "anime_title": "Nisekoi 2",
+    "anime_score": "7.36",
+    "airing_time": "Spring 2015",
+    "studio": "SHAFT",
+    "slug": "nisekoi-2",
+    "updated": "2023-02-14T12:32:46.027Z",
+    "created": "2023-02-14T12:32:46.027Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 129,
+  "fields": {
+    "mal_id": 24227,
+    "anime_title": "Nisekoi OVA",
+    "anime_score": "7.37",
+    "airing_time": "Fall 2014",
+    "studio": "SHAFT",
+    "slug": "nisekoi-ova",
+    "updated": "2023-02-14T12:33:18.274Z",
+    "created": "2023-02-14T12:33:18.274Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 130,
+  "fields": {
+    "mal_id": 41345,
+    "anime_title": "Nobless",
+    "anime_score": "6.87",
+    "airing_time": "Fall 2020",
+    "studio": "Production I.G",
+    "slug": "nobless",
+    "updated": "2023-02-14T12:33:30.501Z",
+    "created": "2023-02-14T12:33:30.501Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 131,
+  "fields": {
+    "mal_id": 28819,
+    "anime_title": "Okusama ga Seitokaichou",
+    "anime_score": "6.60",
+    "airing_time": "Summer 2015",
+    "studio": "Seven",
+    "slug": "okusama-ga-seitokaichou",
+    "updated": "2023-02-14T12:33:42.659Z",
+    "created": "2023-02-14T12:33:42.659Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 132,
+  "fields": {
+    "mal_id": 32603,
+    "anime_title": "Okusama ga Seitokaichou +",
+    "anime_score": "6.60",
+    "airing_time": "Fall 2016",
+    "studio": "Seven",
+    "slug": "okusama-ga-seitokaichou",
+    "updated": "2023-02-14T12:33:55.621Z",
+    "created": "2023-02-14T12:33:55.621Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 133,
+  "fields": {
+    "mal_id": 41899,
+    "anime_title": "Ore dake Haireru Kakushi Dungeon",
+    "anime_score": "6.30",
+    "airing_time": "Winter 2021",
+    "studio": "Okuruto Noboru",
+    "slug": "ore-dake-haireru-kakushi-dungeon",
+    "updated": "2023-02-14T12:34:08.241Z",
+    "created": "2023-02-14T12:34:08.241Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 134,
+  "fields": {
+    "mal_id": 29803,
+    "anime_title": "Overlord I",
+    "anime_score": "7.92",
+    "airing_time": "Summer 2015",
+    "studio": "Madhouse",
+    "slug": "overlord-i",
+    "updated": "2023-02-14T12:34:21.762Z",
+    "created": "2023-02-14T12:34:21.762Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 135,
+  "fields": {
+    "mal_id": 35073,
+    "anime_title": "Overlord II",
+    "anime_score": "7.76",
+    "airing_time": "Winter 2018",
+    "studio": "Madhouse",
+    "slug": "overlord-ii",
+    "updated": "2023-02-14T12:34:51.258Z",
+    "created": "2023-02-14T12:34:51.258Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 136,
+  "fields": {
+    "mal_id": 37675,
+    "anime_title": "Overlord III",
+    "anime_score": "7.92",
+    "airing_time": "Summer 2018",
+    "studio": "Madhouse",
+    "slug": "overlord-iii",
+    "updated": "2023-02-14T12:40:29.802Z",
+    "created": "2023-02-14T12:40:29.802Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 137,
+  "fields": {
+    "mal_id": 48895,
+    "anime_title": "Overlord IV",
+    "anime_score": "8.33",
+    "airing_time": "Summer 2022",
+    "studio": "Madhouse",
+    "slug": "overlord-iv",
+    "updated": "2023-02-14T12:40:42.685Z",
+    "created": "2023-02-14T12:40:42.685Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 138,
+  "fields": {
+    "mal_id": 30240,
+    "anime_title": "Prison School",
+    "anime_score": "7.62",
+    "airing_time": "Summer 2015",
+    "studio": "J.C.Staff",
+    "slug": "prison-school",
+    "updated": "2023-02-14T12:40:53.842Z",
+    "created": "2023-02-14T12:40:53.842Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 139,
+  "fields": {
+    "mal_id": 2993,
+    "anime_title": "Rosario to Vampire 1",
+    "anime_score": "6.77",
+    "airing_time": "Winter 2008",
+    "studio": "Gonzo",
+    "slug": "rosario-to-vampire-1",
+    "updated": "2023-02-14T12:41:05.945Z",
+    "created": "2023-02-14T12:41:05.945Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 140,
+  "fields": {
+    "mal_id": 4214,
+    "anime_title": "Rosario to Vampire 2",
+    "anime_score": "6.91",
+    "airing_time": "Fall 2008",
+    "studio": "Gonzo",
+    "slug": "rosario-to-vampire-2",
+    "updated": "2023-02-14T12:41:18.355Z",
+    "created": "2023-02-14T12:41:18.355Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 143,
+  "fields": {
+    "mal_id": 23277,
+    "anime_title": "Saenai Heroine no Sodatekata 1",
+    "anime_score": "7.50",
+    "airing_time": "Winter 2015",
+    "studio": "A-1 Pictures",
+    "slug": "saenai-heroine-no-sodatekata-1",
+    "updated": "2023-02-15T15:47:49.731Z",
+    "created": "2023-02-15T15:47:49.731Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 144,
+  "fields": {
+    "mal_id": 30727,
+    "anime_title": "Saenai Heroine no Sodatekata 2",
+    "anime_score": "7.78",
+    "airing_time": "Spring 2017",
+    "studio": "A-1 Pictures",
+    "slug": "saenai-heroine-no-sodatekata-2",
+    "updated": "2023-02-15T15:48:03.481Z",
+    "created": "2023-02-15T15:48:03.481Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 145,
+  "fields": {
+    "mal_id": 30749,
+    "anime_title": "Saijaku Muhai no Bahamut",
+    "anime_score": "6.55",
+    "airing_time": "Winter 2016",
+    "studio": "Lerche",
+    "slug": "saijaku-muhai-no-bahamut",
+    "updated": "2023-02-15T15:48:16.256Z",
+    "created": "2023-02-15T15:48:16.256Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 146,
+  "fields": {
+    "mal_id": 2476,
+    "anime_title": "School Days",
+    "anime_score": "5.55",
+    "airing_time": "Summer 2007",
+    "studio": "TNK",
+    "slug": "school-days",
+    "updated": "2023-02-15T15:48:29.917Z",
+    "created": "2023-02-15T15:48:29.917Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 147,
+  "fields": {
+    "mal_id": 4063,
+    "anime_title": "Sekirei 1",
+    "anime_score": "7.06",
+    "airing_time": "Summer 2008",
+    "studio": "Seven Arcs",
+    "slug": "sekirei-1",
+    "updated": "2023-02-15T15:48:48.385Z",
+    "created": "2023-02-15T15:48:48.385Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 148,
+  "fields": {
+    "mal_id": 5277,
+    "anime_title": "Sekirei 2 - Pure Engagement",
+    "anime_score": "7.30",
+    "airing_time": "Summer 2010",
+    "studio": "Seven Arcs",
+    "slug": "sekirei-2-pure-engagement",
+    "updated": "2023-02-15T15:49:01.520Z",
+    "created": "2023-02-15T15:49:01.520Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 149,
+  "fields": {
+    "mal_id": 29786,
+    "anime_title": "Shimoneta to lu Gainen ga Sonzai Shinai Taikutsu na Sekai",
+    "anime_score": "7.27",
+    "airing_time": "Summer 2015",
+    "studio": "J.C.Staff",
+    "slug": "shimoneta-to-lu-gainen-ga-sonzai-shinai-taikutsu-na-sekai",
+    "updated": "2023-02-15T15:49:25.861Z",
+    "created": "2023-02-15T15:49:25.861Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 150,
+  "fields": {
+    "mal_id": 21843,
+    "anime_title": "Shingeki no Bahamut - Genesis",
+    "anime_score": "7.63",
+    "airing_time": "Fall 2014",
+    "studio": "MAPPA",
+    "slug": "shingeki-no-bahamut-genesis",
+    "updated": "2023-02-15T15:49:39.488Z",
+    "created": "2023-02-15T15:49:39.488Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 151,
+  "fields": {
+    "mal_id": 169,
+    "anime_title": "Shingetsutan Tsukihime",
+    "anime_score": "6.89",
+    "airing_time": "Fall 2003",
+    "studio": "J.C.Staff",
+    "slug": "shingetsutan-tsukihime",
+    "updated": "2023-02-15T15:49:55.411Z",
+    "created": "2023-02-15T15:49:55.411Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 152,
+  "fields": {
+    "mal_id": 23233,
+    "anime_title": "Shinmai Maou no Testament 1",
+    "anime_score": "6.73",
+    "airing_time": "Winter 2015",
+    "studio": "Production IMS",
+    "slug": "shinmai-maou-no-testament-1",
+    "updated": "2023-02-15T15:50:08.104Z",
+    "created": "2023-02-15T15:50:08.104Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 153,
+  "fields": {
+    "mal_id": 29027,
+    "anime_title": "Shinmai Maou no Testament 1 OVA - Toujou Basara no Hard Sweet na Nichijou",
+    "anime_score": "6.93",
+    "airing_time": "Spring 2015",
+    "studio": "Production IMS",
+    "slug": "shinmai-maou-no-testament-1-ova-toujou-basara-no-hard-sweet-na-nichijou",
+    "updated": "2023-02-15T15:50:29.469Z",
+    "created": "2023-02-15T15:50:29.469Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 154,
+  "fields": {
+    "mal_id": 30363,
+    "anime_title": "Shinmai Maou no Testament 2 Burst",
+    "anime_score": "6.83",
+    "airing_time": "Fall 2015",
+    "studio": "Production IMS",
+    "slug": "shinmai-maou-no-testament-2-burst",
+    "updated": "2023-02-15T15:50:41.375Z",
+    "created": "2023-02-15T15:50:41.375Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 155,
+  "fields": {
+    "mal_id": 30365,
+    "anime_title": "Shinmai Maou no Testament 2 Burst - Toujou Basara no Shigoku Heiwa na Nichijou",
+    "anime_score": "6.77",
+    "airing_time": "Winter 2016",
+    "studio": "Production IMS",
+    "slug": "shinmai-maou-no-testament-2-burst-toujou-basara-no-shigoku-heiwa-na-nichijou",
+    "updated": "2023-02-15T15:50:57.882Z",
+    "created": "2023-02-15T15:50:57.882Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 156,
+  "fields": {
+    "mal_id": 36688,
+    "anime_title": "Shinmai Maou no Testament - Departure",
+    "anime_score": "6.92",
+    "airing_time": "Winter 2018",
+    "studio": "Production IMS",
+    "slug": "shinmai-maou-no-testament-departure",
+    "updated": "2023-02-15T15:51:09.625Z",
+    "created": "2023-02-15T15:51:09.625Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 157,
+  "fields": {
+    "mal_id": 41946,
+    "anime_title": "Shuumatsu no Harem",
+    "anime_score": "5.99",
+    "airing_time": "Fall 2021",
+    "studio": "Studio Gokumi, AXsiZ",
+    "slug": "shuumatsu-no-harem",
+    "updated": "2023-02-15T15:51:21.094Z",
+    "created": "2023-02-15T15:51:21.094Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 158,
+  "fields": {
+    "mal_id": 40586,
+    "anime_title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+    "anime_score": "6.97",
+    "airing_time": "Spring 2021",
+    "studio": "Revoroot",
+    "slug": "slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita",
+    "updated": "2023-02-15T15:51:34.861Z",
+    "created": "2023-02-15T15:51:34.861Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 159,
+  "fields": {
+    "mal_id": 9253,
+    "anime_title": "Steins Gate",
+    "anime_score": "9.08",
+    "airing_time": "Spring 2011",
+    "studio": "White Fox",
+    "slug": "steins-gate",
+    "updated": "2023-02-15T15:51:51.842Z",
+    "created": "2023-02-15T15:51:51.842Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 160,
+  "fields": {
+    "mal_id": 11577,
+    "anime_title": "Steins Gate Movie - Load Region of Deja Vu",
+    "anime_score": "8.46",
+    "airing_time": "Fall 2013",
+    "studio": "White Fox",
+    "slug": "steins-gate-movie-load-region-of-deja-vu",
+    "updated": "2023-02-15T15:52:02.056Z",
+    "created": "2023-02-15T15:52:02.056Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 161,
+  "fields": {
+    "mal_id": 30484,
+    "anime_title": "Steins Gate 0",
+    "anime_score": "8.52",
+    "airing_time": "Spring 2018",
+    "studio": "White Fox",
+    "slug": "steins-gate-0",
+    "updated": "2023-02-15T15:52:14.419Z",
+    "created": "2023-02-15T15:52:14.419Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 162,
+  "fields": {
+    "mal_id": 18277,
+    "anime_title": "Strike The Blood 1",
+    "anime_score": "7.07",
+    "airing_time": "Fall 2013",
+    "studio": "SILVER LINK., Connect",
+    "slug": "strike-the-blood-1",
+    "updated": "2023-02-15T15:52:25.645Z",
+    "created": "2023-02-15T15:52:25.645Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 163,
+  "fields": {
+    "mal_id": 30321,
+    "anime_title": "Strike The Blood 1 OVA: Valkyria no Oukoku-hen",
+    "anime_score": "7.25",
+    "airing_time": "Fall 2015",
+    "studio": "Barnum Studio, SILVER LINK., Connect",
+    "slug": "strike-the-blood-1-ova-valkyria-no-oukoku-hen",
+    "updated": "2023-02-15T15:52:40.824Z",
+    "created": "2023-02-15T15:52:40.824Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 164,
+  "fields": {
+    "mal_id": 33286,
+    "anime_title": "Strike The Blood 2",
+    "anime_score": "7.00",
+    "airing_time": "Fall 2016",
+    "studio": "SILVER LINK., Connect",
+    "slug": "strike-the-blood-2",
+    "updated": "2023-02-15T15:52:52.419Z",
+    "created": "2023-02-15T15:52:52.419Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 165,
+  "fields": {
+    "mal_id": 37449,
+    "anime_title": "Strike The Blood 3",
+    "anime_score": "7.02",
+    "airing_time": "Fall 2018",
+    "studio": "Connect",
+    "slug": "strike-the-blood-3",
+    "updated": "2023-02-15T15:53:07.687Z",
+    "created": "2023-02-15T15:53:07.687Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 166,
+  "fields": {
+    "mal_id": 40486,
+    "anime_title": "Strike The Blood 3 OVA: Kieta Seisou-hen",
+    "anime_score": "6.93",
+    "airing_time": "Winter 2020",
+    "studio": "Connect",
+    "slug": "strike-the-blood-3-ova-kieta-seisou-hen",
+    "updated": "2023-02-15T15:53:20.431Z",
+    "created": "2023-02-15T15:53:20.431Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 167,
+  "fields": {
+    "mal_id": 40485,
+    "anime_title": "Strike The Blood 4",
+    "anime_score": "7.00",
+    "airing_time": "Spring 2020",
+    "studio": "Connect",
+    "slug": "strike-the-blood-4",
+    "updated": "2023-02-15T15:53:31.294Z",
+    "created": "2023-02-15T15:53:31.294Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 168,
+  "fields": {
+    "mal_id": 49316,
+    "anime_title": "Strike The Blood 5",
+    "anime_score": "7.25",
+    "airing_time": "Winter 2022",
+    "studio": "Connect",
+    "slug": "strike-the-blood-5",
+    "updated": "2023-02-15T15:53:41.692Z",
+    "created": "2023-02-15T15:53:41.692Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 169,
+  "fields": {
+    "mal_id": 11757,
+    "anime_title": "Sword Art Online 1",
+    "anime_score": "7.20",
+    "airing_time": "Summer 2012",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-1",
+    "updated": "2023-02-15T15:53:56.057Z",
+    "created": "2023-02-15T15:53:56.057Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 170,
+  "fields": {
+    "mal_id": 21881,
+    "anime_title": "Sword Art Online 2",
+    "anime_score": "6.71",
+    "airing_time": "Summer 2014",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-2",
+    "updated": "2023-02-15T15:54:06.221Z",
+    "created": "2023-02-15T15:54:06.221Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 171,
+  "fields": {
+    "mal_id": 36474,
+    "anime_title": "Sword Art Online 3 - Alicization",
+    "anime_score": "7.56",
+    "airing_time": "Fall 2018",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-3-alicization",
+    "updated": "2023-02-15T15:54:16.042Z",
+    "created": "2023-02-15T15:54:16.042Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 172,
+  "fields": {
+    "mal_id": 39597,
+    "anime_title": "Sword Art Online 3 - Alicization War of Underworld I",
+    "anime_score": "7.58",
+    "airing_time": "Fall 2019",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-3-alicization-war-of-underworld-i",
+    "updated": "2023-02-15T15:54:26.613Z",
+    "created": "2023-02-15T15:54:26.613Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 173,
+  "fields": {
+    "mal_id": 40540,
+    "anime_title": "Sword Art Online 3 - Alicization War of Underworld II",
+    "anime_score": "7.46",
+    "airing_time": "Summer 2020",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-3-alicization-war-of-underworld-ii",
+    "updated": "2023-02-15T15:54:43.995Z",
+    "created": "2023-02-15T15:54:43.995Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 174,
+  "fields": {
+    "mal_id": 31765,
+    "anime_title": "Sword Art Online Movie - Ordinal Scale",
+    "anime_score": "7.57",
+    "airing_time": "Winter 2017",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-movie-ordinal-scale",
+    "updated": "2023-02-15T15:54:57.440Z",
+    "created": "2023-02-15T15:54:57.440Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 175,
+  "fields": {
+    "mal_id": 20021,
+    "anime_title": "Sword Art Online Movie - Extra Edition",
+    "anime_score": "6.55",
+    "airing_time": "Fall 2013",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-movie-extra-edition",
+    "updated": "2023-02-15T15:55:09.949Z",
+    "created": "2023-02-15T15:55:09.949Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 176,
+  "fields": {
+    "mal_id": 42916,
+    "anime_title": "Sword Art Online Movie 1 Progressive - Hoshi Naki Yoru no Aria",
+    "anime_score": "7.95",
+    "airing_time": "Fall 2021",
+    "studio": "A-1 Pictures",
+    "slug": "sword-art-online-movie-1-progressive-hoshi-naki-yoru-no-aria",
+    "updated": "2023-02-15T15:55:24.395Z",
+    "created": "2023-02-15T15:55:24.395Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 177,
+  "fields": {
+    "mal_id": 12445,
+    "anime_title": "Tasogare Otome x Amnesia",
+    "anime_score": "7.84",
+    "airing_time": "Spring 2012",
+    "studio": "SILVER LINK.",
+    "slug": "tasogare-otome-x-amnesia",
+    "updated": "2023-02-15T15:55:34.618Z",
+    "created": "2023-02-15T15:55:34.618Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 178,
+  "fields": {
+    "mal_id": 35790,
+    "anime_title": "Tate no Yuusha no Nariagari 1",
+    "anime_score": "8.01",
+    "airing_time": "Winter 2019",
+    "studio": "Kinema Citrus",
+    "slug": "tate-no-yuusha-no-nariagari-1",
+    "updated": "2023-02-15T15:55:51.107Z",
+    "created": "2023-02-15T15:55:51.107Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 179,
+  "fields": {
+    "mal_id": 40365,
+    "anime_title": "Tate no Yuusha no Nariagari 2",
+    "anime_score": "6.55",
+    "airing_time": "Spring 2022",
+    "studio": "Kinema Citrus, DR Movie",
+    "slug": "tate-no-yuusha-no-nariagari-2",
+    "updated": "2023-02-15T15:56:06.029Z",
+    "created": "2023-02-15T15:56:06.029Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 180,
+  "fields": {
+    "mal_id": 38610,
+    "anime_title": "Tejina Senpai",
+    "anime_score": "6.43",
+    "airing_time": "Summer 2019",
+    "studio": "LIDENFILMS",
+    "slug": "tejina-senpai",
+    "updated": "2023-02-15T15:56:17.483Z",
+    "created": "2023-02-15T15:56:17.483Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 181,
+  "fields": {
+    "mal_id": 479,
+    "anime_title": "The Law of Ueki",
+    "anime_score": "7.73",
+    "airing_time": "Spring 2005",
+    "studio": "Studio Deen",
+    "slug": "the-law-of-ueki",
+    "updated": "2023-02-15T15:56:28.592Z",
+    "created": "2023-02-15T15:56:28.592Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 182,
+  "fields": {
+    "mal_id": 1107,
+    "anime_title": "Youjuu Toshi",
+    "anime_score": "6.45",
+    "airing_time": "Spring 1987",
+    "studio": "Madhouse",
+    "slug": "youjuu-toshi",
+    "updated": "2023-02-15T15:57:26.997Z",
+    "created": "2023-02-15T15:57:26.997Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 183,
+  "fields": {
+    "mal_id": 22319,
+    "anime_title": "Tokyo Ghoul 1",
+    "anime_score": "7.79",
+    "airing_time": "Summer 2014",
+    "studio": "Pierrot",
+    "slug": "tokyo-ghoul-1",
+    "updated": "2023-02-15T15:57:39.485Z",
+    "created": "2023-02-15T15:57:39.485Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 184,
+  "fields": {
+    "mal_id": 27899,
+    "anime_title": "Tokyo Ghoul 2",
+    "anime_score": "7.03",
+    "airing_time": "Winter 2015",
+    "studio": "Pierrot",
+    "slug": "tokyo-ghoul-2",
+    "updated": "2023-02-15T15:57:50.493Z",
+    "created": "2023-02-15T15:57:50.493Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 185,
+  "fields": {
+    "mal_id": 36511,
+    "anime_title": "Tokyo Ghoul re",
+    "anime_score": "6.38",
+    "airing_time": "Spring 2018",
+    "studio": "Pierrot",
+    "slug": "tokyo-ghoul-re",
+    "updated": "2023-02-15T15:58:03.563Z",
+    "created": "2023-02-15T15:58:03.563Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 186,
+  "fields": {
+    "mal_id": 25157,
+    "anime_title": "Trinity Seven 1",
+    "anime_score": "7.08",
+    "airing_time": "Fall 2014",
+    "studio": "Seven Arcs Pictures",
+    "slug": "trinity-seven-1",
+    "updated": "2023-02-15T15:58:19.273Z",
+    "created": "2023-02-15T15:58:19.273Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 187,
+  "fields": {
+    "mal_id": 28285,
+    "anime_title": "Trinity Seven 1 OVA - Nanatsu no Taizai to Nana Madoushi",
+    "anime_score": "7.36",
+    "airing_time": "Winter 2015",
+    "studio": "Seven Arcs Pictures",
+    "slug": "trinity-seven-1-ova-nanatsu-no-taizai-to-nana-madoushi",
+    "updated": "2023-02-15T15:58:29.628Z",
+    "created": "2023-02-15T15:58:29.628Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 188,
+  "fields": {
+    "mal_id": 33581,
+    "anime_title": "Trinity Seven Movie 1 - Eternity Library to Alchemic Girl",
+    "anime_score": "7.26",
+    "airing_time": "Winter 2017",
+    "studio": "Seven Arcs Pictures",
+    "slug": "trinity-seven-movie-1-eternity-library-to-alchemic-girl",
+    "updated": "2023-02-15T15:58:40.179Z",
+    "created": "2023-02-15T15:58:40.179Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 189,
+  "fields": {
+    "mal_id": 37986,
+    "anime_title": "Trinity Seven Movie 2 - Tenkuu Toshokan to Shinku no Maou",
+    "anime_score": "7.35",
+    "airing_time": "Winter 2019",
+    "studio": "Seven Arcs Pictures",
+    "slug": "trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou",
+    "updated": "2023-02-15T15:59:00.636Z",
+    "created": "2023-02-15T15:59:00.636Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 190,
+  "fields": {
+    "mal_id": 38573,
+    "anime_title": "Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki Desu ka?",
+    "anime_score": "5.55",
+    "airing_time": "Summer 2019",
+    "studio": "J.C.Staff",
+    "slug": "tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka",
+    "updated": "2023-02-15T15:59:16.618Z",
+    "created": "2023-02-15T15:59:16.618Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 191,
+  "fields": {
+    "mal_id": 39799,
+    "anime_title": "Val x Love",
+    "anime_score": "5.90",
+    "airing_time": "Fall 2019",
+    "studio": "Hoods Entertainment",
+    "slug": "val-x-love",
+    "updated": "2023-02-15T15:59:29.729Z",
+    "created": "2023-02-15T15:59:29.729Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 192,
+  "fields": {
+    "mal_id": 732,
+    "anime_title": "Vampire Hunter D",
+    "anime_score": "7.05",
+    "airing_time": "Fall 1985",
+    "studio": "Production Reed",
+    "slug": "vampire-hunter-d",
+    "updated": "2023-02-15T15:59:41.434Z",
+    "created": "2023-02-15T15:59:41.434Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 193,
+  "fields": {
+    "mal_id": 543,
+    "anime_title": "Vampire Hunter D: Bloodlust",
+    "anime_score": "7.89",
+    "airing_time": "Summer 2000",
+    "studio": "Madhouse",
+    "slug": "vampire-hunter-d-bloodlust",
+    "updated": "2023-02-15T15:59:54.728Z",
+    "created": "2023-02-15T15:59:54.728Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 194,
+  "fields": {
+    "mal_id": 21085,
+    "anime_title": "Witch Craft Works",
+    "anime_score": "7.02",
+    "airing_time": "Winter 2014",
+    "studio": "J.C.Staff",
+    "slug": "witch-craft-works",
+    "updated": "2023-02-15T16:00:09.435Z",
+    "created": "2023-02-15T16:00:09.435Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 195,
+  "fields": {
+    "mal_id": 35507,
+    "anime_title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsue",
+    "anime_score": "7.86",
+    "airing_time": "Summer 2017",
+    "studio": "Lerche",
+    "slug": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsue",
+    "updated": "2023-02-15T16:00:20.065Z",
+    "created": "2023-02-15T16:00:20.065Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 196,
+  "fields": {
+    "mal_id": 51096,
+    "anime_title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsue 2nd Season",
+    "anime_score": "8.03",
+    "airing_time": "Summer 2022",
+    "studio": "Lerche",
+    "slug": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsue-2nd-season",
+    "updated": "2023-02-15T16:00:57.038Z",
+    "created": "2023-02-15T16:00:57.038Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 197,
+  "fields": {
+    "mal_id": 36726,
+    "anime_title": "Yuragi sou no Yuuna-san",
+    "anime_score": "7.02",
+    "airing_time": "Summer 2018",
+    "studio": "Xebec",
+    "slug": "yuragi-sou-no-yuuna-san",
+    "updated": "2023-02-15T16:01:11.383Z",
+    "created": "2023-02-15T16:01:11.383Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 198,
+  "fields": {
+    "mal_id": 16656,
+    "anime_title": "Zettai Junpaku Mahou Shoujo",
+    "anime_score": "5.25",
+    "airing_time": "Summer 2012",
+    "studio": "Barnum Studio, Project No.9",
+    "slug": "zettai-junpaku-mahou-shoujo",
+    "updated": "2023-02-15T16:01:23.274Z",
+    "created": "2023-02-15T16:01:23.274Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 199,
+  "fields": {
+    "mal_id": 48649,
+    "anime_title": "Fuuto Tantei",
+    "anime_score": "7.37",
+    "airing_time": "Summer 2022",
+    "studio": "Studio Kai",
+    "slug": "fuuto-tantei",
+    "updated": "2023-02-15T16:01:34.944Z",
+    "created": "2023-02-15T16:01:34.944Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 200,
+  "fields": {
+    "mal_id": 40938,
+    "anime_title": "Hige wo Soru Soshite Joshikousei wo Hirou",
+    "anime_score": "7.29",
+    "airing_time": "Spring 2021",
+    "studio": "Project No.9",
+    "slug": "hige-wo-soru-soshite-joshikousei-wo-hirou",
+    "updated": "2023-02-15T16:01:51.422Z",
+    "created": "2023-02-15T16:01:51.422Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 201,
+  "fields": {
+    "mal_id": 49438,
+    "anime_title": "Isekai Yakkyoku",
+    "anime_score": "9.00",
+    "airing_time": "Winter 2021",
+    "studio": "Deomedea",
+    "slug": "isekai-yakkyoku",
+    "updated": "2023-02-15T16:02:02.383Z",
+    "created": "2023-02-15T16:02:02.383Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 202,
+  "fields": {
+    "mal_id": 51064,
+    "anime_title": "Kuro no Shoukanshi",
+    "anime_score": "7.12",
+    "airing_time": "Summer 2022",
+    "studio": "Satelight",
+    "slug": "kuro-no-shoukanshi",
+    "updated": "2023-02-15T16:02:12.941Z",
+    "created": "2023-02-15T16:02:12.941Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 203,
+  "fields": {
+    "mal_id": 30307,
+    "anime_title": "Monster Musume no Iru Nichijou",
+    "anime_score": "6.98",
+    "airing_time": "Summer 2015",
+    "studio": "Lerche",
+    "slug": "monster-musume-no-iru-nichijou",
+    "updated": "2023-02-15T16:02:30.106Z",
+    "created": "2023-02-15T16:02:30.106Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 204,
+  "fields": {
+    "mal_id": 437,
+    "anime_title": "Perfect Blue",
+    "anime_score": "8.53",
+    "airing_time": "Winter 1998",
+    "studio": "Madhouse",
+    "slug": "perfect-blue",
+    "updated": "2023-02-15T16:02:42.440Z",
+    "created": "2023-02-15T16:02:42.440Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 205,
+  "fields": {
+    "mal_id": 46985,
+    "anime_title": "Shinka no Mi Shiranai Uchi ni Kachigumi Jinsei",
+    "anime_score": "6.23",
+    "airing_time": "Fall 2021",
+    "studio": "Hotline",
+    "slug": "shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei",
+    "updated": "2023-02-15T16:02:55.403Z",
+    "created": "2023-02-15T16:02:55.403Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 206,
+  "fields": {
+    "mal_id": 50175,
+    "anime_title": "Yuusha Yamemasu",
+    "anime_score": "7.04",
+    "airing_time": "Spring 2022",
+    "studio": "EMT Squared",
+    "slug": "yuusha-yamemasu",
+    "updated": "2023-02-15T16:03:07.421Z",
+    "created": "2023-02-15T16:03:07.421Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 207,
+  "fields": {
+    "mal_id": 36882,
+    "anime_title": "Arifureta Shokugyou de Sekai Saikyou",
+    "anime_score": "6.69",
+    "airing_time": "Summer 2019",
+    "studio": "asread., White Fox",
+    "slug": "arifureta-shokugyou-de-sekai-saikyou",
+    "updated": "2023-03-13T04:35:28.830Z",
+    "created": "2023-03-13T04:35:28.830Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 208,
+  "fields": {
+    "mal_id": 44511,
+    "anime_title": "Chainsaw Man",
+    "anime_score": "8.64",
+    "airing_time": "Fall 2022",
+    "studio": "MAPPA",
+    "slug": "chainsaw-man",
+    "updated": "2023-03-13T04:36:53.634Z",
+    "created": "2023-03-13T04:36:53.634Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 209,
+  "fields": {
+    "mal_id": 50425,
+    "anime_title": "Fufu Ijou, Koibito Miman.",
+    "anime_score": "7.60",
+    "airing_time": "Fall 2022",
+    "studio": "studio MOTHER",
+    "slug": "fufu-ijou-koibito-miman",
+    "updated": "2023-03-13T04:38:49.227Z",
+    "created": "2023-03-13T04:38:49.227Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 210,
+  "fields": {
+    "mal_id": 51837,
+    "anime_title": "Saikin Yatotta Maid ga Ayashii",
+    "anime_score": "6.58",
+    "airing_time": "Summer 2022",
+    "studio": "SILVER LINK., Blade",
+    "slug": "saikin-yatotta-maid-ga-ayashii",
+    "updated": "2023-03-13T04:40:17.053Z",
+    "created": "2023-03-13T04:40:17.053Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 211,
+  "fields": {
+    "mal_id": 47790,
+    "anime_title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
+    "anime_score": "7.37",
+    "airing_time": "Fall 2021",
+    "studio": "SILVER LINK., Studio Palette",
+    "slug": "sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru",
+    "updated": "2023-03-13T04:41:58.546Z",
+    "created": "2023-03-13T04:41:58.546Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 212,
+  "fields": {
+    "mal_id": 51495,
+    "anime_title": "Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
+    "anime_score": "5.94",
+    "airing_time": "Winter 2023",
+    "studio": "Hotline",
+    "slug": "shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei",
+    "updated": "2023-03-13T04:43:50.394Z",
+    "created": "2023-03-13T04:43:50.394Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 213,
+  "fields": {
+    "mal_id": 53446,
+    "anime_title": "Tondemo Skill de Isekai Hourou Meshi",
+    "anime_score": "7.65",
+    "airing_time": "Winter 2023",
+    "studio": "MAPPA",
+    "slug": "tondemo-skill-de-isekai-hourou-meshi",
+    "updated": "2023-03-13T04:45:13.784Z",
+    "created": "2023-03-13T04:45:13.784Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 214,
+  "fields": {
+    "mal_id": 37430,
+    "anime_title": "Tensei shitara Slime Datta Ken",
+    "anime_score": "8.14",
+    "airing_time": "Fall 2018",
+    "studio": "8bit",
+    "slug": "tensei-shitara-slime-datta-ken",
+    "updated": "2023-03-13T04:52:26.476Z",
+    "created": "2023-03-13T04:52:26.476Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 215,
+  "fields": {
+    "mal_id": 39607,
+    "anime_title": "Tensei shitara Slime Datta Ken: Kanwa - Veldora Nikki",
+    "anime_score": "6.69",
+    "airing_time": "Winter 2019",
+    "studio": "8bit",
+    "slug": "tensei-shitara-slime-datta-ken-kanwa-veldora-nikki",
+    "updated": "2023-03-13T04:53:30.416Z",
+    "created": "2023-03-13T04:53:30.416Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 216,
+  "fields": {
+    "mal_id": 52046,
+    "anime_title": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "anime_score": "6.96",
+    "airing_time": "Fall 2022",
+    "studio": "EMT Squared",
+    "slug": "yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau",
+    "updated": "2023-03-13T04:57:48.349Z",
+    "created": "2023-03-13T04:57:48.349Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 217,
+  "fields": {
+    "mal_id": 36999,
+    "anime_title": "Zoku Owarimonogatari",
+    "anime_score": "8.45",
+    "airing_time": "Fall 2018",
+    "studio": "Shaft",
+    "slug": "zoku-owarimonogatari",
+    "updated": "2023-03-13T04:58:54.585Z",
+    "created": "2023-03-13T04:58:54.585Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 218,
+  "fields": {
+    "mal_id": 41710,
+    "anime_title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+    "anime_score": "7.24",
+    "airing_time": "Summer 2021",
+    "studio": "J.C.Staff",
+    "slug": "genjitsu-shugi-yuusha-no-oukoku-saikenki",
+    "updated": "2023-03-13T05:02:05.840Z",
+    "created": "2023-03-13T05:02:05.840Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 219,
+  "fields": {
+    "mal_id": 49930,
+    "anime_title": "Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2",
+    "anime_score": "7.44",
+    "airing_time": "Winter 2022",
+    "studio": "J.C.Staff",
+    "slug": "genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2",
+    "updated": "2023-03-13T05:03:07.519Z",
+    "created": "2023-03-13T05:03:07.519Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 220,
+  "fields": {
+    "mal_id": 41514,
+    "anime_title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2",
+    "anime_score": "7.40",
+    "airing_time": "Winter 2023",
+    "studio": "SILVER LINK.",
+    "slug": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2",
+    "updated": "2023-03-13T05:04:20.169Z",
+    "created": "2023-03-13T05:04:20.169Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 221,
+  "fields": {
+    "mal_id": 49458,
+    "anime_title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+    "anime_score": "0.00",
+    "airing_time": "",
+    "studio": "Drive",
+    "slug": "kono-subarashii-sekai-ni-shukufuku-wo-3",
+    "updated": "2023-03-13T05:06:59.279Z",
+    "created": "2023-03-13T05:06:59.279Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 222,
+  "fields": {
+    "mal_id": 16498,
+    "anime_title": "Shingeki no Kyojin",
+    "anime_score": "8.53",
+    "airing_time": "Spring 2013",
+    "studio": "Wit Studio",
+    "slug": "shingeki-no-kyojin",
+    "updated": "2023-03-13T05:09:09.657Z",
+    "created": "2023-03-13T05:09:09.657Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 223,
+  "fields": {
+    "mal_id": 1535,
+    "anime_title": "Death Note",
+    "anime_score": "8.62",
+    "airing_time": "Fall 2006",
+    "studio": "Madhouse",
+    "slug": "death-note",
+    "updated": "2023-03-13T05:09:57.179Z",
+    "created": "2023-03-13T05:09:57.179Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 224,
+  "fields": {
+    "mal_id": 5114,
+    "anime_title": "Fullmetal Alchemist: Brotherhood",
+    "anime_score": "9.11",
+    "airing_time": "Spring 2009",
+    "studio": "Bones",
+    "slug": "fullmetal-alchemist-brotherhood",
+    "updated": "2023-03-13T05:10:56.301Z",
+    "created": "2023-03-13T05:10:56.301Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 225,
+  "fields": {
+    "mal_id": 34599,
+    "anime_title": "Made in Abyss",
+    "anime_score": "8.66",
+    "airing_time": "Summer 2017",
+    "studio": "Kinema Citrus",
+    "slug": "made-in-abyss",
+    "updated": "2023-03-13T05:14:06.617Z",
+    "created": "2023-03-13T05:14:06.617Z"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 226,
+  "fields": {
+    "mal_id": 50265,
+    "anime_title": "Spy x Family",
+    "anime_score": "8.66",
+    "airing_time": "Spring 2022",
+    "studio": "Wit Studio, CloverWorks",
+    "slug": "spy-x-family",
+    "updated": "2023-03-13T05:19:45.529Z",
+    "created": "2023-03-13T05:19:45.529Z"
   }
 },
 {
@@ -664,6 +4121,45 @@
     "waktu_post": "2023-03-03T02:15:58.355Z",
     "waktu_edit": "2023-03-03T02:15:58.355Z",
     "slug": "kangen-konosuba-nantikan-anime-tentang-megumin-awal-april-2023"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 10,
+  "fields": {
+    "judul_berita": "Kamiya Yuu, Ilustrator No Game No Life Diduga Menjiplak Gambar Orang Lain",
+    "isi_berita": "Penjiplakan sudah biasa terjadi di kehidupan sehari-hari, mulai dari baju, mainan, bahkan sampai ke game sudah sempat dijiplak. Biasanya yang menjiplak adalah perusahaan kecil yang ingin menumpang ketenaran dari produk yang dijiplaknya, namun apa yang terjadi saat salah satu ilustrator kawakan menjiplak gambar orang lain?\r\n\r\nKamiya Yuu, adalah seorang seniman setengah Jepang, setengah Brazil yang berhasil menemukan sukses di negeri matahari terbit. Karyanya yang terkenal adalah ilustrasi novel Itsuka Tenma no Kuro Usagi dan novel yang ditulisnya sendiri, No Game No Life. Dia menikahi Mashiro Hiiragi, seorang mangaka yang mengadaptasi No Game No Life ke dalam bentuk manga.\r\n\r\nSebuah akun twitter, @rotiflride baru saja dibuka, dan akun ini dibuat khusus untuk mencari kesalahan-kesalahan dari Kamiya Yuu, yang ternyata banyak ilustrasinya diduga menjiplak ilustrasi milik orang lain. Selain memberikan perbandingan, akun ini juga menumpukkan kedua gambar satu sama lain, dan keduanya memang memiliki struktur gambar yang sangat pas.\r\n\r\nPenjiplakan ilustrasi tidak pernah menjadi masalah yang mudah, bahkan cenderung menjadi menyulitkan berbagai pihak, apalagi bila menyangkut ilustrasi yang kemudian dikomersilkan – seperti ilustrasi di novel. Bahkan, ilustrator MuvLuv yang pernah ketahuan menjiplak gambar untuk ilustrasi majalah dan dakimakura, Ao Miyata langsung dipecat setelah beritanya terkuak.\r\n\r\nBanyak perbandingan ini yang menggambarkan kesamaan pose antara gambar milik ilustrator lain dengan gambar miliknya. Di beberapa gambar pun tercantum tanggal saat dibuatnya gambar tersebut, mengukuhkan kecurigaan akan adanya penjiplakan gambar.\r\n\r\nNamun, bisa juga Kamiya Yuu hanya mengambil gambar-gambar ini sebagai referensi saja, dapat dilihat dari gambar-gambar ini dimana Kamiya mengambil beberapa bagian gambar lain untuk dijadikan referensi. Mungkin juga kesamaan ini dibuat secara tidak sengaja, seperti posisi jari atau posisi buku yang halamannya tersibak angin.\r\n\r\nKamiya Yuu sendiri belum berkata apa-apa mengenai penemuan ini, bisa saja dia hanya mengambil pose di gambar sebagai referensi saja. Karena pose-pose yang digambarkan cukup generik dan banyak dipakai sebagai acuan anatomi tubuh. Selain itu, Kamiya juga memiliki ciri khas dengan menggunakan pewarnaan yang sangat menarik dengan gradasi yang berlapis serta menambahkan ilustrasi atau karakter lain dalam gambarnya, tidak serta-merta menjiplak 100 persen gambar yang dibuat oleh ilustrator lain.\r\n\r\nSaya harap akan ada klarifikasi lebih lanjut dari Kamiya Yuu mengenai persoalan ini. Menurut saya sih selama dia tidak menjiplak sampai 100 persen sih tidak bisa dibilang sebagai penjiplak, karena terlepas dari kemiripan pose, tidak ada lagi apapun yang mirip antara gambar Kamiya dengan ilustrasi lainnya. Tapi saya yakin pandangan orang berbeda-beda, bagaimana dengan pendapatmu?",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-04T17:38:48.515Z",
+    "waktu_edit": "2023-03-04T17:38:48.516Z",
+    "slug": "kamiya-yuu-ilustrator-no-game-no-life-diduga-menjiplak-gambar-orang-lain"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 11,
+  "fields": {
+    "judul_berita": "Mangaka Yu-Gi-Oh! Kazuki Takahashi Meninggal Dunia pada Usia 60 Tahun",
+    "isi_berita": "Satuan Penjagaan Pantai Jepang melaporkan bahwa mangaka veteran Kazuki Takahashi (nama asli Kazuo Takahashi) ditemukan meninggal di pesisir pantai kota Nago di Okinawa pada pagi Rabu, 6 Juli. Beliau meninggal pada usia 60 tahun.\r\n\r\nPetugas menemukan jenazah Takahashi yang mengenakan peralatan snorkeling. Pihak berwajib saat ini sedang menyelidiki kasus dibalik meninggalnya Takahashi. Jasad dilaporkan mengambang 300 meter dari pantai oleh penumpang kapal yang menelepon nomor darurat Jepang. Pada pesisir kota Nago, sekitar pukul 10:30 pada hari Rabu.\r\n\r\nYu-Gi-Oh terbit pada Weekly Shonen Jump dari tahun 1996 hingga 2004. Manga ini memulai produk multimedia yang berjalan sampai sekarang. Takahashi memenangkan Comic-Con International Inkpot Award pada Juli 2015. Penghargaan ini diberikan pada individu atas kontribusi luar biasa mereka pada media komik, fiksi ilmiah, fantasi, film, televisi, animasi, dan fandom.\r\n\r\nTakahashi juga menggambar manga The Comiq, yang memperingati 50 tahun majalah Weekly Shonen Jump milik Shueisha pada tahun 2018.\r\n\r\nKami segenap staf MAI turut berduka cita atas kepergian salah satu tokoh besar dari industri ini.",
+    "penulis": "authors",
+    "kategori": "hot_news",
+    "waktu_post": "2023-03-04T17:42:09.894Z",
+    "waktu_edit": "2023-03-04T17:42:09.894Z",
+    "slug": "mangaka-yu-gi-oh-kazuki-takahashi-meninggal-dunia-pada-usia-60-tahun"
+  }
+},
+{
+  "model": "artikel.berita",
+  "pk": 12,
+  "fields": {
+    "judul_berita": "Jadwal Japan Event Januari 2023 di Jabodetabek, Ada Guest Star Internasional Cosplayer",
+    "isi_berita": "Budaya Jepang cukup populer di Indonesia. Mulai dari anime, manga, cosplay hingga aneka kulinernya seolah tak pernah sepi peminat. Oleh sebab itu, tak heran jika perlahan Japan event alias acara Jepang mulai hadir di beberapa daerah di Indonesia, salah satunya di wilayah Jabodetabek.\r\n\r\nMenghadirkan acara seru ala festival Jepang, tentunya akan jadi surga tersendiri bagi para pecinta budaya Jepang. Penasaran ada Japan Event apa saja yang ada di Jabodetabek pada bulan Januari 2023? Yuk intip deretannya berikut ini.\r\n\r\n1. Cosplay Fever Time Vol.2.1\r\n\r\nCosplay Fever Time Vol.2.1 akan digelar di Mega Bekasi, Bekasi Barat pada tanggal 29 Januari 2023. Tak perlu khawatir untuk tiket masuknya karena free lho! Akan ada Coswalk Competition, Sing Alon, anek kuliner khas Jepang hingg booth Community\r\n\r\n2. Harajuku Festival 2023\r\n\r\nSelanjutnya ada Harajuku Festival yang akan digelar di Mall The Park Sawangan Depok pada 7-8 Januari 2022. Menghadirkan aneka bazar, japanese festival hingga cosplay parade, acara ini gratis untuk siapa saja lho. Tak lupa ada sederet Guest Star yang akan meramaikan acara, yakni Band Zenja, Desy Narita, Toropyun, Rising Sun Ikhsan hingga Miineechan.\r\n\r\n3. Shinnenkai\r\n\r\nShinnenkai akan digelar pada Sabtu-Minggu, 14-15 Januari 2023 di Lt.1 Mall BTM Bogor. Tiket masuknya gratis dengan menghadirkan aktivitas seru seperti coswalk competition, sing cover hingga stand bazzar. Ada pula Guest Star yang sugoi banget!\r\n\r\n4. Poins Japan Festival\r\n\r\nPoins Japan Festival akan digelar di Poins Mall Simatupang atau Poins Square Lebak Bulus, Jakarta pada 14-15 January 2023. Akan ada Coswalk, idol perform hingga aneka bazaar yang lengkap. Twenty Nine Teens akan jadi salah satu guest star dalam acara tersebut.\r\n\r\n5. FX Japan Rock And Idol Festival 0.1\r\n\r\nFX Japan Rock And Idol Festival 0.1 akan digelar di lantar 3 Fx Sudirman, Jakarta pada 6-8 Januari 2023. Tiket masuknya gratis dan terbuka untuk siapa saja yang ingin cosplay. Inastasia dan Iam Zen akan jadi judges dalam coswalk competition.\r\n\r\n6. Tanoshii World Coswalk Competition 2023\r\n\r\nTanoshii World Coswalk Competition 2023 akan digelar pada Minggu, 08 Januari 2023, di QBIG BSD City Ballroom. Menghadirkan kompetisi seru yang dimana pendaftarannya gratis lho. Bahkan akan ada International Cosplay sebagai Guest Star, yakni Daddy Rithe.",
+    "penulis": "authors",
+    "kategori": "incoming_event",
+    "waktu_post": "2023-03-04T18:00:34.519Z",
+    "waktu_edit": "2023-03-04T18:00:34.519Z",
+    "slug": "jadwal-japan-event-januari-2023-di-jabodetabek-ada-guest-star-internasional-cosplayer"
   }
 }
 ]
