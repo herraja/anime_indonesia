@@ -12,6 +12,8 @@ class Anime(models.Model):
     slug = models.SlugField(max_length=255, editable=False)
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
+    api_url = models.CharField(blank=True, max_length=255)  # Jikan.moe API
+    post_url = models.CharField(blank=True, max_length=255)  # Untuk akses poster dari API Jikan
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.anime_title)
@@ -21,4 +23,4 @@ class Anime(models.Model):
         return f"{self.id}. {self.anime_title}"
     
     class Meta:
-        ordering = ["-updated"]
+        ordering = ["-anime_score"]
