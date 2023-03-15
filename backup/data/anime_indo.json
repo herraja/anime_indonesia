@@ -533,6 +533,110 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-03-15T07:20:15.863Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "227",
+    "object_repr": "227. Arifureta Shokugyou de Sekai Saikyou 2nd Season",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-03-15T13:44:30.835Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "217",
+    "object_repr": "217. Zoku Owarimonogatari",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-03-15T13:45:32.482Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "206",
+    "object_repr": "206. Yuusha Yamemasu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-03-15T13:46:13.863Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "216",
+    "object_repr": "216. Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-03-15T13:47:05.523Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "198",
+    "object_repr": "198. Zettai Junpaku Mahou Shoujo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-03-15T13:47:47.284Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "197",
+    "object_repr": "197. Yuragi sou no Yuuna-san",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-03-15T13:51:27.287Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "179",
+    "object_repr": "179. Tate no Yuusha no Nariagari 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Mal id\", \"Api url\", \"Post url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-03-15T13:53:39.666Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "106",
+    "object_repr": "106. Kono Subarashii Sekai ni Syukufuku Wo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Mal id\", \"Anime title\", \"Api url\", \"Post url\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -937,7 +1041,9 @@
     "studio": "White Fox",
     "slug": "akame-ga-kill",
     "updated": "2023-02-13T07:27:02.978Z",
-    "created": "2023-02-13T07:27:02.978Z"
+    "created": "2023-02-13T07:27:02.978Z",
+    "api_url": "https://api.jikan.moe/v4/anime/22199/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1429/95946.jpg"
   }
 },
 {
@@ -951,7 +1057,9 @@
     "studio": "Hoods Entertainment",
     "slug": "aki-sora",
     "updated": "2023-02-13T07:28:37.405Z",
-    "created": "2023-02-13T07:28:37.405Z"
+    "created": "2023-02-13T07:28:37.405Z",
+    "api_url": "https://api.jikan.moe/v4/anime/6987/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/18611.jpg"
   }
 },
 {
@@ -965,7 +1073,9 @@
     "studio": "Hoods Entertainment",
     "slug": "aki-sora-yume-no-naka",
     "updated": "2023-02-13T07:29:42.436Z",
-    "created": "2023-02-13T07:29:42.436Z"
+    "created": "2023-02-13T07:29:42.436Z",
+    "api_url": "https://api.jikan.moe/v4/anime/8577/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/23461.jpg"
   }
 },
 {
@@ -979,7 +1089,9 @@
     "studio": "Production I.G",
     "slug": "blood-c",
     "updated": "2023-02-13T07:31:24.511Z",
-    "created": "2023-02-13T07:31:24.511Z"
+    "created": "2023-02-13T07:31:24.511Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10490/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/31649.jpg"
   }
 },
 {
@@ -993,7 +1105,9 @@
     "studio": "Production I.G",
     "slug": "blood-c-the-last-dark",
     "updated": "2023-02-13T07:32:46.494Z",
-    "created": "2023-02-13T07:32:46.494Z"
+    "created": "2023-02-13T07:32:46.494Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10681/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1159/94216.jpg"
   }
 },
 {
@@ -1007,7 +1121,9 @@
     "studio": "SILVER LINK.",
     "slug": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu",
     "updated": "2023-02-13T12:46:10.041Z",
-    "created": "2023-02-13T12:46:10.041Z"
+    "created": "2023-02-13T12:46:10.041Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38790/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1579/113812.jpg"
   }
 },
 {
@@ -1021,7 +1137,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-r1-hangyaku-no-lelouch",
     "updated": "2023-02-13T12:47:24.331Z",
-    "created": "2023-02-13T12:47:24.331Z"
+    "created": "2023-02-13T12:47:24.331Z",
+    "api_url": "https://api.jikan.moe/v4/anime/1575/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/50331.jpg"
   }
 },
 {
@@ -1035,7 +1153,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-r2-hangyaku-no-lelouch",
     "updated": "2023-02-13T12:48:13.805Z",
-    "created": "2023-02-13T12:48:13.805Z"
+    "created": "2023-02-13T12:48:13.805Z",
+    "api_url": "https://api.jikan.moe/v4/anime/2904/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/9391.jpg"
   }
 },
 {
@@ -1049,7 +1169,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-boukoku-no-akito-1-yokuryuu-wa-maiorita",
     "updated": "2023-02-13T12:49:32.283Z",
-    "created": "2023-02-13T12:49:32.283Z"
+    "created": "2023-02-13T12:49:32.283Z",
+    "api_url": "https://api.jikan.moe/v4/anime/8888/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/41401.jpg"
   }
 },
 {
@@ -1063,7 +1185,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-boukoku-no-akito-2-hikisakareshi-yokuryuu",
     "updated": "2023-02-13T12:50:18.272Z",
-    "created": "2023-02-13T12:50:18.272Z"
+    "created": "2023-02-13T12:50:18.272Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15197/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/56243.jpg"
   }
 },
 {
@@ -1077,7 +1201,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-boukoku-no-akito-3-kagayaku-mono-ten-yori-otsu",
     "updated": "2023-02-13T12:51:01.692Z",
-    "created": "2023-02-13T12:51:01.692Z"
+    "created": "2023-02-13T12:51:01.692Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15199/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/72698.jpg"
   }
 },
 {
@@ -1091,7 +1217,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-boukoku-no-akito-4-nikushimi-no-kioku-kara",
     "updated": "2023-02-13T12:51:58.444Z",
-    "created": "2023-02-13T12:51:58.444Z"
+    "created": "2023-02-13T12:51:58.444Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15201/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/74757.jpg"
   }
 },
 {
@@ -1105,7 +1233,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-boukoku-no-akito-5-itoshiki-mono-tachi-e",
     "updated": "2023-02-13T12:52:39.054Z",
-    "created": "2023-02-13T12:52:39.054Z"
+    "created": "2023-02-13T12:52:39.054Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30711/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/77640.jpg"
   }
 },
 {
@@ -1119,7 +1249,9 @@
     "studio": "Sunrise",
     "slug": "code-geass-fukkatsu-no-lelouch",
     "updated": "2023-02-13T12:53:23.242Z",
-    "created": "2023-02-13T12:53:23.242Z"
+    "created": "2023-02-13T12:53:23.242Z",
+    "api_url": "https://api.jikan.moe/v4/anime/34437/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1274/113436.jpg"
   }
 },
 {
@@ -1133,7 +1265,9 @@
     "studio": "asread",
     "slug": "corpse-party-bougyakusareta-tamashii-no-jukyou",
     "updated": "2023-02-13T12:54:03.219Z",
-    "created": "2023-02-13T12:54:03.219Z"
+    "created": "2023-02-13T12:54:03.219Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15037/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/78811.jpg"
   }
 },
 {
@@ -1147,7 +1281,9 @@
     "studio": "asread",
     "slug": "corpse-party-missing-footage",
     "updated": "2023-02-13T12:55:12.761Z",
-    "created": "2023-02-13T12:55:12.761Z"
+    "created": "2023-02-13T12:55:12.761Z",
+    "api_url": "https://api.jikan.moe/v4/anime/13807/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/38331.jpg"
   }
 },
 {
@@ -1161,7 +1297,9 @@
     "studio": "feel.",
     "slug": "dakara-boku-wa-h-ga-dekinai",
     "updated": "2023-02-13T12:55:58.478Z",
-    "created": "2023-02-13T12:55:58.478Z"
+    "created": "2023-02-13T12:55:58.478Z",
+    "api_url": "https://api.jikan.moe/v4/anime/12549/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/75102.jpg"
   }
 },
 {
@@ -1175,7 +1313,9 @@
     "studio": "A-1 Pictures, Trigger, CloverWorks",
     "slug": "darling-in-the-franxx",
     "updated": "2023-02-13T12:56:44.425Z",
-    "created": "2023-02-13T12:56:44.425Z"
+    "created": "2023-02-13T12:56:44.425Z",
+    "api_url": "https://api.jikan.moe/v4/anime/35849/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1614/90408.jpg"
   }
 },
 {
@@ -1189,7 +1329,9 @@
     "studio": "AIC PLUS+",
     "slug": "date-a-live-1",
     "updated": "2023-02-13T12:57:25.247Z",
-    "created": "2023-02-13T12:57:25.247Z"
+    "created": "2023-02-13T12:57:25.247Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15583/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/44844.jpg"
   }
 },
 {
@@ -1203,7 +1345,9 @@
     "studio": "Production IMS",
     "slug": "date-a-live-2",
     "updated": "2023-02-13T12:58:01.605Z",
-    "created": "2023-02-13T12:58:01.605Z"
+    "created": "2023-02-13T12:58:01.605Z",
+    "api_url": "https://api.jikan.moe/v4/anime/19163/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/76003.jpg"
   }
 },
 {
@@ -1217,7 +1361,9 @@
     "studio": "J.C.Staff",
     "slug": "date-a-live-3",
     "updated": "2023-02-13T12:58:38.506Z",
-    "created": "2023-02-13T12:58:38.506Z"
+    "created": "2023-02-13T12:58:38.506Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36633/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1055/100468.jpg"
   }
 },
 {
@@ -1231,7 +1377,9 @@
     "studio": "GEEK TOYS",
     "slug": "date-a-live-4",
     "updated": "2023-02-13T13:00:52.309Z",
-    "created": "2023-02-13T13:00:52.309Z"
+    "created": "2023-02-13T13:00:52.309Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41461/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1368/121281.jpg"
   }
 },
 {
@@ -1245,7 +1393,9 @@
     "studio": "Production IMS",
     "slug": "date-a-live-movie-mayuri-judgement",
     "updated": "2023-02-13T13:01:35.313Z",
-    "created": "2023-02-13T13:01:35.313Z"
+    "created": "2023-02-13T13:01:35.313Z",
+    "api_url": "https://api.jikan.moe/v4/anime/24655/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/75466.jpg"
   }
 },
 {
@@ -1259,7 +1409,9 @@
     "studio": "GEEK TOYS",
     "slug": "date-a-bullet-1-dead-or-bullets",
     "updated": "2023-02-13T13:02:36.904Z",
-    "created": "2023-02-13T13:02:36.904Z"
+    "created": "2023-02-13T13:02:36.904Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40416/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1984/108425.jpg"
   }
 },
 {
@@ -1273,7 +1425,9 @@
     "studio": "GEEK TOYS",
     "slug": "date-a-bullet-2-queens-or-nightmare",
     "updated": "2023-02-13T13:03:25.253Z",
-    "created": "2023-02-13T13:03:25.253Z"
+    "created": "2023-02-13T13:03:25.253Z",
+    "api_url": "https://api.jikan.moe/v4/anime/42423/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1002/108424.jpg"
   }
 },
 {
@@ -1287,7 +1441,9 @@
     "studio": "Arms",
     "slug": "elfen-lied",
     "updated": "2023-02-13T13:04:33.453Z",
-    "created": "2023-02-13T13:04:33.453Z"
+    "created": "2023-02-13T13:04:33.453Z",
+    "api_url": "https://api.jikan.moe/v4/anime/226/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1780/121555.jpg"
   }
 },
 {
@@ -1301,7 +1457,9 @@
     "studio": "GAINAX & Production I.G",
     "slug": "neon-genesis-evangelion",
     "updated": "2023-02-13T13:05:19.879Z",
-    "created": "2023-02-13T13:05:19.879Z"
+    "created": "2023-02-13T13:05:19.879Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1314/108941.jpg"
   }
 },
 {
@@ -1315,7 +1473,9 @@
     "studio": "GAINAX & Production I.G",
     "slug": "neon-genesis-evangelion-the-end-of-evangelion",
     "updated": "2023-02-13T13:05:59.879Z",
-    "created": "2023-02-13T13:05:59.879Z"
+    "created": "2023-02-13T13:05:59.879Z",
+    "api_url": "https://api.jikan.moe/v4/anime/32/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1404/98182.jpg"
   }
 },
 {
@@ -1329,7 +1489,9 @@
     "studio": "Khara",
     "slug": "evangelion-10-you-are-not-alone",
     "updated": "2023-02-13T13:41:05.644Z",
-    "created": "2023-02-13T13:41:05.644Z"
+    "created": "2023-02-13T13:41:05.644Z",
+    "api_url": "https://api.jikan.moe/v4/anime/2759/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/74975.jpg"
   }
 },
 {
@@ -1343,7 +1505,9 @@
     "studio": "Khara",
     "slug": "evangelion-20-you-can-not-advance",
     "updated": "2023-02-13T13:41:54.552Z",
-    "created": "2023-02-13T13:41:54.552Z"
+    "created": "2023-02-13T13:41:54.552Z",
+    "api_url": "https://api.jikan.moe/v4/anime/3784/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/74983.jpg"
   }
 },
 {
@@ -1357,7 +1521,9 @@
     "studio": "Khara",
     "slug": "evangelion-30-you-can-not-redo",
     "updated": "2023-02-13T13:42:09.507Z",
-    "created": "2023-02-13T13:42:09.507Z"
+    "created": "2023-02-13T13:42:09.507Z",
+    "api_url": "https://api.jikan.moe/v4/anime/3785/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/43201.jpg"
   }
 },
 {
@@ -1371,7 +1537,9 @@
     "studio": "Khara",
     "slug": "evangelion-30-10-thrice-upon-a-time",
     "updated": "2023-02-13T13:42:22.218Z",
-    "created": "2023-02-13T13:42:22.218Z"
+    "created": "2023-02-13T13:42:22.218Z",
+    "api_url": "https://api.jikan.moe/v4/anime/3786/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1422/113533.jpg"
   }
 },
 {
@@ -1385,7 +1553,9 @@
     "studio": "A-1 Pictures",
     "slug": "fate-apocrypha",
     "updated": "2023-02-13T14:07:25.679Z",
-    "created": "2023-02-13T14:07:25.679Z"
+    "created": "2023-02-13T14:07:25.679Z",
+    "api_url": "https://api.jikan.moe/v4/anime/34662/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/86573.jpg"
   }
 },
 {
@@ -1399,7 +1569,9 @@
     "studio": "Signal.MD",
     "slug": "fate-grand-order-shinsei-entaku-ryouiki-camelot-1-wandering-agateram",
     "updated": "2023-02-13T14:07:44.908Z",
-    "created": "2023-02-13T14:07:44.908Z"
+    "created": "2023-02-13T14:07:44.908Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38085/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1535/103385.jpg"
   }
 },
 {
@@ -1413,7 +1585,9 @@
     "studio": "Production I.G",
     "slug": "fate-grand-order-shinsei-entaku-ryouiki-camelot-2-paladin-agateram",
     "updated": "2023-02-13T14:07:58.228Z",
-    "created": "2023-02-13T14:07:58.228Z"
+    "created": "2023-02-13T14:07:58.228Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38086/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1736/114615.jpg"
   }
 },
 {
@@ -1427,7 +1601,9 @@
     "studio": "CloverWorks",
     "slug": "fate-grand-order-zettai-majuu-sensen-babylonia",
     "updated": "2023-02-13T14:08:15.206Z",
-    "created": "2023-02-13T14:08:15.206Z"
+    "created": "2023-02-13T14:08:15.206Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38084/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1194/103420.jpg"
   }
 },
 {
@@ -1441,7 +1617,9 @@
     "studio": "CloverWorks",
     "slug": "fate-grand-order-shuukyoku-tokuiten-kani-jikan-shinden-solomon",
     "updated": "2023-02-13T14:08:32.980Z",
-    "created": "2023-02-13T14:08:32.980Z"
+    "created": "2023-02-13T14:08:32.980Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41497/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1507/114957.jpg"
   }
 },
 {
@@ -1455,7 +1633,9 @@
     "studio": "Studio Deen",
     "slug": "fate-stay-night",
     "updated": "2023-02-13T14:08:46.248Z",
-    "created": "2023-02-13T14:08:46.248Z"
+    "created": "2023-02-13T14:08:46.248Z",
+    "api_url": "https://api.jikan.moe/v4/anime/356/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/30327.jpg"
   }
 },
 {
@@ -1469,7 +1649,9 @@
     "studio": "ufotable",
     "slug": "fate-stay-night-unlimited-blade-works-1",
     "updated": "2023-02-13T14:08:58.840Z",
-    "created": "2023-02-13T14:08:58.840Z"
+    "created": "2023-02-13T14:08:58.840Z",
+    "api_url": "https://api.jikan.moe/v4/anime/22297/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/67333.jpg"
   }
 },
 {
@@ -1483,7 +1665,9 @@
     "studio": "ufotable",
     "slug": "fate-stay-night-unlimited-blade-works-2",
     "updated": "2023-02-13T14:09:11.919Z",
-    "created": "2023-02-13T14:09:11.919Z"
+    "created": "2023-02-13T14:09:11.919Z",
+    "api_url": "https://api.jikan.moe/v4/anime/28701/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1881/124810.jpg"
   }
 },
 {
@@ -1497,7 +1681,9 @@
     "studio": "ufotable",
     "slug": "fate-stay-night-heavens-feel-1-pressage-flower",
     "updated": "2023-02-13T14:09:27.701Z",
-    "created": "2023-02-13T14:09:27.701Z"
+    "created": "2023-02-13T14:09:27.701Z",
+    "api_url": "https://api.jikan.moe/v4/anime/25537/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1274/102213.jpg"
   }
 },
 {
@@ -1511,7 +1697,9 @@
     "studio": "ufotable",
     "slug": "fate-stay-night-heavens-feel-2-lost-butterfly",
     "updated": "2023-02-13T14:09:40.757Z",
-    "created": "2023-02-13T14:09:40.757Z"
+    "created": "2023-02-13T14:09:40.757Z",
+    "api_url": "https://api.jikan.moe/v4/anime/33049/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1974/98158.jpg"
   }
 },
 {
@@ -1525,7 +1713,9 @@
     "studio": "ufotable",
     "slug": "fate-stay-night-heavens-feel-3-spring-song",
     "updated": "2023-02-13T14:09:56.241Z",
-    "created": "2023-02-13T14:09:56.241Z"
+    "created": "2023-02-13T14:09:56.241Z",
+    "api_url": "https://api.jikan.moe/v4/anime/33050/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1142/112957.jpg"
   }
 },
 {
@@ -1539,7 +1729,9 @@
     "studio": "ufotable",
     "slug": "fate-zero-1",
     "updated": "2023-02-13T14:10:08.673Z",
-    "created": "2023-02-13T14:10:08.673Z"
+    "created": "2023-02-13T14:10:08.673Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10087/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1887/117644.jpg"
   }
 },
 {
@@ -1553,7 +1745,9 @@
     "studio": "ufotable",
     "slug": "fate-zero-2",
     "updated": "2023-02-13T14:10:21.588Z",
-    "created": "2023-02-13T14:10:21.588Z"
+    "created": "2023-02-13T14:10:21.588Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11741/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1522/117645.jpg"
   }
 },
 {
@@ -1567,7 +1761,9 @@
     "studio": "Studio Kai, HORNETS",
     "slug": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu",
     "updated": "2023-02-13T14:10:33.780Z",
-    "created": "2023-02-13T14:10:33.780Z"
+    "created": "2023-02-13T14:10:33.780Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48760/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1361/120706.jpg"
   }
 },
 {
@@ -1581,7 +1777,9 @@
     "studio": "Artmic",
     "slug": "genocyber",
     "updated": "2023-02-13T14:10:47.672Z",
-    "created": "2023-02-13T14:10:47.672Z"
+    "created": "2023-02-13T14:10:47.672Z",
+    "api_url": "https://api.jikan.moe/v4/anime/2775/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/3751.jpg"
   }
 },
 {
@@ -1595,7 +1793,9 @@
     "studio": "Production I.G",
     "slug": "koukaku-kidoutai",
     "updated": "2023-02-13T14:25:48.555Z",
-    "created": "2023-02-13T14:25:48.555Z"
+    "created": "2023-02-13T14:25:48.555Z",
+    "api_url": "https://api.jikan.moe/v4/anime/43/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/82594.jpg"
   }
 },
 {
@@ -1609,7 +1809,9 @@
     "studio": "Production I.G",
     "slug": "koukaku-kidoutai-2-innocence",
     "updated": "2023-02-13T14:26:06.960Z",
-    "created": "2023-02-13T14:26:06.960Z"
+    "created": "2023-02-13T14:26:06.960Z",
+    "api_url": "https://api.jikan.moe/v4/anime/468/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/75628.jpg"
   }
 },
 {
@@ -1623,7 +1825,9 @@
     "studio": "White Fox",
     "slug": "goblin-slayer",
     "updated": "2023-02-13T14:26:22.486Z",
-    "created": "2023-02-13T14:26:22.486Z"
+    "created": "2023-02-13T14:26:22.486Z",
+    "api_url": "https://api.jikan.moe/v4/anime/37349/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1719/95621.jpg"
   }
 },
 {
@@ -1637,7 +1841,9 @@
     "studio": "White Fox",
     "slug": "goblin-slayer-goblins-crown",
     "updated": "2023-02-13T14:26:40.890Z",
-    "created": "2023-02-13T14:26:40.890Z"
+    "created": "2023-02-13T14:26:40.890Z",
+    "api_url": "https://api.jikan.moe/v4/anime/39576/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1699/110724.jpg"
   }
 },
 {
@@ -1651,7 +1857,9 @@
     "studio": "APPP",
     "slug": "golden-boy",
     "updated": "2023-02-13T14:26:59.502Z",
-    "created": "2023-02-13T14:26:59.502Z"
+    "created": "2023-02-13T14:26:59.502Z",
+    "api_url": "https://api.jikan.moe/v4/anime/268/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/3/62867.jpg"
   }
 },
 {
@@ -1665,7 +1873,9 @@
     "studio": "Tezuka Productions",
     "slug": "gotoubun-no-hanayome-season-1",
     "updated": "2023-02-13T14:29:28.853Z",
-    "created": "2023-02-13T14:29:28.853Z"
+    "created": "2023-02-13T14:29:28.853Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38101/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1819/97947.jpg"
   }
 },
 {
@@ -1679,7 +1889,9 @@
     "studio": "Bilbury Animation Studios",
     "slug": "gotoubun-no-hanayome-season-2",
     "updated": "2023-02-13T14:29:43.044Z",
-    "created": "2023-02-13T14:29:43.044Z"
+    "created": "2023-02-13T14:29:43.044Z",
+    "api_url": "https://api.jikan.moe/v4/anime/39783/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1775/109514.jpg"
   }
 },
 {
@@ -1693,7 +1905,9 @@
     "studio": "Production I.G",
     "slug": "guilty-crown",
     "updated": "2023-02-13T14:30:06.880Z",
-    "created": "2023-02-13T14:30:06.880Z"
+    "created": "2023-02-13T14:30:06.880Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10793/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1566/133912.jpg"
   }
 },
 {
@@ -1707,7 +1921,9 @@
     "studio": "Sunrise",
     "slug": "hanyou-no-yashahime-sengoku-otogizoushi",
     "updated": "2023-02-13T14:31:06.542Z",
-    "created": "2023-02-13T14:31:06.542Z"
+    "created": "2023-02-13T14:31:06.542Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41911/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1005/114781.jpg"
   }
 },
 {
@@ -1721,7 +1937,9 @@
     "studio": "Sunrise",
     "slug": "hanyou-no-yashahime-sengoku-otogizoushi-ni-shou",
     "updated": "2023-02-13T14:31:17.608Z",
-    "created": "2023-02-13T14:31:17.608Z"
+    "created": "2023-02-13T14:31:17.608Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48505/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1415/118635.jpg"
   }
 },
 {
@@ -1735,7 +1953,9 @@
     "studio": "White Fox",
     "slug": "hataraku-maou-sama",
     "updated": "2023-02-13T14:31:28.443Z",
-    "created": "2023-02-13T14:31:28.443Z"
+    "created": "2023-02-13T14:31:28.443Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15809/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/3/50177.jpg"
   }
 },
 {
@@ -1749,7 +1969,9 @@
     "studio": "3Hz",
     "slug": "hataraku-maou-sama-2",
     "updated": "2023-02-13T14:31:39.716Z",
-    "created": "2023-02-13T14:31:39.716Z"
+    "created": "2023-02-13T14:31:39.716Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48413/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1502/124354.jpg"
   }
 },
 {
@@ -1763,7 +1985,9 @@
     "studio": "Gonzo",
     "slug": "hellsing",
     "updated": "2023-02-13T14:31:51.212Z",
-    "created": "2023-02-13T14:31:51.212Z"
+    "created": "2023-02-13T14:31:51.212Z",
+    "api_url": "https://api.jikan.moe/v4/anime/270/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/19956.jpg"
   }
 },
 {
@@ -1777,7 +2001,9 @@
     "studio": "Graphinica",
     "slug": "hellsing-the-dawn",
     "updated": "2023-02-13T14:32:05.686Z",
-    "created": "2023-02-13T14:32:05.686Z"
+    "created": "2023-02-13T14:32:05.686Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11077/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/30667.jpg"
   }
 },
 {
@@ -1791,7 +2017,9 @@
     "studio": "Madhouse, Satelight, Graphinica",
     "slug": "hellsing-ultimate",
     "updated": "2023-02-13T14:32:17.575Z",
-    "created": "2023-02-13T14:32:17.575Z"
+    "created": "2023-02-13T14:32:17.575Z",
+    "api_url": "https://api.jikan.moe/v4/anime/777/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/7333.jpg"
   }
 },
 {
@@ -1805,7 +2033,9 @@
     "studio": "TNK",
     "slug": "high-school-dxd-1",
     "updated": "2023-02-13T14:32:29.807Z",
-    "created": "2023-02-13T14:32:29.807Z"
+    "created": "2023-02-13T14:32:29.807Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11617/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1331/111940.jpg"
   }
 },
 {
@@ -1819,7 +2049,9 @@
     "studio": "TNK",
     "slug": "high-school-dxd-2-new",
     "updated": "2023-02-13T14:32:41.171Z",
-    "created": "2023-02-13T14:32:41.171Z"
+    "created": "2023-02-13T14:32:41.171Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15451/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/47729.jpg"
   }
 },
 {
@@ -1833,7 +2065,9 @@
     "studio": "TNK",
     "slug": "high-school-dxd-3-born",
     "updated": "2023-02-13T14:32:54.557Z",
-    "created": "2023-02-13T14:32:54.557Z"
+    "created": "2023-02-13T14:32:54.557Z",
+    "api_url": "https://api.jikan.moe/v4/anime/24703/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/73642.jpg"
   }
 },
 {
@@ -1847,7 +2081,9 @@
     "studio": "PASSIONE",
     "slug": "high-school-dxd-4-hero",
     "updated": "2023-02-13T14:33:10.111Z",
-    "created": "2023-02-13T14:33:10.111Z"
+    "created": "2023-02-13T14:33:10.111Z",
+    "api_url": "https://api.jikan.moe/v4/anime/34281/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1189/93528.jpg"
   }
 },
 {
@@ -1861,7 +2097,9 @@
     "studio": "Madhouse",
     "slug": "highschool-of-the-dead",
     "updated": "2023-02-14T12:07:07.338Z",
-    "created": "2023-02-14T12:07:07.338Z"
+    "created": "2023-02-14T12:07:07.338Z",
+    "api_url": "https://api.jikan.moe/v4/anime/8074/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/11/78311.jpg"
   }
 },
 {
@@ -1875,7 +2113,9 @@
     "studio": "Studio Deen",
     "slug": "higurashi-no-naku-koro-ni",
     "updated": "2023-02-14T12:08:30.083Z",
-    "created": "2023-02-14T12:08:30.083Z"
+    "created": "2023-02-14T12:08:30.083Z",
+    "api_url": "https://api.jikan.moe/v4/anime/934/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/19634.jpg"
   }
 },
 {
@@ -1889,7 +2129,9 @@
     "studio": "Geneon Universal Entertainment",
     "slug": "higurashi-no-naku-koro-ni-kai",
     "updated": "2023-02-14T12:08:45.557Z",
-    "created": "2023-02-14T12:08:45.557Z"
+    "created": "2023-02-14T12:08:45.557Z",
+    "api_url": "https://api.jikan.moe/v4/anime/1889/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/14114.jpg"
   }
 },
 {
@@ -1903,7 +2145,9 @@
     "studio": "Studio Deen",
     "slug": "higurashi-no-naku-koro-ni-rei",
     "updated": "2023-02-14T12:08:59.895Z",
-    "created": "2023-02-14T12:08:59.895Z"
+    "created": "2023-02-14T12:08:59.895Z",
+    "api_url": "https://api.jikan.moe/v4/anime/3652/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/14113.jpg"
   }
 },
 {
@@ -1917,7 +2161,9 @@
     "studio": "PASSIONE",
     "slug": "higurashi-no-naku-koro-ni-gou",
     "updated": "2023-02-14T12:09:15.211Z",
-    "created": "2023-02-14T12:09:15.211Z"
+    "created": "2023-02-14T12:09:15.211Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41006/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1716/111533.jpg"
   }
 },
 {
@@ -1931,7 +2177,9 @@
     "studio": "PASSIONE",
     "slug": "higurashi-no-naku-koro-ni-sotsu",
     "updated": "2023-02-14T12:09:31.320Z",
-    "created": "2023-02-14T12:09:31.320Z"
+    "created": "2023-02-14T12:09:31.320Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48488/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1083/115046.jpg"
   }
 },
 {
@@ -1945,7 +2193,9 @@
     "studio": "Arms",
     "slug": "hyakka-ryouran-samurai-girls",
     "updated": "2023-02-14T12:09:59.051Z",
-    "created": "2023-02-14T12:09:59.051Z"
+    "created": "2023-02-14T12:09:59.051Z",
+    "api_url": "https://api.jikan.moe/v4/anime/8277/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/27705.jpg"
   }
 },
 {
@@ -1959,7 +2209,9 @@
     "studio": "Arms",
     "slug": "hyakka-ryouran-samurai-bride",
     "updated": "2023-02-14T12:10:30.233Z",
-    "created": "2023-02-14T12:10:30.233Z"
+    "created": "2023-02-14T12:10:30.233Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15377/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/45248.jpg"
   }
 },
 {
@@ -1973,7 +2225,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-1",
     "updated": "2023-02-14T12:10:43.235Z",
-    "created": "2023-02-14T12:10:43.235Z"
+    "created": "2023-02-14T12:10:43.235Z",
+    "api_url": "https://api.jikan.moe/v4/anime/9041/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/3/74045.jpg"
   }
 },
 {
@@ -1987,7 +2241,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-1-encore-koi-ni-kogareru-rokujuusou",
     "updated": "2023-02-14T12:15:44.589Z",
-    "created": "2023-02-14T12:15:44.589Z"
+    "created": "2023-02-14T12:15:44.589Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10794/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/56161.jpg"
   }
 },
 {
@@ -2001,7 +2257,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-2",
     "updated": "2023-02-14T12:16:04.550Z",
-    "created": "2023-02-14T12:16:04.550Z"
+    "created": "2023-02-14T12:16:04.550Z",
+    "api_url": "https://api.jikan.moe/v4/anime/18247/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/49359.jpg"
   }
 },
 {
@@ -2015,7 +2273,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-2-hitonatsu-no-omoide",
     "updated": "2023-02-14T12:16:20.794Z",
-    "created": "2023-02-14T12:16:20.794Z"
+    "created": "2023-02-14T12:16:20.794Z",
+    "api_url": "https://api.jikan.moe/v4/anime/20045/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/56159.jpg"
   }
 },
 {
@@ -2029,7 +2289,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-2-world-purge-hen",
     "updated": "2023-02-14T12:16:43.079Z",
-    "created": "2023-02-14T12:16:43.079Z"
+    "created": "2023-02-14T12:16:43.079Z",
+    "api_url": "https://api.jikan.moe/v4/anime/21653/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/67545.jpg"
   }
 },
 {
@@ -2043,7 +2305,9 @@
     "studio": "8bit",
     "slug": "infinite-stratos-2-infinite-wedding",
     "updated": "2023-02-14T12:18:18.226Z",
-    "created": "2023-02-14T12:18:18.226Z"
+    "created": "2023-02-14T12:18:18.226Z",
+    "api_url": "https://api.jikan.moe/v4/anime/33242/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1323/108709.jpg"
   }
 },
 {
@@ -2057,7 +2321,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha",
     "updated": "2023-02-14T12:18:34.263Z",
-    "created": "2023-02-14T12:18:34.263Z"
+    "created": "2023-02-14T12:18:34.263Z",
+    "api_url": "https://api.jikan.moe/v4/anime/249/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1589/95329.jpg"
   }
 },
 {
@@ -2071,7 +2337,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha-movie-1-toki-wo-koeru-omoi",
     "updated": "2023-02-14T12:20:26.350Z",
-    "created": "2023-02-14T12:20:26.350Z"
+    "created": "2023-02-14T12:20:26.350Z",
+    "api_url": "https://api.jikan.moe/v4/anime/452/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1683/94370.jpg"
   }
 },
 {
@@ -2085,7 +2353,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha-movie-2-kagami-no-naka-no-mugenjo",
     "updated": "2023-02-14T12:20:41.197Z",
-    "created": "2023-02-14T12:20:41.197Z"
+    "created": "2023-02-14T12:20:41.197Z",
+    "api_url": "https://api.jikan.moe/v4/anime/450/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1162/92219.jpg"
   }
 },
 {
@@ -2099,7 +2369,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha-movie-3-tenka-hadou-no-ken",
     "updated": "2023-02-14T12:20:58.302Z",
-    "created": "2023-02-14T12:20:58.302Z"
+    "created": "2023-02-14T12:20:58.302Z",
+    "api_url": "https://api.jikan.moe/v4/anime/451/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1658/95332.jpg"
   }
 },
 {
@@ -2113,7 +2385,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha-movie-4-guren-no-houraijima",
     "updated": "2023-02-14T12:21:11.252Z",
-    "created": "2023-02-14T12:21:11.252Z"
+    "created": "2023-02-14T12:21:11.252Z",
+    "api_url": "https://api.jikan.moe/v4/anime/449/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1216/94369.jpg"
   }
 },
 {
@@ -2127,7 +2401,9 @@
     "studio": "Sunrise",
     "slug": "inuyasha-the-final-act",
     "updated": "2023-02-14T12:21:23.585Z",
-    "created": "2023-02-14T12:21:23.585Z"
+    "created": "2023-02-14T12:21:23.585Z",
+    "api_url": "https://api.jikan.moe/v4/anime/6811/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/75570.jpg"
   }
 },
 {
@@ -2141,7 +2417,9 @@
     "studio": "Passione",
     "slug": "isekai-meikyuu-de-harem-wo",
     "updated": "2023-02-14T12:21:40.082Z",
-    "created": "2023-02-14T12:21:40.082Z"
+    "created": "2023-02-14T12:21:40.082Z",
+    "api_url": "https://api.jikan.moe/v4/anime/44524/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1490/126919.jpg"
   }
 },
 {
@@ -2155,7 +2433,9 @@
     "studio": "Madhouse",
     "slug": "juubee-chan-1-lovely-gantai-no-himitsu",
     "updated": "2023-02-14T12:22:16.172Z",
-    "created": "2023-02-14T12:22:16.172Z"
+    "created": "2023-02-14T12:22:16.172Z",
+    "api_url": "https://api.jikan.moe/v4/anime/635/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/60987.jpg"
   }
 },
 {
@@ -2169,7 +2449,9 @@
     "studio": "Madhouse",
     "slug": "juubee-chan-2-siberia-yagyuu-no-gyakushuu",
     "updated": "2023-02-14T12:22:31.481Z",
-    "created": "2023-02-14T12:22:31.481Z"
+    "created": "2023-02-14T12:22:31.481Z",
+    "api_url": "https://api.jikan.moe/v4/anime/636/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/20768.jpg"
   }
 },
 {
@@ -2183,7 +2465,9 @@
     "studio": "TNK",
     "slug": "kaifuku-jutsushi-no-yarinaoshi",
     "updated": "2023-02-14T12:22:47.236Z",
-    "created": "2023-02-14T12:22:47.236Z"
+    "created": "2023-02-14T12:22:47.236Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40750/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1301/110018.jpg"
   }
 },
 {
@@ -2197,7 +2481,9 @@
     "studio": "TMS Entertainment",
     "slug": "kanojo-okarishimasu",
     "updated": "2023-02-14T12:23:06.297Z",
-    "created": "2023-02-14T12:23:06.297Z"
+    "created": "2023-02-14T12:23:06.297Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40839/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1902/128382.jpg"
   }
 },
 {
@@ -2211,7 +2497,9 @@
     "studio": "TMS Entertainment",
     "slug": "kanojo-okarishimasu-2",
     "updated": "2023-02-14T12:23:24.036Z",
-    "created": "2023-02-14T12:23:24.036Z"
+    "created": "2023-02-14T12:23:24.036Z",
+    "api_url": "https://api.jikan.moe/v4/anime/42963/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1070/124592.jpg"
   }
 },
 {
@@ -2225,7 +2513,9 @@
     "studio": "Doga Kobo",
     "slug": "kawaii-dake-ja-nai-shikimori-san",
     "updated": "2023-02-14T12:23:37.290Z",
-    "created": "2023-02-14T12:23:37.290Z"
+    "created": "2023-02-14T12:23:37.290Z",
+    "api_url": "https://api.jikan.moe/v4/anime/45613/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1995/121695.jpg"
   }
 },
 {
@@ -2239,7 +2529,9 @@
     "studio": "Sunrise",
     "slug": "kekkaishi",
     "updated": "2023-02-14T12:23:57.859Z",
-    "created": "2023-02-14T12:23:57.859Z"
+    "created": "2023-02-14T12:23:57.859Z",
+    "api_url": "https://api.jikan.moe/v4/anime/1606/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/75191.jpg"
   }
 },
 {
@@ -2253,7 +2545,9 @@
     "studio": "Ajia-Do",
     "slug": "kemono-jihen",
     "updated": "2023-02-14T12:24:13.335Z",
-    "created": "2023-02-14T12:24:13.335Z"
+    "created": "2023-02-14T12:24:13.335Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40908/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1258/108331.jpg"
   }
 },
 {
@@ -2267,7 +2561,9 @@
     "studio": "LIDENFILMS",
     "slug": "killing-bites",
     "updated": "2023-02-14T12:24:29.400Z",
-    "created": "2023-02-14T12:24:29.400Z"
+    "created": "2023-02-14T12:24:29.400Z",
+    "api_url": "https://api.jikan.moe/v4/anime/34964/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/90087.jpg"
   }
 },
 {
@@ -2281,7 +2577,9 @@
     "studio": "Ufotable",
     "slug": "kimetsu-no-yaiba-1",
     "updated": "2023-02-14T12:25:23.999Z",
-    "created": "2023-02-14T12:25:23.999Z"
+    "created": "2023-02-14T12:25:23.999Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38000/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1286/99889.jpg"
   }
 },
 {
@@ -2295,7 +2593,9 @@
     "studio": "Ufotable",
     "slug": "kimetsu-no-yaiba-1-mugen-ressha-hen",
     "updated": "2023-02-14T12:25:40.394Z",
-    "created": "2023-02-14T12:25:40.394Z"
+    "created": "2023-02-14T12:25:40.394Z",
+    "api_url": "https://api.jikan.moe/v4/anime/49926/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1065/118763.jpg"
   }
 },
 {
@@ -2309,7 +2609,9 @@
     "studio": "Ufotable",
     "slug": "kimetsu-no-yaiba-2-yuukaku-hen",
     "updated": "2023-02-14T12:25:55.828Z",
-    "created": "2023-02-14T12:25:55.828Z"
+    "created": "2023-02-14T12:25:55.828Z",
+    "api_url": "https://api.jikan.moe/v4/anime/47778/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1908/120036.jpg"
   }
 },
 {
@@ -2323,7 +2625,9 @@
     "studio": "Staple Entertainment",
     "slug": "kinsou-no-vermeil-to-mahou-sekai-no-tsukisusumu",
     "updated": "2023-02-14T12:26:10.322Z",
-    "created": "2023-02-14T12:26:10.322Z"
+    "created": "2023-02-14T12:26:10.322Z",
+    "api_url": "https://api.jikan.moe/v4/anime/51213/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1561/125302.jpg"
   }
 },
 {
@@ -2337,21 +2641,25 @@
     "studio": "Madhouse",
     "slug": "kiseijuu-sei-no-kakuritsu",
     "updated": "2023-02-14T12:26:24.798Z",
-    "created": "2023-02-14T12:26:24.798Z"
+    "created": "2023-02-14T12:26:24.798Z",
+    "api_url": "https://api.jikan.moe/v4/anime/22535/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/3/73178.jpg"
   }
 },
 {
   "model": "api.anime",
   "pk": 106,
   "fields": {
-    "mal_id": 30381,
-    "anime_title": "Kono Subarashii Sekai ni Syukufuku Wo 1",
+    "mal_id": 30831,
+    "anime_title": "Kono Subarashii Sekai ni Syukufuku Wo",
     "anime_score": "8.12",
     "airing_time": "Winter 2016",
     "studio": "Studio Deen",
-    "slug": "kono-subarashii-sekai-ni-syukufuku-wo-1",
-    "updated": "2023-02-14T12:26:41.995Z",
-    "created": "2023-02-14T12:26:41.995Z"
+    "slug": "kono-subarashii-sekai-ni-syukufuku-wo",
+    "updated": "2023-03-15T13:53:39.663Z",
+    "created": "2023-02-14T12:26:41.995Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30831/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/8/77831.jpg"
   }
 },
 {
@@ -2365,7 +2673,9 @@
     "studio": "Studio Deen",
     "slug": "kono-subarashii-sekai-ni-syukufuku-wo-2",
     "updated": "2023-02-14T12:26:56.506Z",
-    "created": "2023-02-14T12:26:56.506Z"
+    "created": "2023-02-14T12:26:56.506Z",
+    "api_url": "https://api.jikan.moe/v4/anime/32937/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/83188.jpg"
   }
 },
 {
@@ -2379,7 +2689,9 @@
     "studio": "J.C.Staff",
     "slug": "konosuba-movie-kurenai-densetsu",
     "updated": "2023-02-14T12:27:10.810Z",
-    "created": "2023-02-14T12:27:10.810Z"
+    "created": "2023-02-14T12:27:10.810Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38040/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1638/119321.jpg"
   }
 },
 {
@@ -2393,7 +2705,9 @@
     "studio": "Studio Deen",
     "slug": "kore-wa-zombie-desu-ka-1",
     "updated": "2023-02-14T12:27:31.313Z",
-    "created": "2023-02-14T12:27:31.313Z"
+    "created": "2023-02-14T12:27:31.313Z",
+    "api_url": "https://api.jikan.moe/v4/anime/8841/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/75521.jpg"
   }
 },
 {
@@ -2407,7 +2721,9 @@
     "studio": "Studio Deen",
     "slug": "kore-wa-zombie-desu-ka-2",
     "updated": "2023-02-14T12:27:45.142Z",
-    "created": "2023-02-14T12:27:45.142Z"
+    "created": "2023-02-14T12:27:45.142Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10790/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/37451.jpg"
   }
 },
 {
@@ -2421,7 +2737,9 @@
     "studio": "asread",
     "slug": "mirai-nikki",
     "updated": "2023-02-14T12:28:00.091Z",
-    "created": "2023-02-14T12:28:00.091Z"
+    "created": "2023-02-14T12:28:00.091Z",
+    "api_url": "https://api.jikan.moe/v4/anime/10620/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/33465.jpg"
   }
 },
 {
@@ -2435,7 +2753,9 @@
     "studio": "Arms",
     "slug": "maoyuu-maou-yuusha",
     "updated": "2023-02-14T12:28:13.971Z",
-    "created": "2023-02-14T12:28:13.971Z"
+    "created": "2023-02-14T12:28:13.971Z",
+    "api_url": "https://api.jikan.moe/v4/anime/14833/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/46041.jpg"
   }
 },
 {
@@ -2449,7 +2769,9 @@
     "studio": "SHAFT",
     "slug": "bakemonogatari",
     "updated": "2023-02-14T12:28:27.733Z",
-    "created": "2023-02-14T12:28:27.733Z"
+    "created": "2023-02-14T12:28:27.733Z",
+    "api_url": "https://api.jikan.moe/v4/anime/5081/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/11/75274.jpg"
   }
 },
 {
@@ -2463,7 +2785,9 @@
     "studio": "SHAFT",
     "slug": "kizumonogatari-1-tekketsu-hen",
     "updated": "2023-02-14T12:28:41.510Z",
-    "created": "2023-02-14T12:28:41.510Z"
+    "created": "2023-02-14T12:28:41.510Z",
+    "api_url": "https://api.jikan.moe/v4/anime/9260/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1783/112810.jpg"
   }
 },
 {
@@ -2477,7 +2801,9 @@
     "studio": "SHAFT",
     "slug": "kizumonogatari-2-nekketsu-hen",
     "updated": "2023-02-14T12:28:55.523Z",
-    "created": "2023-02-14T12:28:55.523Z"
+    "created": "2023-02-14T12:28:55.523Z",
+    "api_url": "https://api.jikan.moe/v4/anime/31757/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1981/112812.jpg"
   }
 },
 {
@@ -2491,7 +2817,9 @@
     "studio": "SHAFT",
     "slug": "kizumonogatari-3-reiketsu-hen",
     "updated": "2023-02-14T12:29:09.067Z",
-    "created": "2023-02-14T12:29:09.067Z"
+    "created": "2023-02-14T12:29:09.067Z",
+    "api_url": "https://api.jikan.moe/v4/anime/31758/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1084/112813.jpg"
   }
 },
 {
@@ -2505,7 +2833,9 @@
     "studio": "SHAFT",
     "slug": "koyomimonogatari",
     "updated": "2023-02-14T12:29:27.884Z",
-    "created": "2023-02-14T12:29:27.884Z"
+    "created": "2023-02-14T12:29:27.884Z",
+    "api_url": "https://api.jikan.moe/v4/anime/32268/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/77744.jpg"
   }
 },
 {
@@ -2519,7 +2849,9 @@
     "studio": "SHAFT",
     "slug": "monogatari-series-2nd-season",
     "updated": "2023-02-14T12:29:41.822Z",
-    "created": "2023-02-14T12:29:41.822Z"
+    "created": "2023-02-14T12:29:41.822Z",
+    "api_url": "https://api.jikan.moe/v4/anime/17074/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1807/121534.jpg"
   }
 },
 {
@@ -2533,7 +2865,9 @@
     "studio": "SHAFT",
     "slug": "nekomonogatari-kuro",
     "updated": "2023-02-14T12:30:16.431Z",
-    "created": "2023-02-14T12:30:16.431Z"
+    "created": "2023-02-14T12:30:16.431Z",
+    "api_url": "https://api.jikan.moe/v4/anime/15689/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1170/121597.jpg"
   }
 },
 {
@@ -2547,7 +2881,9 @@
     "studio": "SHAFT",
     "slug": "nisemonogatari",
     "updated": "2023-02-14T12:30:31.323Z",
-    "created": "2023-02-14T12:30:31.323Z"
+    "created": "2023-02-14T12:30:31.323Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11597/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1044/103654.jpg"
   }
 },
 {
@@ -2561,7 +2897,9 @@
     "studio": "SHAFT",
     "slug": "owarimonogatari",
     "updated": "2023-02-14T12:30:45.689Z",
-    "created": "2023-02-14T12:30:45.689Z"
+    "created": "2023-02-14T12:30:45.689Z",
+    "api_url": "https://api.jikan.moe/v4/anime/31181/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/8/76479.jpg"
   }
 },
 {
@@ -2575,7 +2913,9 @@
     "studio": "SHAFT",
     "slug": "owarimonogatari-2",
     "updated": "2023-02-14T12:30:59.110Z",
-    "created": "2023-02-14T12:30:59.110Z"
+    "created": "2023-02-14T12:30:59.110Z",
+    "api_url": "https://api.jikan.moe/v4/anime/35247/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/87322.jpg"
   }
 },
 {
@@ -2589,7 +2929,9 @@
     "studio": "SHAFT",
     "slug": "tsukimonogatari",
     "updated": "2023-02-14T12:31:13.845Z",
-    "created": "2023-02-14T12:31:13.845Z"
+    "created": "2023-02-14T12:31:13.845Z",
+    "api_url": "https://api.jikan.moe/v4/anime/28025/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/68259.jpg"
   }
 },
 {
@@ -2603,7 +2945,9 @@
     "studio": "Arvo Animation",
     "slug": "monster-musume-no-oisha-san",
     "updated": "2023-02-14T12:31:34.146Z",
-    "created": "2023-02-14T12:31:34.146Z"
+    "created": "2023-02-14T12:31:34.146Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40708/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1762/106598.jpg"
   }
 },
 {
@@ -2617,7 +2961,9 @@
     "studio": "Madhouse",
     "slug": "juubee-ninpuuchou",
     "updated": "2023-02-14T12:31:52.739Z",
-    "created": "2023-02-14T12:31:52.739Z"
+    "created": "2023-02-14T12:31:52.739Z",
+    "api_url": "https://api.jikan.moe/v4/anime/617/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1834/116568.jpg"
   }
 },
 {
@@ -2631,7 +2977,9 @@
     "studio": "Madhouse",
     "slug": "juubee-ninpuuchou-ryuuhougyoku-hen",
     "updated": "2023-02-14T12:32:10.517Z",
-    "created": "2023-02-14T12:32:10.517Z"
+    "created": "2023-02-14T12:32:10.517Z",
+    "api_url": "https://api.jikan.moe/v4/anime/618/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1898/103439.jpg"
   }
 },
 {
@@ -2645,7 +2993,9 @@
     "studio": "SHAFT",
     "slug": "nisekoi-1",
     "updated": "2023-02-14T12:32:28.395Z",
-    "created": "2023-02-14T12:32:28.395Z"
+    "created": "2023-02-14T12:32:28.395Z",
+    "api_url": "https://api.jikan.moe/v4/anime/18897/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/75587.jpg"
   }
 },
 {
@@ -2659,7 +3009,9 @@
     "studio": "SHAFT",
     "slug": "nisekoi-2",
     "updated": "2023-02-14T12:32:46.027Z",
-    "created": "2023-02-14T12:32:46.027Z"
+    "created": "2023-02-14T12:32:46.027Z",
+    "api_url": "https://api.jikan.moe/v4/anime/27787/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/13/72626.jpg"
   }
 },
 {
@@ -2673,7 +3025,9 @@
     "studio": "SHAFT",
     "slug": "nisekoi-ova",
     "updated": "2023-02-14T12:33:18.274Z",
-    "created": "2023-02-14T12:33:18.274Z"
+    "created": "2023-02-14T12:33:18.274Z",
+    "api_url": "https://api.jikan.moe/v4/anime/24227/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/71754.jpg"
   }
 },
 {
@@ -2687,7 +3041,9 @@
     "studio": "Production I.G",
     "slug": "nobless",
     "updated": "2023-02-14T12:33:30.501Z",
-    "created": "2023-02-14T12:33:30.501Z"
+    "created": "2023-02-14T12:33:30.501Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41345/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1903/111646.jpg"
   }
 },
 {
@@ -2701,7 +3057,9 @@
     "studio": "Seven",
     "slug": "okusama-ga-seitokaichou",
     "updated": "2023-02-14T12:33:42.659Z",
-    "created": "2023-02-14T12:33:42.659Z"
+    "created": "2023-02-14T12:33:42.659Z",
+    "api_url": "https://api.jikan.moe/v4/anime/28819/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/75012.jpg"
   }
 },
 {
@@ -2715,7 +3073,9 @@
     "studio": "Seven",
     "slug": "okusama-ga-seitokaichou",
     "updated": "2023-02-14T12:33:55.621Z",
-    "created": "2023-02-14T12:33:55.621Z"
+    "created": "2023-02-14T12:33:55.621Z",
+    "api_url": "https://api.jikan.moe/v4/anime/32603/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/8/82409.jpg"
   }
 },
 {
@@ -2729,7 +3089,9 @@
     "studio": "Okuruto Noboru",
     "slug": "ore-dake-haireru-kakushi-dungeon",
     "updated": "2023-02-14T12:34:08.241Z",
-    "created": "2023-02-14T12:34:08.241Z"
+    "created": "2023-02-14T12:34:08.241Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41899/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1988/115708.jpg"
   }
 },
 {
@@ -2743,7 +3105,9 @@
     "studio": "Madhouse",
     "slug": "overlord-i",
     "updated": "2023-02-14T12:34:21.762Z",
-    "created": "2023-02-14T12:34:21.762Z"
+    "created": "2023-02-14T12:34:21.762Z",
+    "api_url": "https://api.jikan.moe/v4/anime/29803/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/88019.jpg"
   }
 },
 {
@@ -2757,7 +3121,9 @@
     "studio": "Madhouse",
     "slug": "overlord-ii",
     "updated": "2023-02-14T12:34:51.258Z",
-    "created": "2023-02-14T12:34:51.258Z"
+    "created": "2023-02-14T12:34:51.258Z",
+    "api_url": "https://api.jikan.moe/v4/anime/35073/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1212/113415.jpg"
   }
 },
 {
@@ -2771,7 +3137,9 @@
     "studio": "Madhouse",
     "slug": "overlord-iii",
     "updated": "2023-02-14T12:40:29.802Z",
-    "created": "2023-02-14T12:40:29.802Z"
+    "created": "2023-02-14T12:40:29.802Z",
+    "api_url": "https://api.jikan.moe/v4/anime/37675/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1511/93473.jpg"
   }
 },
 {
@@ -2785,7 +3153,9 @@
     "studio": "Madhouse",
     "slug": "overlord-iv",
     "updated": "2023-02-14T12:40:42.685Z",
-    "created": "2023-02-14T12:40:42.685Z"
+    "created": "2023-02-14T12:40:42.685Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48895/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1530/120110.jpg"
   }
 },
 {
@@ -2799,7 +3169,9 @@
     "studio": "J.C.Staff",
     "slug": "prison-school",
     "updated": "2023-02-14T12:40:53.842Z",
-    "created": "2023-02-14T12:40:53.842Z"
+    "created": "2023-02-14T12:40:53.842Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30240/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1286/112161.jpg"
   }
 },
 {
@@ -2813,7 +3185,9 @@
     "studio": "Gonzo",
     "slug": "rosario-to-vampire-1",
     "updated": "2023-02-14T12:41:05.945Z",
-    "created": "2023-02-14T12:41:05.945Z"
+    "created": "2023-02-14T12:41:05.945Z",
+    "api_url": "https://api.jikan.moe/v4/anime/2993/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/75242.jpg"
   }
 },
 {
@@ -2827,7 +3201,9 @@
     "studio": "Gonzo",
     "slug": "rosario-to-vampire-2",
     "updated": "2023-02-14T12:41:18.355Z",
-    "created": "2023-02-14T12:41:18.355Z"
+    "created": "2023-02-14T12:41:18.355Z",
+    "api_url": "https://api.jikan.moe/v4/anime/4214/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/25093.jpg"
   }
 },
 {
@@ -2841,7 +3217,9 @@
     "studio": "A-1 Pictures",
     "slug": "saenai-heroine-no-sodatekata-1",
     "updated": "2023-02-15T15:47:49.731Z",
-    "created": "2023-02-15T15:47:49.731Z"
+    "created": "2023-02-15T15:47:49.731Z",
+    "api_url": "https://api.jikan.moe/v4/anime/23277/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/7/68783.jpg"
   }
 },
 {
@@ -2855,7 +3233,9 @@
     "studio": "A-1 Pictures",
     "slug": "saenai-heroine-no-sodatekata-2",
     "updated": "2023-02-15T15:48:03.481Z",
-    "created": "2023-02-15T15:48:03.481Z"
+    "created": "2023-02-15T15:48:03.481Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30727/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/84797.jpg"
   }
 },
 {
@@ -2869,7 +3249,9 @@
     "studio": "Lerche",
     "slug": "saijaku-muhai-no-bahamut",
     "updated": "2023-02-15T15:48:16.256Z",
-    "created": "2023-02-15T15:48:16.256Z"
+    "created": "2023-02-15T15:48:16.256Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30749/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/76664.jpg"
   }
 },
 {
@@ -2883,7 +3265,9 @@
     "studio": "TNK",
     "slug": "school-days",
     "updated": "2023-02-15T15:48:29.917Z",
-    "created": "2023-02-15T15:48:29.917Z"
+    "created": "2023-02-15T15:48:29.917Z",
+    "api_url": "https://api.jikan.moe/v4/anime/2476/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1593/122440.jpg"
   }
 },
 {
@@ -2897,7 +3281,9 @@
     "studio": "Seven Arcs",
     "slug": "sekirei-1",
     "updated": "2023-02-15T15:48:48.385Z",
-    "created": "2023-02-15T15:48:48.385Z"
+    "created": "2023-02-15T15:48:48.385Z",
+    "api_url": "https://api.jikan.moe/v4/anime/4063/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/15182.jpg"
   }
 },
 {
@@ -2911,7 +3297,9 @@
     "studio": "Seven Arcs",
     "slug": "sekirei-2-pure-engagement",
     "updated": "2023-02-15T15:49:01.520Z",
-    "created": "2023-02-15T15:49:01.520Z"
+    "created": "2023-02-15T15:49:01.520Z",
+    "api_url": "https://api.jikan.moe/v4/anime/5277/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/75178.jpg"
   }
 },
 {
@@ -2925,7 +3313,9 @@
     "studio": "J.C.Staff",
     "slug": "shimoneta-to-lu-gainen-ga-sonzai-shinai-taikutsu-na-sekai",
     "updated": "2023-02-15T15:49:25.861Z",
-    "created": "2023-02-15T15:49:25.861Z"
+    "created": "2023-02-15T15:49:25.861Z",
+    "api_url": "https://api.jikan.moe/v4/anime/29786/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/75106.jpg"
   }
 },
 {
@@ -2939,7 +3329,9 @@
     "studio": "MAPPA",
     "slug": "shingeki-no-bahamut-genesis",
     "updated": "2023-02-15T15:49:39.488Z",
-    "created": "2023-02-15T15:49:39.488Z"
+    "created": "2023-02-15T15:49:39.488Z",
+    "api_url": "https://api.jikan.moe/v4/anime/21843/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/67513.jpg"
   }
 },
 {
@@ -2953,7 +3345,9 @@
     "studio": "J.C.Staff",
     "slug": "shingetsutan-tsukihime",
     "updated": "2023-02-15T15:49:55.411Z",
-    "created": "2023-02-15T15:49:55.411Z"
+    "created": "2023-02-15T15:49:55.411Z",
+    "api_url": "https://api.jikan.moe/v4/anime/169/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/20669.jpg"
   }
 },
 {
@@ -2967,7 +3361,9 @@
     "studio": "Production IMS",
     "slug": "shinmai-maou-no-testament-1",
     "updated": "2023-02-15T15:50:08.104Z",
-    "created": "2023-02-15T15:50:08.104Z"
+    "created": "2023-02-15T15:50:08.104Z",
+    "api_url": "https://api.jikan.moe/v4/anime/23233/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1654/112033.jpg"
   }
 },
 {
@@ -2981,7 +3377,9 @@
     "studio": "Production IMS",
     "slug": "shinmai-maou-no-testament-1-ova-toujou-basara-no-hard-sweet-na-nichijou",
     "updated": "2023-02-15T15:50:29.469Z",
-    "created": "2023-02-15T15:50:29.469Z"
+    "created": "2023-02-15T15:50:29.469Z",
+    "api_url": "https://api.jikan.moe/v4/anime/29027/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/69911.jpg"
   }
 },
 {
@@ -2995,7 +3393,9 @@
     "studio": "Production IMS",
     "slug": "shinmai-maou-no-testament-2-burst",
     "updated": "2023-02-15T15:50:41.375Z",
-    "created": "2023-02-15T15:50:41.375Z"
+    "created": "2023-02-15T15:50:41.375Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30363/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1151/94750.jpg"
   }
 },
 {
@@ -3009,7 +3409,9 @@
     "studio": "Production IMS",
     "slug": "shinmai-maou-no-testament-2-burst-toujou-basara-no-shigoku-heiwa-na-nichijou",
     "updated": "2023-02-15T15:50:57.882Z",
-    "created": "2023-02-15T15:50:57.882Z"
+    "created": "2023-02-15T15:50:57.882Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30365/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1568/95614.jpg"
   }
 },
 {
@@ -3023,7 +3425,9 @@
     "studio": "Production IMS",
     "slug": "shinmai-maou-no-testament-departure",
     "updated": "2023-02-15T15:51:09.625Z",
-    "created": "2023-02-15T15:51:09.625Z"
+    "created": "2023-02-15T15:51:09.625Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36688/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1395/95778.jpg"
   }
 },
 {
@@ -3037,7 +3441,9 @@
     "studio": "Studio Gokumi, AXsiZ",
     "slug": "shuumatsu-no-harem",
     "updated": "2023-02-15T15:51:21.094Z",
-    "created": "2023-02-15T15:51:21.094Z"
+    "created": "2023-02-15T15:51:21.094Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41946/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1491/117296.jpg"
   }
 },
 {
@@ -3051,7 +3457,9 @@
     "studio": "Revoroot",
     "slug": "slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita",
     "updated": "2023-02-15T15:51:34.861Z",
-    "created": "2023-02-15T15:51:34.861Z"
+    "created": "2023-02-15T15:51:34.861Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40586/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1888/133089.jpg"
   }
 },
 {
@@ -3065,7 +3473,9 @@
     "studio": "White Fox",
     "slug": "steins-gate",
     "updated": "2023-02-15T15:51:51.842Z",
-    "created": "2023-02-15T15:51:51.842Z"
+    "created": "2023-02-15T15:51:51.842Z",
+    "api_url": "https://api.jikan.moe/v4/anime/9253/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg"
   }
 },
 {
@@ -3079,7 +3489,9 @@
     "studio": "White Fox",
     "slug": "steins-gate-movie-load-region-of-deja-vu",
     "updated": "2023-02-15T15:52:02.056Z",
-    "created": "2023-02-15T15:52:02.056Z"
+    "created": "2023-02-15T15:52:02.056Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11577/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1611/112806.jpg"
   }
 },
 {
@@ -3093,7 +3505,9 @@
     "studio": "White Fox",
     "slug": "steins-gate-0",
     "updated": "2023-02-15T15:52:14.419Z",
-    "created": "2023-02-15T15:52:14.419Z"
+    "created": "2023-02-15T15:52:14.419Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30484/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1375/93521.jpg"
   }
 },
 {
@@ -3107,7 +3521,9 @@
     "studio": "SILVER LINK., Connect",
     "slug": "strike-the-blood-1",
     "updated": "2023-02-15T15:52:25.645Z",
-    "created": "2023-02-15T15:52:25.645Z"
+    "created": "2023-02-15T15:52:25.645Z",
+    "api_url": "https://api.jikan.moe/v4/anime/18277/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/56163.jpg"
   }
 },
 {
@@ -3121,7 +3537,9 @@
     "studio": "Barnum Studio, SILVER LINK., Connect",
     "slug": "strike-the-blood-1-ova-valkyria-no-oukoku-hen",
     "updated": "2023-02-15T15:52:40.824Z",
-    "created": "2023-02-15T15:52:40.824Z"
+    "created": "2023-02-15T15:52:40.824Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30321/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/77275.jpg"
   }
 },
 {
@@ -3135,7 +3553,9 @@
     "studio": "SILVER LINK., Connect",
     "slug": "strike-the-blood-2",
     "updated": "2023-02-15T15:52:52.419Z",
-    "created": "2023-02-15T15:52:52.419Z"
+    "created": "2023-02-15T15:52:52.419Z",
+    "api_url": "https://api.jikan.moe/v4/anime/33286/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1600/111675.jpg"
   }
 },
 {
@@ -3149,7 +3569,9 @@
     "studio": "Connect",
     "slug": "strike-the-blood-3",
     "updated": "2023-02-15T15:53:07.687Z",
-    "created": "2023-02-15T15:53:07.687Z"
+    "created": "2023-02-15T15:53:07.687Z",
+    "api_url": "https://api.jikan.moe/v4/anime/37449/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1768/111676.jpg"
   }
 },
 {
@@ -3163,7 +3585,9 @@
     "studio": "Connect",
     "slug": "strike-the-blood-3-ova-kieta-seisou-hen",
     "updated": "2023-02-15T15:53:20.431Z",
-    "created": "2023-02-15T15:53:20.431Z"
+    "created": "2023-02-15T15:53:20.431Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40486/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1918/103377.jpg"
   }
 },
 {
@@ -3177,7 +3601,9 @@
     "studio": "Connect",
     "slug": "strike-the-blood-4",
     "updated": "2023-02-15T15:53:31.294Z",
-    "created": "2023-02-15T15:53:31.294Z"
+    "created": "2023-02-15T15:53:31.294Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40485/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1692/116875.jpg"
   }
 },
 {
@@ -3191,7 +3617,9 @@
     "studio": "Connect",
     "slug": "strike-the-blood-5",
     "updated": "2023-02-15T15:53:41.692Z",
-    "created": "2023-02-15T15:53:41.692Z"
+    "created": "2023-02-15T15:53:41.692Z",
+    "api_url": "https://api.jikan.moe/v4/anime/49316/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1208/120085.jpg"
   }
 },
 {
@@ -3205,7 +3633,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-1",
     "updated": "2023-02-15T15:53:56.057Z",
-    "created": "2023-02-15T15:53:56.057Z"
+    "created": "2023-02-15T15:53:56.057Z",
+    "api_url": "https://api.jikan.moe/v4/anime/11757/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/11/39717.jpg"
   }
 },
 {
@@ -3219,7 +3649,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-2",
     "updated": "2023-02-15T15:54:06.221Z",
-    "created": "2023-02-15T15:54:06.221Z"
+    "created": "2023-02-15T15:54:06.221Z",
+    "api_url": "https://api.jikan.moe/v4/anime/21881/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1223/121999.jpg"
   }
 },
 {
@@ -3233,7 +3665,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-3-alicization",
     "updated": "2023-02-15T15:54:16.042Z",
-    "created": "2023-02-15T15:54:16.042Z"
+    "created": "2023-02-15T15:54:16.042Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36474/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1993/93837.jpg"
   }
 },
 {
@@ -3247,7 +3681,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-3-alicization-war-of-underworld-i",
     "updated": "2023-02-15T15:54:26.613Z",
-    "created": "2023-02-15T15:54:26.613Z"
+    "created": "2023-02-15T15:54:26.613Z",
+    "api_url": "https://api.jikan.moe/v4/anime/39597/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1630/103417.jpg"
   }
 },
 {
@@ -3261,7 +3697,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-3-alicization-war-of-underworld-ii",
     "updated": "2023-02-15T15:54:43.995Z",
-    "created": "2023-02-15T15:54:43.995Z"
+    "created": "2023-02-15T15:54:43.995Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40540/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1438/105106.jpg"
   }
 },
 {
@@ -3275,7 +3713,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-movie-ordinal-scale",
     "updated": "2023-02-15T15:54:57.440Z",
-    "created": "2023-02-15T15:54:57.440Z"
+    "created": "2023-02-15T15:54:57.440Z",
+    "api_url": "https://api.jikan.moe/v4/anime/31765/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1557/123313.jpg"
   }
 },
 {
@@ -3289,7 +3729,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-movie-extra-edition",
     "updated": "2023-02-15T15:55:09.949Z",
-    "created": "2023-02-15T15:55:09.949Z"
+    "created": "2023-02-15T15:55:09.949Z",
+    "api_url": "https://api.jikan.moe/v4/anime/20021/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1927/121997.jpg"
   }
 },
 {
@@ -3303,7 +3745,9 @@
     "studio": "A-1 Pictures",
     "slug": "sword-art-online-movie-1-progressive-hoshi-naki-yoru-no-aria",
     "updated": "2023-02-15T15:55:24.395Z",
-    "created": "2023-02-15T15:55:24.395Z"
+    "created": "2023-02-15T15:55:24.395Z",
+    "api_url": "https://api.jikan.moe/v4/anime/42916/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1590/116274.jpg"
   }
 },
 {
@@ -3317,7 +3761,9 @@
     "studio": "SILVER LINK.",
     "slug": "tasogare-otome-x-amnesia",
     "updated": "2023-02-15T15:55:34.618Z",
-    "created": "2023-02-15T15:55:34.618Z"
+    "created": "2023-02-15T15:55:34.618Z",
+    "api_url": "https://api.jikan.moe/v4/anime/12445/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/64435.jpg"
   }
 },
 {
@@ -3331,21 +3777,25 @@
     "studio": "Kinema Citrus",
     "slug": "tate-no-yuusha-no-nariagari-1",
     "updated": "2023-02-15T15:55:51.107Z",
-    "created": "2023-02-15T15:55:51.107Z"
+    "created": "2023-02-15T15:55:51.107Z",
+    "api_url": "https://api.jikan.moe/v4/anime/35790/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1490/101365.jpg"
   }
 },
 {
   "model": "api.anime",
   "pk": 179,
   "fields": {
-    "mal_id": 40365,
+    "mal_id": 40356,
     "anime_title": "Tate no Yuusha no Nariagari 2",
     "anime_score": "6.55",
     "airing_time": "Spring 2022",
     "studio": "Kinema Citrus, DR Movie",
     "slug": "tate-no-yuusha-no-nariagari-2",
-    "updated": "2023-02-15T15:56:06.029Z",
-    "created": "2023-02-15T15:56:06.029Z"
+    "updated": "2023-03-15T13:51:27.278Z",
+    "created": "2023-02-15T15:56:06.029Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40356/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1143/121873.jpg"
   }
 },
 {
@@ -3359,7 +3809,9 @@
     "studio": "LIDENFILMS",
     "slug": "tejina-senpai",
     "updated": "2023-02-15T15:56:17.483Z",
-    "created": "2023-02-15T15:56:17.483Z"
+    "created": "2023-02-15T15:56:17.483Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38610/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1510/99891.jpg"
   }
 },
 {
@@ -3373,7 +3825,9 @@
     "studio": "Studio Deen",
     "slug": "the-law-of-ueki",
     "updated": "2023-02-15T15:56:28.592Z",
-    "created": "2023-02-15T15:56:28.592Z"
+    "created": "2023-02-15T15:56:28.592Z",
+    "api_url": "https://api.jikan.moe/v4/anime/479/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/8/20596.jpg"
   }
 },
 {
@@ -3387,7 +3841,9 @@
     "studio": "Madhouse",
     "slug": "youjuu-toshi",
     "updated": "2023-02-15T15:57:26.997Z",
-    "created": "2023-02-15T15:57:26.997Z"
+    "created": "2023-02-15T15:57:26.997Z",
+    "api_url": "https://api.jikan.moe/v4/anime/1107/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/2/50021.jpg"
   }
 },
 {
@@ -3401,7 +3857,9 @@
     "studio": "Pierrot",
     "slug": "tokyo-ghoul-1",
     "updated": "2023-02-15T15:57:39.485Z",
-    "created": "2023-02-15T15:57:39.485Z"
+    "created": "2023-02-15T15:57:39.485Z",
+    "api_url": "https://api.jikan.moe/v4/anime/22319/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/64449.jpg"
   }
 },
 {
@@ -3415,7 +3873,9 @@
     "studio": "Pierrot",
     "slug": "tokyo-ghoul-2",
     "updated": "2023-02-15T15:57:50.493Z",
-    "created": "2023-02-15T15:57:50.493Z"
+    "created": "2023-02-15T15:57:50.493Z",
+    "api_url": "https://api.jikan.moe/v4/anime/27899/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1889/123307.jpg"
   }
 },
 {
@@ -3429,7 +3889,9 @@
     "studio": "Pierrot",
     "slug": "tokyo-ghoul-re",
     "updated": "2023-02-15T15:58:03.563Z",
-    "created": "2023-02-15T15:58:03.563Z"
+    "created": "2023-02-15T15:58:03.563Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36511/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1063/95086.jpg"
   }
 },
 {
@@ -3443,7 +3905,9 @@
     "studio": "Seven Arcs Pictures",
     "slug": "trinity-seven-1",
     "updated": "2023-02-15T15:58:19.273Z",
-    "created": "2023-02-15T15:58:19.273Z"
+    "created": "2023-02-15T15:58:19.273Z",
+    "api_url": "https://api.jikan.moe/v4/anime/25157/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/12/67795.jpg"
   }
 },
 {
@@ -3457,7 +3921,9 @@
     "studio": "Seven Arcs Pictures",
     "slug": "trinity-seven-1-ova-nanatsu-no-taizai-to-nana-madoushi",
     "updated": "2023-02-15T15:58:29.628Z",
-    "created": "2023-02-15T15:58:29.628Z"
+    "created": "2023-02-15T15:58:29.628Z",
+    "api_url": "https://api.jikan.moe/v4/anime/28285/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/3/74066.jpg"
   }
 },
 {
@@ -3471,7 +3937,9 @@
     "studio": "Seven Arcs Pictures",
     "slug": "trinity-seven-movie-1-eternity-library-to-alchemic-girl",
     "updated": "2023-02-15T15:58:40.179Z",
-    "created": "2023-02-15T15:58:40.179Z"
+    "created": "2023-02-15T15:58:40.179Z",
+    "api_url": "https://api.jikan.moe/v4/anime/33581/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1031/112821.jpg"
   }
 },
 {
@@ -3485,7 +3953,9 @@
     "studio": "Seven Arcs Pictures",
     "slug": "trinity-seven-movie-2-tenkuu-toshokan-to-shinku-no-maou",
     "updated": "2023-02-15T15:59:00.636Z",
-    "created": "2023-02-15T15:59:00.636Z"
+    "created": "2023-02-15T15:59:00.636Z",
+    "api_url": "https://api.jikan.moe/v4/anime/37986/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1215/100764.jpg"
   }
 },
 {
@@ -3499,7 +3969,9 @@
     "studio": "J.C.Staff",
     "slug": "tsuujou-kougeki-ga-zentai-kougeki-de-ni-kai-kougeki-no-okaasan-wa-suki-desu-ka",
     "updated": "2023-02-15T15:59:16.618Z",
-    "created": "2023-02-15T15:59:16.618Z"
+    "created": "2023-02-15T15:59:16.618Z",
+    "api_url": "https://api.jikan.moe/v4/anime/38573/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1225/102250.jpg"
   }
 },
 {
@@ -3513,7 +3985,9 @@
     "studio": "Hoods Entertainment",
     "slug": "val-x-love",
     "updated": "2023-02-15T15:59:29.729Z",
-    "created": "2023-02-15T15:59:29.729Z"
+    "created": "2023-02-15T15:59:29.729Z",
+    "api_url": "https://api.jikan.moe/v4/anime/39799/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1577/111404.jpg"
   }
 },
 {
@@ -3527,7 +4001,9 @@
     "studio": "Production Reed",
     "slug": "vampire-hunter-d",
     "updated": "2023-02-15T15:59:41.434Z",
-    "created": "2023-02-15T15:59:41.434Z"
+    "created": "2023-02-15T15:59:41.434Z",
+    "api_url": "https://api.jikan.moe/v4/anime/732/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/4/24228.jpg"
   }
 },
 {
@@ -3541,7 +4017,9 @@
     "studio": "Madhouse",
     "slug": "vampire-hunter-d-bloodlust",
     "updated": "2023-02-15T15:59:54.728Z",
-    "created": "2023-02-15T15:59:54.728Z"
+    "created": "2023-02-15T15:59:54.728Z",
+    "api_url": "https://api.jikan.moe/v4/anime/543/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/21432.jpg"
   }
 },
 {
@@ -3555,7 +4033,9 @@
     "studio": "J.C.Staff",
     "slug": "witch-craft-works",
     "updated": "2023-02-15T16:00:09.435Z",
-    "created": "2023-02-15T16:00:09.435Z"
+    "created": "2023-02-15T16:00:09.435Z",
+    "api_url": "https://api.jikan.moe/v4/anime/21085/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1949/112982.jpg"
   }
 },
 {
@@ -3569,7 +4049,9 @@
     "studio": "Lerche",
     "slug": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsue",
     "updated": "2023-02-15T16:00:20.065Z",
-    "created": "2023-02-15T16:00:20.065Z"
+    "created": "2023-02-15T16:00:20.065Z",
+    "api_url": "https://api.jikan.moe/v4/anime/35507/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/5/86830.jpg"
   }
 },
 {
@@ -3583,7 +4065,9 @@
     "studio": "Lerche",
     "slug": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsue-2nd-season",
     "updated": "2023-02-15T16:00:57.038Z",
-    "created": "2023-02-15T16:00:57.038Z"
+    "created": "2023-02-15T16:00:57.038Z",
+    "api_url": "https://api.jikan.moe/v4/anime/51096/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1010/124180.jpg"
   }
 },
 {
@@ -3596,8 +4080,10 @@
     "airing_time": "Summer 2018",
     "studio": "Xebec",
     "slug": "yuragi-sou-no-yuuna-san",
-    "updated": "2023-02-15T16:01:11.383Z",
-    "created": "2023-02-15T16:01:11.383Z"
+    "updated": "2023-03-15T13:47:47.282Z",
+    "created": "2023-02-15T16:01:11.383Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36726/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1462/98802.jpg"
   }
 },
 {
@@ -3610,8 +4096,10 @@
     "airing_time": "Summer 2012",
     "studio": "Barnum Studio, Project No.9",
     "slug": "zettai-junpaku-mahou-shoujo",
-    "updated": "2023-02-15T16:01:23.274Z",
-    "created": "2023-02-15T16:01:23.274Z"
+    "updated": "2023-03-15T13:47:05.521Z",
+    "created": "2023-02-15T16:01:23.274Z",
+    "api_url": "https://api.jikan.moe/v4/anime/16656/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/65213.jpg"
   }
 },
 {
@@ -3625,7 +4113,9 @@
     "studio": "Studio Kai",
     "slug": "fuuto-tantei",
     "updated": "2023-02-15T16:01:34.944Z",
-    "created": "2023-02-15T16:01:34.944Z"
+    "created": "2023-02-15T16:01:34.944Z",
+    "api_url": "https://api.jikan.moe/v4/anime/48649/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1945/123588.jpg"
   }
 },
 {
@@ -3639,7 +4129,9 @@
     "studio": "Project No.9",
     "slug": "hige-wo-soru-soshite-joshikousei-wo-hirou",
     "updated": "2023-02-15T16:01:51.422Z",
-    "created": "2023-02-15T16:01:51.422Z"
+    "created": "2023-02-15T16:01:51.422Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40938/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1146/113477.jpg"
   }
 },
 {
@@ -3653,7 +4145,9 @@
     "studio": "Deomedea",
     "slug": "isekai-yakkyoku",
     "updated": "2023-02-15T16:02:02.383Z",
-    "created": "2023-02-15T16:02:02.383Z"
+    "created": "2023-02-15T16:02:02.383Z",
+    "api_url": "https://api.jikan.moe/v4/anime/49438/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1120/124644.jpg"
   }
 },
 {
@@ -3667,7 +4161,9 @@
     "studio": "Satelight",
     "slug": "kuro-no-shoukanshi",
     "updated": "2023-02-15T16:02:12.941Z",
-    "created": "2023-02-15T16:02:12.941Z"
+    "created": "2023-02-15T16:02:12.941Z",
+    "api_url": "https://api.jikan.moe/v4/anime/51064/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1517/125496.jpg"
   }
 },
 {
@@ -3681,7 +4177,9 @@
     "studio": "Lerche",
     "slug": "monster-musume-no-iru-nichijou",
     "updated": "2023-02-15T16:02:30.106Z",
-    "created": "2023-02-15T16:02:30.106Z"
+    "created": "2023-02-15T16:02:30.106Z",
+    "api_url": "https://api.jikan.moe/v4/anime/30307/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/75104.jpg"
   }
 },
 {
@@ -3695,7 +4193,9 @@
     "studio": "Madhouse",
     "slug": "perfect-blue",
     "updated": "2023-02-15T16:02:42.440Z",
-    "created": "2023-02-15T16:02:42.440Z"
+    "created": "2023-02-15T16:02:42.440Z",
+    "api_url": "https://api.jikan.moe/v4/anime/437/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/11/79127.jpg"
   }
 },
 {
@@ -3709,7 +4209,9 @@
     "studio": "Hotline",
     "slug": "shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei",
     "updated": "2023-02-15T16:02:55.403Z",
-    "created": "2023-02-15T16:02:55.403Z"
+    "created": "2023-02-15T16:02:55.403Z",
+    "api_url": "https://api.jikan.moe/v4/anime/46985/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1537/117590.jpg"
   }
 },
 {
@@ -3722,8 +4224,10 @@
     "airing_time": "Spring 2022",
     "studio": "EMT Squared",
     "slug": "yuusha-yamemasu",
-    "updated": "2023-02-15T16:03:07.421Z",
-    "created": "2023-02-15T16:03:07.421Z"
+    "updated": "2023-03-15T13:45:32.480Z",
+    "created": "2023-02-15T16:03:07.421Z",
+    "api_url": "https://api.jikan.moe/v4/anime/50175/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1934/122301.jpg"
   }
 },
 {
@@ -3737,7 +4241,9 @@
     "studio": "asread., White Fox",
     "slug": "arifureta-shokugyou-de-sekai-saikyou",
     "updated": "2023-03-13T04:35:28.830Z",
-    "created": "2023-03-13T04:35:28.830Z"
+    "created": "2023-03-13T04:35:28.830Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36882/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1776/97682.jpg"
   }
 },
 {
@@ -3751,7 +4257,9 @@
     "studio": "MAPPA",
     "slug": "chainsaw-man",
     "updated": "2023-03-13T04:36:53.634Z",
-    "created": "2023-03-13T04:36:53.634Z"
+    "created": "2023-03-13T04:36:53.634Z",
+    "api_url": "https://api.jikan.moe/v4/anime/44511/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1806/126216.jpg"
   }
 },
 {
@@ -3765,7 +4273,9 @@
     "studio": "studio MOTHER",
     "slug": "fufu-ijou-koibito-miman",
     "updated": "2023-03-13T04:38:49.227Z",
-    "created": "2023-03-13T04:38:49.227Z"
+    "created": "2023-03-13T04:38:49.227Z",
+    "api_url": "https://api.jikan.moe/v4/anime/50425/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1713/126442.jpg"
   }
 },
 {
@@ -3779,7 +4289,9 @@
     "studio": "SILVER LINK., Blade",
     "slug": "saikin-yatotta-maid-ga-ayashii",
     "updated": "2023-03-13T04:40:17.053Z",
-    "created": "2023-03-13T04:40:17.053Z"
+    "created": "2023-03-13T04:40:17.053Z",
+    "api_url": "https://api.jikan.moe/v4/anime/51837/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1022/123845.jpg"
   }
 },
 {
@@ -3793,7 +4305,9 @@
     "studio": "SILVER LINK., Studio Palette",
     "slug": "sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru",
     "updated": "2023-03-13T04:41:58.546Z",
-    "created": "2023-03-13T04:41:58.546Z"
+    "created": "2023-03-13T04:41:58.546Z",
+    "api_url": "https://api.jikan.moe/v4/anime/47790/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1928/117620.jpg"
   }
 },
 {
@@ -3807,7 +4321,9 @@
     "studio": "Hotline",
     "slug": "shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei",
     "updated": "2023-03-13T04:43:50.394Z",
-    "created": "2023-03-13T04:43:50.394Z"
+    "created": "2023-03-13T04:43:50.394Z",
+    "api_url": "https://api.jikan.moe/v4/anime/51495/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1862/128297.jpg"
   }
 },
 {
@@ -3821,7 +4337,9 @@
     "studio": "MAPPA",
     "slug": "tondemo-skill-de-isekai-hourou-meshi",
     "updated": "2023-03-13T04:45:13.784Z",
-    "created": "2023-03-13T04:45:13.784Z"
+    "created": "2023-03-13T04:45:13.784Z",
+    "api_url": "https://api.jikan.moe/v4/anime/53446/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1661/131889.jpg"
   }
 },
 {
@@ -3835,7 +4353,9 @@
     "studio": "8bit",
     "slug": "tensei-shitara-slime-datta-ken",
     "updated": "2023-03-13T04:52:26.476Z",
-    "created": "2023-03-13T04:52:26.476Z"
+    "created": "2023-03-13T04:52:26.476Z",
+    "api_url": "https://api.jikan.moe/v4/anime/37430/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1069/123309.jpg"
   }
 },
 {
@@ -3849,7 +4369,9 @@
     "studio": "8bit",
     "slug": "tensei-shitara-slime-datta-ken-kanwa-veldora-nikki",
     "updated": "2023-03-13T04:53:30.416Z",
-    "created": "2023-03-13T04:53:30.416Z"
+    "created": "2023-03-13T04:53:30.416Z",
+    "api_url": "https://api.jikan.moe/v4/anime/39607/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1672/100144.jpg"
   }
 },
 {
@@ -3862,8 +4384,10 @@
     "airing_time": "Fall 2022",
     "studio": "EMT Squared",
     "slug": "yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau",
-    "updated": "2023-03-13T04:57:48.349Z",
-    "created": "2023-03-13T04:57:48.349Z"
+    "updated": "2023-03-15T13:46:13.861Z",
+    "created": "2023-03-13T04:57:48.349Z",
+    "api_url": "https://api.jikan.moe/v4/anime/52046/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1084/126652.jpg"
   }
 },
 {
@@ -3876,8 +4400,10 @@
     "airing_time": "Fall 2018",
     "studio": "Shaft",
     "slug": "zoku-owarimonogatari",
-    "updated": "2023-03-13T04:58:54.585Z",
-    "created": "2023-03-13T04:58:54.585Z"
+    "updated": "2023-03-15T13:44:30.771Z",
+    "created": "2023-03-13T04:58:54.585Z",
+    "api_url": "https://api.jikan.moe/v4/anime/36999/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1022/96168.jpg"
   }
 },
 {
@@ -3891,7 +4417,9 @@
     "studio": "J.C.Staff",
     "slug": "genjitsu-shugi-yuusha-no-oukoku-saikenki",
     "updated": "2023-03-13T05:02:05.840Z",
-    "created": "2023-03-13T05:02:05.840Z"
+    "created": "2023-03-13T05:02:05.840Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41710/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1297/118764.jpg"
   }
 },
 {
@@ -3905,7 +4433,9 @@
     "studio": "J.C.Staff",
     "slug": "genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2",
     "updated": "2023-03-13T05:03:07.519Z",
-    "created": "2023-03-13T05:03:07.519Z"
+    "created": "2023-03-13T05:03:07.519Z",
+    "api_url": "https://api.jikan.moe/v4/anime/49930/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1088/120068.jpg"
   }
 },
 {
@@ -3919,7 +4449,9 @@
     "studio": "SILVER LINK.",
     "slug": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2",
     "updated": "2023-03-13T05:04:20.169Z",
-    "created": "2023-03-13T05:04:20.169Z"
+    "created": "2023-03-13T05:04:20.169Z",
+    "api_url": "https://api.jikan.moe/v4/anime/41514/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1782/128859.jpg"
   }
 },
 {
@@ -3933,7 +4465,9 @@
     "studio": "Drive",
     "slug": "kono-subarashii-sekai-ni-shukufuku-wo-3",
     "updated": "2023-03-13T05:06:59.279Z",
-    "created": "2023-03-13T05:06:59.279Z"
+    "created": "2023-03-13T05:06:59.279Z",
+    "api_url": "https://api.jikan.moe/v4/anime/49458/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1893/124134.jpg"
   }
 },
 {
@@ -3947,7 +4481,9 @@
     "studio": "Wit Studio",
     "slug": "shingeki-no-kyojin",
     "updated": "2023-03-13T05:09:09.657Z",
-    "created": "2023-03-13T05:09:09.657Z"
+    "created": "2023-03-13T05:09:09.657Z",
+    "api_url": "https://api.jikan.moe/v4/anime/16498/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
   }
 },
 {
@@ -3961,7 +4497,9 @@
     "studio": "Madhouse",
     "slug": "death-note",
     "updated": "2023-03-13T05:09:57.179Z",
-    "created": "2023-03-13T05:09:57.179Z"
+    "created": "2023-03-13T05:09:57.179Z",
+    "api_url": "https://api.jikan.moe/v4/anime/1535/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/9/9453.jpg"
   }
 },
 {
@@ -3975,7 +4513,9 @@
     "studio": "Bones",
     "slug": "fullmetal-alchemist-brotherhood",
     "updated": "2023-03-13T05:10:56.301Z",
-    "created": "2023-03-13T05:10:56.301Z"
+    "created": "2023-03-13T05:10:56.301Z",
+    "api_url": "https://api.jikan.moe/v4/anime/5114/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
   }
 },
 {
@@ -3989,7 +4529,9 @@
     "studio": "Kinema Citrus",
     "slug": "made-in-abyss",
     "updated": "2023-03-13T05:14:06.617Z",
-    "created": "2023-03-13T05:14:06.617Z"
+    "created": "2023-03-13T05:14:06.617Z",
+    "api_url": "https://api.jikan.moe/v4/anime/34599/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/6/86733.jpg"
   }
 },
 {
@@ -4003,7 +4545,25 @@
     "studio": "Wit Studio, CloverWorks",
     "slug": "spy-x-family",
     "updated": "2023-03-13T05:19:45.529Z",
-    "created": "2023-03-13T05:19:45.529Z"
+    "created": "2023-03-13T05:19:45.529Z",
+    "api_url": "https://api.jikan.moe/v4/anime/50265/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1441/122795.jpg"
+  }
+},
+{
+  "model": "api.anime",
+  "pk": 227,
+  "fields": {
+    "mal_id": 40507,
+    "anime_title": "Arifureta Shokugyou de Sekai Saikyou 2nd Season",
+    "anime_score": "7.19",
+    "airing_time": "Winter 2022",
+    "studio": "asread., studio MOTHER",
+    "slug": "arifureta-shokugyou-de-sekai-saikyou-2nd-season",
+    "updated": "2023-03-15T07:20:15.462Z",
+    "created": "2023-03-15T07:20:15.462Z",
+    "api_url": "https://api.jikan.moe/v4/anime/40507/full",
+    "post_url": "https://cdn.myanimelist.net/images/anime/1877/119668.jpg"
   }
 },
 {
