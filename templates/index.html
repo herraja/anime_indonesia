@@ -27,11 +27,16 @@
   }
 </style>
 
+<h1 class="text-center pb-5 pt-2">Daftar Anime di database</h1>
+
 <!-- Query from database -->
 {% for anime in Anime %}
 <table id="query-anime" cellspacing="0" cellpadding="5">
   <tr>
-    <td rowspan="3"><img id="anime-pic" src="/static/assets/95946.jpg" alt="Dummy"></td>
+    <td rowspan="3">
+      <!-- <img id="anime-pic" src="/static/assets/95946.jpg" alt="Dummy"> -->
+      <img id="anime-pic" src="{{anime.post_url}}" alt="Dummy">
+    </td>
     <td colspan="2"><h4>
       <a id="detail-anime" href="#">{{anime.anime_title}}</a>
     </h4></td>
@@ -42,7 +47,9 @@
   <tr>
     <td>
       <button id="option-submit" class="btn btn-submit bg-dark text-white" type="submit">Tambah ke List</button>
-      <button id="option-submit" class="btn btn-submit bg-dark text-white" type="submit">Lihat di MyAnimeList</button>
+      <button id="option-submit" class="btn btn-submit bg-dark text-white" type="submit">
+        <a class="text-white" href="#" target="_blank" style="text-decoration: none;">Lihat di MyAnimeList</a>
+      </button>
     </td>
   </tr>
 </table>
