@@ -1,6 +1,7 @@
 .vscode
 Env
 db.sqlite3
+backup/anime_indo_backup.sql
 backup/sql/anime_indo-query.sql
 myanimelist/.env
 test/makeQueryUseCase.py
