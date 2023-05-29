@@ -8,5 +8,7 @@ app_name = 'myanimelist'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('artikel/', include('artikel.urls'), name='artikel'),
+    path('api/', include("api.urls", namespace="api")),
+    path('artikel/', include('artikel.urls', namespace="artikel")),
+    path('animelist/', include("animelist.urls", namespace="animelist")),
 ]

@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark" id="myNav">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Anime Indonesia</a>
+        <a class="navbar-brand" href="{% url 'index' %}">Anime Indonesia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -11,13 +11,28 @@
                     <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{% url 'artikel:index' %}">Artikel</a>
+                    <a class="nav-link active" aria-current="page" href="{% url 'animelist:index' %}">Animelist</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Artikel</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{% url 'artikel:index' %}">Semua Artikel</a></li>
+                        <li><a class="dropdown-item" href="#">Berita Terbaru</a></li>
+                        <li><a class="dropdown-item" href="#">Acara Mendatang</a></li>
+                        <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Developer</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/api/anime/" target="_blank">API</a></li>
+                        <li><a class="dropdown-item" href="{% url 'admin:index' %}" target="_blank">Admin Dashboard</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
         </div>
     </div>
 </nav>

@@ -42,9 +42,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Django apps untuk membuat REST Server
+    'api.apps.ApiConfig',
+    'rest_framework',
+
+    # Modul untuk menangani pertukaran resource
+    'corsheaders',
 
     # Django web app
     'artikel',
+    'animelist',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +63,22 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    # Modul untuk menangani pertukaran resource
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+REST_FRAMEWORK = {
+    # # Use Django's standard `django.contrib.auth` permissions,
+    # # or allow read-only access for unauthenticated users.
+    # 'DEFAULT_PERMISSION_CLASSES': [
+    #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    # ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ]
+}
 
 ROOT_URLCONF = 'myanimelist.urls'
 
@@ -95,6 +118,8 @@ DATABASES = {
     }
 }
 
+# FIXTURE Directory (tempat untuk menyimpan backup tabel database)
+FIXTURE_DIRS = ["backup/data/"]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -142,3 +167,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Cross Origin Resource Sharing
+CORS_ALLOW_ALL_ORIGINS = True

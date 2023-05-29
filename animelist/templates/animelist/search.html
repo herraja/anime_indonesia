@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Search Results</h1>
+<p>Results for "{{ query }}":</p>
+<ul>
+    {% for anime in anime_list %}
+    <li>{{ anime.title }}</li>
+    {% empty %}
+    <li>No anime found.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block berita %}
+
+{% for post in post_berita %}
+<h2>
+    <a href="{% url 'artikel:detail' category=post.kategori inputSlug=post.slug %}">{{post.judul_berita}}</a>
+</h2>
+<p>{{post.waktu_post}}</p>
+<p><b>{{post.penulis}}</b></p>
+<p>{{post.isi_berita | truncatechars:500}}</p>
+<hr>
+{% endfor %}
+
+{% endblock berita %}

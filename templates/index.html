@@ -1,1 +1,58 @@
 {% extends "base.html" %}
+{% load static %}
+{% block query_anime %}
+<style>
+  #query-anime {
+    /* border: 1pt solid black; */
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  #detail-anime {
+    text-decoration: none;
+    color: #222222;
+  }
+  #detail-anime:hover {
+    color: #2b2b2b;
+  }
+  #anime-pic {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: auto;
+  }
+  #option-submit {
+    border: none;
+    border-radius: 5pt;
+    height: 35px;
+  }
+</style>
+
+<h1 class="text-center pb-5 pt-2">Daftar Anime di database</h1>
+
+<!-- Query from database -->
+{% for anime in Anime %}
+<table id="query-anime" cellspacing="0" cellpadding="5">
+  <tr>
+    <td rowspan="3">
+      <!-- <img id="anime-pic" src="/static/assets/95946.jpg" alt="Dummy"> -->
+      <img id="anime-pic" src="{{anime.post_url}}" alt="Dummy">
+    </td>
+    <td colspan="2"><h4>
+      <a id="detail-anime" href="#">{{anime.anime_title}}</a>
+    </h4></td>
+  </tr>
+  <tr>
+    <td>{{anime.anime_score}} | {{anime.airing_time}} | {{anime.studio}}</td>
+  </tr>
+  <tr>
+    <td>
+      <button id="option-submit" class="btn btn-submit bg-dark text-white" type="submit">Tambah ke List</button>
+      <button id="option-submit" class="btn btn-submit bg-dark text-white" type="submit">
+        <a class="text-white" href="#" target="_blank" style="text-decoration: none;">Lihat di MyAnimeList</a>
+      </button>
+    </td>
+  </tr>
+</table>
+<hr>
+{% endfor %}
+{% endblock query_anime %}

@@ -3,6 +3,6 @@ from .models import Berita
 
 # Register your models here.
 class AdminBerita(admin.ModelAdmin):
-    readonly_fields = ['waktu_post' 'waktu_edit', 'slug']
+    readonly_fields = ['waktu_post', 'waktu_edit', 'slug']
 
-admin.site.register(Berita)
+admin.site.register(Berita, admin_class=AdminBerita)
